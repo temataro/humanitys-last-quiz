@@ -1,8 +1,11 @@
 name: Weekly edition
 
 # Builds the week just gone every Sunday, commits the new archive JSON, and
-# regenerates the static site. Also runnable on demand (with an optional Sunday).
+# regenerates the static site. On any push to main it (re)deploys the committed
+# site/ to Pages. Also runnable on demand (with an optional Sunday).
 on:
+  push:
+    branches: [main]
   schedule:
     # 07:00 UTC every Sunday — after the week's charts/box office have settled.
     - cron: "0 7 * * 0"
@@ -22,6 +25,9 @@ concurrency:
 
 jobs:
   build:
+    # Regenerate + commit only on the cron/manual runs. On a plain push we skip
+    # straight to deploy (rebuilding here would just republish the same commit).
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

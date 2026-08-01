@@ -113,6 +113,7 @@ def render() -> int:
     )
 
     _write_status(editions)
+    (paths.SITE / ".nojekyll").write_text("", encoding="utf-8")  # serve files as-is on Pages
 
     print(f"Rendered {len(editions)} edition(s) → {paths.SITE.relative_to(paths.ROOT)}/")
     print(f"  latest: {latest.week_id} (edition {latest.edition_no})")
