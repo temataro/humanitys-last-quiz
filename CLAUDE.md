@@ -17,25 +17,30 @@ make all                        # week + render
 make serve                      # preview site/ at http://localhost:8000
 ```
 
-The package runs via `PYTHONPATH=src` (it is not pip-installed); the Makefile handles this. Direct form: `PYTHONPATH=src .venv/bin/python -m hlq.cli {build,render}`. **No API key is required** — every data source is free and keyless. If *every* live source is unreachable at build time, the edition falls back to clearly-labelled placeholder data (so CI and offline dev still produce a page).
+The package runs via `PYTHONPATH=src` (it is not pip-installed); the Makefile handles this. Direct form: `PYTHONPATH=src .venv/bin/python -m hlq.cli {build,render}`. **No API key is required to build** — main uses Gemini if a key is present, otherwise the free keyless sources; set `GEMINI_API_KEY` (billing-enabled project) for grounded LLM coverage. `HLQ_AGGREGATOR=free` skips the LLM entirely.
+
+## Branches
+
+- **`main`** — Gemini primary, free sources as fallback, placeholder last (this doc).
+- **`no-llm-provenance`** — the pure keyless, no-LLM pipeline preserved unmixed (free sources only). Port cross-cutting fixes (templates, week math, render, heartbeat) to both.
 
 ## Architecture
 
-The core design is a **provenance-first pipeline over free, keyless data sources** — split by hallucination risk:
+The core design is a **provenance-first pipeline**, split by hallucination risk, with a three-tier aggregation fallback:
 
-- **Deterministic backbone** (`src/hlq/fetch/wikipedia.py`) — births/deaths from Wikimedia's "On this day" REST feed, one call per covered day. Exact dates are quiz-critical, so they get an authoritative source.
-- **Free-source aggregator** (`src/hlq/fetch/aggregate.py`) assembles the rest, each section from its own free source, each fact keeping its citation: trivia → Open Trivia DB (`opentdb.py`), US charts + derived "banker" → Billboard Hot 100 (`billboard.py`), rotating Top-10 + geography → World Bank (`worldbank.py`). Sections fail **independently** — a dead source leaves its section empty, never crashing the build; only a total outage triggers placeholder.
-- **Intentional stubs** (empty, not faked — no clean free source yet): UK charts, Billboard 200 albums, box office, chart history. The template hides empty sections.
+- **Deterministic backbone** (`src/hlq/fetch/wikipedia.py`) — births/deaths from Wikimedia's "On this day" REST feed, one call per covered day. Exact dates are quiz-critical, so they always get an authoritative source (never the LLM).
+- **Aggregator** (`src/hlq/fetch/aggregate.py`) fills charts/box office/Top-10/trivia/geography via, in order: (1) an **LLM provider** with web search — default **Gemini** (`gemini.py`; `HLQ_AGGREGATOR`), one grounded prompt/week from `prompts/aggregate.md`, JSON with a `source_url` per fact; (2) **free keyless sources** if the LLM is absent/errors — Open Trivia DB (`opentdb.py`), Billboard Hot 100 (`billboard.py`, + derived "banker"), World Bank rotating Top-10 + geography (`worldbank.py`); (3) **placeholder** only if all of that fails. Free-source sections also fail independently (a dead source → empty section).
+- **Intentional stubs** (empty, not faked, when the free path is used and no clean source exists): UK charts, Billboard 200 albums, box office, chart history. The template hides empty sections.
 
-> Note: an LLM aggregator was tried and abandoned — free-tier web search is unusable (Gemini grounding needs billing; Groq Compound hits 413/TPM). `fetch/gemini.py` and `fetch/groq.py` remain as thin, **unwired** providers for reference; reviving one means restoring a dispatch in `aggregate.py`. See the project memo in memory.
+> Why the fallback exists: free-tier LLM web search is unreliable/blocked (Gemini grounding needs billing; Groq Compound hits 413/TPM). `gemini.py`/`groq.py` are thin providers behind `LLM_PROVIDERS`. See the project memo in memory.
 
 **Provenance is the load-bearing idea, not decoration.** Every datum is a `Fact` (`src/hlq/provenance.py`) pairing a `value` dict with a `Source` (name/url/license) and a retrieval timestamp. The broadsheet footer's source credits are **generated** from `Edition.sources()` (deduped), never hardcoded — so a wrong answer is always traceable to a citation. The TMDB disclaimer only renders when a TMDB source is actually present (`uses_tmdb` in `render.py`).
 
 Data flow (build and render are separate so the site can be regenerated from the archive without re-fetching):
 
 ```
-build.py  → fetch (wikipedia + free sources) → Edition (model.py) → data/weeks/<id>.json  (committed archive)
-                                                                   + data/raw/<id>.md       (source log, audit)
+build.py  → fetch (wikipedia + aggregator: LLM→free→placeholder) → Edition → data/weeks/<id>.json  (committed archive)
+                                                                            + data/raw/<id>.md       (prompt/response or source log)
 render.py → read all data/weeks/*.json → templates/ → site/  (flat: <id>.html, index.html=latest, archive.html)
 ```
 
@@ -47,7 +52,7 @@ The generated site is **committed** (`data/weeks/`, `data/raw/`, `site/` are not
 
 ## Scheduling
 
-`.github/workflows/weekly.yml` runs the build every Sunday 07:00 UTC (also `workflow_dispatch` with an optional `sunday`), commits the new archive + regenerated site, and deploys `site/` to GitHub Pages. **No secrets needed** (all sources are keyless); just enable Pages. **No git repo exists locally yet** — `git init` + a GitHub remote are required before the workflow can run.
+`.github/workflows/weekly.yml` runs the build every Sunday 07:00 UTC (also `workflow_dispatch` with an optional `sunday`), commits the new archive + regenerated site, and deploys `site/` to GitHub Pages. Optional `GEMINI_API_KEY` Actions secret enables grounded LLM coverage (absent → free-source fallback, still a real edition); enable Pages. The repo exists locally (`main` + `no-llm-provenance`); add a GitHub remote + push before the workflow can run.
 
 ## Design system (from mockup A, the chosen direction)
 

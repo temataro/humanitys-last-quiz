@@ -35,8 +35,12 @@ jobs:
 
       - name: Build the edition
         id: build
-        # No secrets needed — every data source is free and keyless. A source
-        # outage leaves that section empty; only a total outage → placeholder.
+        env:
+          # Optional: add GEMINI_API_KEY (billing-enabled project) under Settings →
+          # Secrets and variables → Actions for grounded LLM coverage. Absent → the
+          # build still succeeds via the free keyless sources (Billboard/World
+          # Bank/Open Trivia DB); only a total source outage → placeholder.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           PYTHONPATH=src python -m hlq.cli build ${{ github.event.inputs.sunday && format('--sunday {0}', github.event.inputs.sunday) || '' }}
 

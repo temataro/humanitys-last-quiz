@@ -31,7 +31,7 @@ def build_week(week: WeekRange) -> Edition:
     wiki = wikipedia.collect(week, retrieved_at)
     print(f"    {len(wiki['births'])} births, {len(wiki['deaths'])} deaths")
 
-    print("- Free-source aggregation (charts, trivia, lists, geography)…")
+    print("- Aggregating charts/trivia/lists/geography (LLM if configured, else free sources)…")
     agg = aggregate.aggregate(week, retrieved_at)
     print(f"    {'PLACEHOLDER' if agg.placeholder else agg.model}: "
           f"{len(agg.charts)} charts, {len(agg.top_list)} top-list, "
