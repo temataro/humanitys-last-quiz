@@ -1,0 +1,24 @@
+{
+  "rendered_at": "2026-08-01T10:18:17+00:00",
+  "week_id": "2026-W30",
+  "edition_no": 30,
+  "generated_at": "2026-08-01T10:12:13+00:00",
+  "mode": "live",
+  "editions": 2,
+  "counts": {
+    "births": 10,
+    "deaths": 10,
+    "charts": 1,
+    "box_office": 0,
+    "top_list": 10,
+    "trivia": 3,
+    "geography": 3,
+    "chart_history": 0
+  },
+  "sources": [
+    "Wikipedia",
+    "Billboard Hot 100",
+    "World Bank",
+    "Open Trivia DB"
+  ]
+}

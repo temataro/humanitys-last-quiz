@@ -1,0 +1,510 @@
+{
+  "week_id": "2026-W30",
+  "edition_no": 30,
+  "sunday": "2026-07-26",
+  "range_start": "2026-07-20",
+  "range_end": "2026-07-26",
+  "range_label": "20 – 26 July 2026",
+  "generated_at": "2026-08-01T10:12:13+00:00",
+  "standfirst": "Everything below is drawn fresh from the public record — births and deaths from Wikipedia's day-pages, the charts and box office from the week just gone.",
+  "top_list_title": "Ten largest countries by land area",
+  "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-08-01).",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1998,
+        "who": "Morgan Geekie",
+        "what": "Canadian ice hockey player",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Morgan_Geekie",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Pop Smoke",
+        "what": "American rapper and singer (died 2020)",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pop_Smoke",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Goga Bitadze",
+        "what": "Georgian basketball player",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Goga_Bitadze",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Erling Haaland",
+        "what": "Norwegian footballer",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Erling_Haaland",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Lia (South Korean singer)",
+        "what": "Lia, South Korean singer",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lia_(South_Korean_singer)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Álex Baena",
+        "what": "Spanish footballer",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%C3%81lex_Baena",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2005,
+        "who": "Bub Carrington",
+        "what": "American basketball player",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bub_Carrington",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2006,
+        "who": "Endrick",
+        "what": "Brazilian footballer",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Endrick",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2006,
+        "who": "Javon Walton",
+        "what": "American actor and boxer",
+        "on": "2026-07-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Javon_Walton",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2013,
+        "who": "Prince George of Wales",
+        "what": "",
+        "on": "2026-07-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prince_George_of_Wales",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2020,
+        "who": "Michael Brooks (political commentator)",
+        "what": "Michael Brooks, political commentator (born 1983)",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_Brooks_(political_commentator)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2020,
+        "who": "Annie Ross",
+        "what": "Scottish-American singer and actress (born 1930)",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Annie_Ross",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2020,
+        "who": "Andrew Mlangeni",
+        "what": "South African political activist (born 1925)",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Andrew_Mlangeni",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Tony Bennett",
+        "what": "American singer (born 1926)",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tony_Bennett",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Jerry Miller",
+        "what": "American songwriter, guitarist and vocalist (born 1943)",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jerry_Miller",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Jill Schary Robinson",
+        "what": "American novelist (born 1936)",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jill_Schary_Robinson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Malcolm-Jamal Warner",
+        "what": "American actor (born 1970)",
+        "on": "2026-07-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Malcolm-Jamal_Warner",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Pau Alsina",
+        "what": "Spanish motorcycle rider (born 2008)",
+        "on": "2026-07-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pau_Alsina",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "John Fallon (footballer)",
+        "what": "John Fallon, Scottish footballer (born 1940)",
+        "on": "2026-07-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Fallon_(footballer)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Chuck Russell",
+        "what": "American film director and producer (born 1958)",
+        "on": "2026-07-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chuck_Russell",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "Billboard Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    }
+  ],
+  "box_office": [],
+  "top_list": [
+    {
+      "value": {
+        "label": "Russian Federation",
+        "value": "16.38M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "China",
+        "value": "9.39M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "United States",
+        "value": "9.15M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Canada",
+        "value": "8.79M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Brazil",
+        "value": "8.36M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Australia",
+        "value": "7.69M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "India",
+        "value": "2.97M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Argentina",
+        "value": "2.74M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Kazakhstan",
+        "value": "2.70M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Algeria",
+        "value": "2.38M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "In JoJo's Bizarre Adventure, who says \"Yare yare daze\"?",
+        "a": "Jotaro Kujo"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "q": "Who wrote the children's story \"The Little Match Girl\"?",
+        "a": "Hans Christian Andersen"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "q": "In Night in the Woods, which instrument did Casey play?",
+        "a": "Drums"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "The largest country by land area is Russian Federation, at 16.38M km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "fact": "The smallest country by land area (World Bank data) is Monaco, at 2 km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    },
+    {
+      "value": {
+        "fact": "The most populous country is India, with about 1.46B people."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:12:13+00:00"
+    }
+  ],
+  "chart_history": []
+}

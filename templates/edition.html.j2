@@ -1,0 +1,256 @@
+{% extends "base.html.j2" %}
+{% set nav_active = 'latest' if is_latest else '' %}
+{% block title %}Humanity's Last Quiz — {{ edition.range_label }}{% endblock %}
+
+{% block styles %}
+  .flag { font-family: var(--sans); font-size: 11px; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--muted); }
+  .flag .dot { color: var(--spot); }
+
+  header.mast { text-align: center; border-bottom: 3px double var(--rule-strong);
+    padding-bottom: 14px; }
+  .mast .kicker { font-family: var(--sans); text-transform: uppercase;
+    letter-spacing: .34em; font-size: 11px; color: var(--spot); padding-bottom: 8px; }
+  .mast h1 { font-size: clamp(38px, 8.5vw, 82px); line-height: .92; margin: 4px 0 6px;
+    font-weight: 700; letter-spacing: -.01em; text-wrap: balance; }
+  .mast .sub { font-style: italic; color: var(--muted); font-size: clamp(14px, 2.4vw, 19px); }
+  .dateline { display: flex; justify-content: space-between; align-items: center;
+    gap: 10px; flex-wrap: wrap; font-family: var(--sans); font-size: 11px;
+    text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    padding: 7px 2px; margin-top: 14px; }
+  .dateline b { color: var(--ink); font-weight: 700; }
+
+  .standfirst { border-bottom: 1px solid var(--rule); padding: 20px 0 22px; margin-bottom: 4px; }
+  .standfirst .lede { font-size: 16.5px; max-width: var(--measure); }
+  .standfirst .lede::first-letter { font-size: 3.5em; float: left; line-height: .72;
+    padding: 6px 8px 0 0; color: var(--spot); font-weight: 700; }
+  .qm { font-family: var(--sans); font-size: 10.5px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--spot); display: block; margin-bottom: 4px; }
+
+  .editionnav { display: flex; justify-content: space-between; gap: 12px;
+    font-family: var(--sans); font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+    padding: 12px 0; margin-bottom: 8px; border-bottom: 1px solid var(--rule); }
+  .editionnav a { color: var(--spot); text-decoration: none; }
+  .editionnav a:hover { text-decoration: underline; }
+  .editionnav span { color: var(--muted); }
+
+  .cols { display: grid; grid-template-columns: 1.35fr 1fr; gap: 0 40px; }
+  @media (max-width: 760px) { .cols { grid-template-columns: 1fr; gap: 0; } }
+  section { border-top: 1px solid var(--rule); padding: 20px 0 6px; }
+  .col-main > section:first-child, .col-side > section:first-child { border-top: none; padding-top: 4px; }
+  .col-side { border-left: 1px solid var(--rule); padding-left: 40px; }
+  @media (max-width: 760px) { .col-side { border-left: none; padding-left: 0; } }
+
+  .label { font-family: var(--sans); text-transform: uppercase; letter-spacing: .22em;
+    font-size: 11px; color: var(--spot); display: flex; align-items: center; gap: 10px; }
+  .label::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  .hed { font-size: clamp(21px, 3.2vw, 27px); font-weight: 700; line-height: 1.08;
+    margin: 8px 0 4px; text-wrap: balance; }
+  p { max-width: var(--measure); }
+  .note { color: var(--muted); font-style: italic; font-size: 14.5px; }
+
+  .eph { list-style: none; margin: 8px 0 4px; padding: 0; }
+  .eph li { display: grid; grid-template-columns: 62px 1fr; gap: 12px;
+    padding: 9px 0; border-bottom: 1px dotted var(--rule); }
+  .eph .yr { font-family: var(--mono); font-variant-numeric: tabular-nums;
+    color: var(--spot); font-weight: 700; font-size: 15px; padding-top: 2px; }
+  .eph .who { font-weight: 700; }
+  .eph .who a { text-decoration: none; }
+  .eph .who a:hover { text-decoration: underline; }
+  .eph .what { color: var(--muted); font-style: italic; }
+  .subhead { font-family: var(--sans); font-size: 11px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink); margin: 14px 0 2px; font-weight: 700; }
+
+  .ledger { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 15.5px; }
+  .ledger caption { text-align: left; font-family: var(--sans); font-size: 10.5px;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding-bottom: 4px; }
+  .ledger td { padding: 8px 0; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+  .ledger .pos { font-family: var(--mono); color: var(--spot); font-weight: 700;
+    width: 40px; font-variant-numeric: tabular-nums; font-size: 12px; }
+  .ledger .ttl { font-weight: 700; }
+  .ledger .ttl a { text-decoration: none; }
+  .ledger .art { color: var(--muted); font-style: italic; }
+  .ledger .terr { font-family: var(--sans); font-size: 9.5px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--muted); text-align: right; white-space: nowrap; }
+
+  ol.rank { margin: 8px 0; padding: 0; list-style: none; counter-reset: r;
+    columns: 2; column-gap: 28px; }
+  @media (max-width: 520px) { ol.rank { columns: 1; } }
+  ol.rank li { counter-increment: r; padding: 6px 0; border-bottom: 1px dotted var(--rule);
+    display: flex; gap: 10px; break-inside: avoid; }
+  ol.rank li::before { content: counter(r); font-family: var(--mono); color: var(--spot);
+    font-weight: 700; font-variant-numeric: tabular-nums; min-width: 20px; }
+  ol.rank .val { margin-left: auto; color: var(--muted); font-family: var(--mono);
+    font-size: 13px; font-variant-numeric: tabular-nums; }
+
+  .qa { padding: 10px 0; border-bottom: 1px dotted var(--rule); }
+  .qa .q { font-weight: 700; }
+  .qa .a { color: var(--spot); font-style: italic; }
+  .qa .a::before { content: "▸ "; }
+  .fact { padding: 8px 0; border-bottom: 1px dotted var(--rule); }
+  .fact b { color: var(--spot); }
+
+  footer { border-top: 3px double var(--rule-strong); margin-top: 40px; padding-top: 16px;
+    font-family: var(--sans); font-size: 11px; color: var(--muted); line-height: 1.7; }
+  footer .src b { color: var(--ink); font-weight: 700; letter-spacing: .04em; }
+  footer .src a { color: var(--muted); }
+  footer .tmdb { font-style: italic; margin-top: 8px; display: block; }
+{% endblock %}
+
+{% block body %}
+<div class="sheet">
+
+  <header class="mast">
+    <div class="kicker">The Weekly Almanac for the Well-Armed Quiz Team</div>
+    <h1>Humanity&rsquo;s Last Quiz</h1>
+    <div class="sub">&ldquo;Everything they might ask, before they ask it&rdquo;</div>
+    <div class="dateline">
+      <span>Edition No.&nbsp;<b>{{ edition.edition_no }}</b></span>
+      <span>Published <b>{{ pub_date }}</b></span>
+      <span>Covering <b>{{ edition.range_label }}</b></span>
+    </div>
+  </header>
+
+  {% if edition.placeholder %}
+  <div class="banner">Sample edition — the charts, box office, lists, trivia and geography below are
+    <b>placeholder data</b> generated without an API key. Set <code>GEMINI_API_KEY</code> and rebuild for a real edition.</div>
+  {% endif %}
+
+  <div class="editionnav">
+    {% if older_id %}<a href="{{ older_id }}.html">&lsaquo; Older&nbsp;·&nbsp;{{ older_id }}</a>{% else %}<span>&lsaquo; Older</span>{% endif %}
+    <a href="archive.html">All editions</a>
+    {% if newer_id %}<a href="{{ newer_id }}.html">{{ newer_id }}&nbsp;·&nbsp;Newer&nbsp;&rsaquo;</a>{% else %}<span>Newer &rsaquo;</span>{% endif %}
+  </div>
+
+  <div class="standfirst">
+    <p class="lede"><span class="qm">The Quizmaster&rsquo;s Note</span>{{ edition.standfirst }}</p>
+  </div>
+
+  <div class="cols">
+    <div class="col-main">
+
+      <section>
+        <div class="label">On This Day &amp; Thereabouts</div>
+        <h2 class="hed">Births &amp; deaths worth a mark</h2>
+        {% if edition.births %}
+        <div class="subhead">Born</div>
+        <ul class="eph">
+          {% for f in edition.births %}
+          <li><span class="yr">{{ f.value.year }}</span><span>
+            <span class="who">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.who }}</a>{% else %}{{ f.value.who }}{% endif %}</span>
+            {% if f.value.what %}&mdash; <span class="what">{{ f.value.what }}</span>{% endif %}</span></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% if edition.deaths %}
+        <div class="subhead">Died</div>
+        <ul class="eph">
+          {% for f in edition.deaths %}
+          <li><span class="yr">{{ f.value.year }}</span><span>
+            <span class="who">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.who }}</a>{% else %}{{ f.value.who }}{% endif %}</span>
+            {% if f.value.what %}&mdash; <span class="what">{{ f.value.what }}</span>{% endif %}</span></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </section>
+
+      {% if edition.charts %}
+      <section>
+        <div class="label">The Charts &mdash; This Week</div>
+        <h2 class="hed">Who&rsquo;s on top</h2>
+        <table class="ledger">
+          {% for f in edition.charts %}
+          <tr>
+            <td class="pos">{{ f.value.territory }}</td>
+            <td>
+              <span class="ttl">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.title }}</a>{% else %}{{ f.value.title }}{% endif %}</span><br>
+              <span class="art">{{ f.value.artist }}</span>
+            </td>
+            <td class="terr">{{ f.value.chart }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        {% if edition.banker %}<p class="note" style="margin-top:10px;">Banker: {{ edition.banker }}</p>{% endif %}
+      </section>
+      {% endif %}
+
+      {% if edition.box_office %}
+      <section>
+        <div class="label">The Picture House</div>
+        <h2 class="hed">Filling the seats</h2>
+        <table class="ledger">
+          {% for f in edition.box_office %}
+          <tr>
+            <td class="pos">{{ f.value.region }}</td>
+            <td>
+              <span class="ttl">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.title }}</a>{% else %}{{ f.value.title }}{% endif %}</span><br>
+              <span class="art">{{ f.value.note }}</span>
+            </td>
+          </tr>
+          {% endfor %}
+        </table>
+      </section>
+      {% endif %}
+
+    </div>
+
+    <aside class="col-side">
+
+      {% if edition.top_list %}
+      <section>
+        <div class="label">The List of the Day</div>
+        <h2 class="hed">{{ edition.top_list_title }}</h2>
+        <ol class="rank">
+          {% for f in edition.top_list %}
+          <li>{{ f.value.label }} <span class="val">{{ f.value.value }}</span></li>
+          {% endfor %}
+        </ol>
+      </section>
+      {% endif %}
+
+      {% if edition.trivia %}
+      <section>
+        <div class="label">Starters for Ten</div>
+        <h2 class="hed">A few to warm up on</h2>
+        {% for f in edition.trivia %}
+        <div class="qa"><div class="q">{{ f.value.q }}</div><div class="a">{{ f.value.a }}</div></div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if edition.geography %}
+      <section>
+        <div class="label">Around the World</div>
+        <h2 class="hed">Geography round</h2>
+        {% for f in edition.geography %}
+        <div class="fact">{{ f.value.fact }}</div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+      {% if edition.chart_history %}
+      <section>
+        <div class="label">On This Date, In the Charts</div>
+        {% for f in edition.chart_history %}
+        <div class="fact"><b>{{ f.value.year }}</b> {{ f.value.territory }} No.&nbsp;1:
+          <em>{{ f.value.title }}</em>{% if f.value.artist %} &mdash; {{ f.value.artist }}{% endif %}</div>
+        {% endfor %}
+      </section>
+      {% endif %}
+
+    </aside>
+  </div>
+
+  <footer>
+    <div class="flag" style="margin-bottom:8px;"><span class="dot">◆</span>
+      Edition {{ edition.week_id }} &middot; generated {{ edition.generated_at }}
+      {% if edition.placeholder %}&middot; placeholder data{% endif %}</div>
+    <div class="src"><b>Sources:</b>
+      {% for s in sources %}{% if not loop.first %} &middot; {% endif %}{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% if s.license %} ({{ s.license }}){% endif %}{% endfor %}
+    </div>
+    {% if uses_tmdb %}<span class="tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</span>{% endif %}
+  </footer>
+
+</div>
+{% endblock %}

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Humanity's Last Quiz — Archive</title>
+<style>
+  :root {
+    --paper: #f4f4f0; --paper-2: #eeeee8; --ink: #1b1a17; --spot: #7b1e2b;
+    --spot-ink: #611620; --rule: #cbcabf; --rule-strong: #201f1b; --muted: #6a685f;
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --sans: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+    --mono: "SFMono-Regular", ui-monospace, "Consolas", "Liberation Mono", monospace;
+    --measure: 66ch;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #191815; --paper-2: #201e1a; --ink: #eae6dd; --spot: #d98c96;
+      --spot-ink: #e6a4ac; --rule: #35332d; --rule-strong: #b6b2a7; --muted: #9a978c;
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #f4f4f0; --paper-2: #eeeee8; --ink: #1b1a17; --spot: #7b1e2b;
+    --spot-ink: #611620; --rule: #cbcabf; --rule-strong: #201f1b; --muted: #6a685f;
+  }
+  :root[data-theme="dark"] {
+    --paper: #191815; --paper-2: #201e1a; --ink: #eae6dd; --spot: #d98c96;
+    --spot-ink: #e6a4ac; --rule: #35332d; --rule-strong: #b6b2a7; --muted: #9a978c;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--serif); line-height: 1.5; -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .sheet { max-width: 1120px; margin: 0 auto; padding: 12px clamp(16px, 4vw, 44px) 64px; }
+
+  /* ---- Top bar: brand · tabs · theme ---- */
+  .topbar { display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    max-width: 1120px; margin: 0 auto; padding: 10px clamp(16px, 4vw, 44px);
+    font-family: var(--sans); font-size: 11px; letter-spacing: .14em;
+    text-transform: uppercase; border-bottom: 1px solid var(--rule); }
+  .topbar .brand { color: var(--spot); font-weight: 700; }
+  .topbar nav { display: flex; gap: 4px; margin-left: auto; }
+  .topbar nav a { text-decoration: none; color: var(--muted); padding: 4px 10px;
+    border: 1px solid transparent; border-radius: 2px; }
+  .topbar nav a.active { color: var(--ink); border-color: var(--rule); background: var(--paper-2); }
+  .topbar nav a:hover { color: var(--ink); }
+  .themebtn { font-family: var(--sans); font-size: 11px; letter-spacing: .1em;
+    text-transform: uppercase; background: none; color: var(--muted);
+    border: 1px solid var(--rule); border-radius: 2px; padding: 4px 9px; cursor: pointer; }
+  .themebtn:hover { color: var(--ink); }
+
+  /* ---- Placeholder / provenance banners ---- */
+  .banner { font-family: var(--sans); font-size: 12px; letter-spacing: .02em;
+    text-transform: none; padding: 9px 14px; border-radius: 3px; margin: 16px 0 0;
+    border: 1px solid var(--spot); color: var(--spot-ink); background: var(--paper-2); }
+
+  /* ---- Dev heartbeat (deliberately quiet; only shouts when unhealthy) ---- */
+  .heartbeat { max-width: 1120px; margin: 0 auto; padding: 10px clamp(16px, 4vw, 44px) 26px;
+    font-family: var(--mono); font-size: 10px; letter-spacing: .04em; color: var(--muted); }
+  .heartbeat button { all: unset; cursor: pointer; color: inherit; }
+  .heartbeat button:hover { color: var(--ink); }
+  .heartbeat .dot { font-size: 9px; margin-right: 6px; vertical-align: middle; }
+  .heartbeat.hb-ok .dot { color: #6a9a78; }
+  .heartbeat.hb-warn { color: var(--spot); }
+  .heartbeat.hb-warn .dot { color: var(--spot); }
+  .heartbeat.hb-error { color: #c0392b; font-weight: 700; }
+  .heartbeat.hb-error .dot { color: #c0392b; }
+  .heartbeat .hb-details { display: none; white-space: pre-wrap; margin: 8px 0 0;
+    padding: 10px 12px; border: 1px solid var(--rule); border-radius: 3px;
+    background: var(--paper-2); font-size: 11px; line-height: 1.6; color: var(--muted); }
+  .heartbeat.open .hb-details { display: block; }
+  .heartbeat .hb-details a { color: var(--spot); }
+
+  .sheet { padding-top: 24px; }
+  .arc-head { border-bottom: 3px double var(--rule-strong); padding-bottom: 12px; margin-bottom: 8px; }
+  .arc-head .kicker { font-family: var(--sans); text-transform: uppercase; letter-spacing: .3em;
+    font-size: 11px; color: var(--spot); }
+  .arc-head h1 { font-size: clamp(30px, 6vw, 52px); margin: 6px 0 2px; font-weight: 700; }
+  .arc-head .sub { font-style: italic; color: var(--muted); }
+
+  ol.editions { list-style: none; margin: 0; padding: 0; }
+  ol.editions li { display: grid; grid-template-columns: 92px 1fr auto; gap: 18px;
+    align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  @media (max-width: 620px) { ol.editions li { grid-template-columns: 1fr; gap: 4px; } }
+  .no { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--spot);
+    font-weight: 700; font-size: 15px; }
+  .no small { display: block; font-family: var(--sans); font-size: 9.5px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--muted); font-weight: 400; margin-top: 2px; }
+  .ed-title a { font-weight: 700; font-size: 20px; text-decoration: none; }
+  .ed-title a:hover { text-decoration: underline; }
+  .ed-dek { color: var(--muted); font-style: italic; font-size: 14.5px; margin-top: 3px;
+    max-width: var(--measure); }
+  .ed-meta { font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); text-align: right; white-space: nowrap; }
+  .tag { display: inline-block; font-family: var(--sans); font-size: 9px; letter-spacing: .1em;
+    text-transform: uppercase; border: 1px solid var(--spot); color: var(--spot); border-radius: 2px;
+    padding: 1px 6px; margin-left: 8px; }
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <span class="brand">◆ Humanity's Last Quiz</span>
+    <nav>
+      <a href="index.html">This Week</a>
+      <a href="archive.html" class="active">Archive</a>
+    </nav>
+    <button class="themebtn" id="themebtn" type="button">Theme</button>
+  </div>
+
+<div class="sheet">
+  <div class="arc-head">
+    <div class="kicker">The Bound Volumes</div>
+    <h1>Archive</h1>
+    <div class="sub">Every edition, most recent first &mdash; 2 in all.</div>
+  </div>
+
+  <ol class="editions">
+    <li>
+      <div class="no">No.&nbsp;30<small>2026-W30</small></div>
+      <div>
+        <div class="ed-title"><a href="2026-W30.html">20 – 26 July 2026</a>
+</div>
+        <div class="ed-dek">Everything below is drawn fresh from the public record — births and deaths from Wikipedia&#39;s day-pages, the charts and box office from the week just gone.</div>
+      </div>
+      <div class="ed-meta">20 people<br>10-item list</div>
+    </li>
+    <li>
+      <div class="no">No.&nbsp;29<small>2026-W29</small></div>
+      <div>
+        <div class="ed-title"><a href="2026-W29.html">13 – 19 July 2026</a>
+</div>
+        <div class="ed-dek">Everything below is drawn fresh from the public record — births and deaths from Wikipedia&#39;s day-pages, the charts and box office from the week just gone.</div>
+      </div>
+      <div class="ed-meta">20 people<br>10-item list</div>
+    </li>
+  </ol>
+</div>
+
+  <div class="heartbeat" id="heartbeat" hidden>
+    <button id="hb-toggle" type="button" aria-expanded="false">
+      <span class="dot">&#9679;</span><span id="hb-line">status</span>
+    </button>
+    <pre class="hb-details" id="hb-details"></pre>
+  </div>
+
+  <script>
+    // Dev heartbeat: reads the last successful build (status.json) and, when
+    // deployed by CI, the last run of any outcome (heartbeat.json). Freshness is
+    // judged in the browser, so a stale page still reveals a missed/failed cron.
+    (function () {
+      var el = document.getElementById("heartbeat");
+      if (!el || !window.fetch) return;
+      var STALE_DAYS = 8;            // a Sunday cron should touch this within a week
+      var line = document.getElementById("hb-line");
+      var details = document.getElementById("hb-details");
+
+      function get(url) {
+        return fetch(url, { cache: "no-store" }).then(function (r) {
+          return r.ok ? r.json() : null;
+        }).catch(function () { return null; });
+      }
+
+      function fmt(iso) { return iso ? iso.replace("T", " ").replace("+00:00", "Z") : "—"; }
+      function ageDays(iso) {
+        if (!iso) return null;
+        return (Date.now() - new Date(iso).getTime()) / 86400000;
+      }
+
+      Promise.all([get("status.json"), get("heartbeat.json")]).then(function (res) {
+        var status = res[0], beat = res[1];
+        if (!status && !beat) return;   // nothing to report; stay hidden
+
+        var state = "ok", note = "";
+        var built = status ? status.generated_at : null;
+        var age = ageDays(built);
+
+        if (beat && beat.outcome && beat.outcome !== "success") {
+          state = "error"; note = "last build FAILED";
+        } else if (status && status.mode === "placeholder") {
+          state = "warn"; note = "placeholder data (no API key)";
+        } else if (age !== null && age > STALE_DAYS) {
+          state = "warn"; note = "stale — cron may not have run";
+        }
+
+        var wk = status ? status.week_id : (beat ? beat.week_id : "?");
+        line.textContent = wk + " · built " + fmt(built) + (note ? " · " + note : " · ok");
+        el.classList.add("hb-" + state);
+
+        var lines = [];
+        if (status) {
+          lines.push("edition   : " + status.week_id + " (no. " + status.edition_no + ", " + status.editions + " archived)");
+          lines.push("built     : " + fmt(status.generated_at) + (age !== null ? "  (" + age.toFixed(1) + "d ago)" : ""));
+          lines.push("mode      : " + status.mode);
+          lines.push("rendered  : " + fmt(status.rendered_at));
+          if (status.counts) {
+            lines.push("counts    : " + Object.keys(status.counts).map(function (k) {
+              return k + "=" + status.counts[k];
+            }).join(" "));
+          }
+          if (status.sources) lines.push("sources   : " + status.sources.join(", "));
+        }
+        if (beat) {
+          lines.push("last run  : " + fmt(beat.last_run) + " (" + (beat.trigger || "?") + ")");
+          lines.push("outcome   : " + beat.outcome);
+          if (beat.sha) lines.push("commit    : " + beat.sha);
+        }
+        details.textContent = lines.join("\n");
+        if (beat && beat.run_url) {
+          details.textContent += "\n";
+          var a = document.createElement("a");
+          a.href = beat.run_url; a.textContent = "open workflow run →";
+          details.appendChild(a);
+        }
+
+        el.hidden = false;
+        document.getElementById("hb-toggle").addEventListener("click", function () {
+          var open = el.classList.toggle("open");
+          this.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+      });
+    })();
+  </script>
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      var saved = localStorage.getItem("hlq-theme");
+      if (saved) root.setAttribute("data-theme", saved);
+      document.getElementById("themebtn").addEventListener("click", function () {
+        var cur = root.getAttribute("data-theme");
+        if (!cur) {
+          cur = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        }
+        var next = cur === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        localStorage.setItem("hlq-theme", next);
+      });
+    })();
+  </script>
+</body>
+</html>

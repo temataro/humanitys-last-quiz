@@ -1,0 +1,269 @@
+<title>Humanity's Last Quiz — The Broadsheet Almanac</title>
+<style>
+  :root {
+    --paper: #f4f4f0;
+    --paper-2: #eeeee8;
+    --ink: #1b1a17;
+    --spot: #7b1e2b;
+    --spot-ink: #611620;
+    --rule: #cbcabf;
+    --rule-strong: #201f1b;
+    --muted: #6a685f;
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --sans: "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+    --mono: "SFMono-Regular", ui-monospace, "Consolas", "Liberation Mono", monospace;
+    --measure: 66ch;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #191815; --paper-2: #201e1a; --ink: #eae6dd; --spot: #d98c96;
+      --spot-ink: #e6a4ac; --rule: #35332d; --rule-strong: #b6b2a7; --muted: #9a978c;
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #f4f4f0; --paper-2: #eeeee8; --ink: #1b1a17; --spot: #7b1e2b;
+    --spot-ink: #611620; --rule: #cbcabf; --rule-strong: #201f1b; --muted: #6a685f;
+  }
+  :root[data-theme="dark"] {
+    --paper: #191815; --paper-2: #201e1a; --ink: #eae6dd; --spot: #d98c96;
+    --spot-ink: #e6a4ac; --rule: #35332d; --rule-strong: #b6b2a7; --muted: #9a978c;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--serif); line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .sheet { max-width: 1120px; margin: 0 auto; padding: 28px clamp(16px, 4vw, 44px) 64px; }
+
+  .flag { font-family: var(--sans); font-size: 11px; letter-spacing: .16em;
+    text-transform: uppercase; color: var(--muted); }
+  .flag .dot { color: var(--spot); }
+
+  /* ---- Masthead ---- */
+  header.mast { text-align: center; border-bottom: 3px double var(--rule-strong);
+    padding-bottom: 14px; margin-bottom: 0; }
+  .mast .kicker { font-family: var(--sans); text-transform: uppercase;
+    letter-spacing: .34em; font-size: 11px; color: var(--spot);
+    padding-bottom: 8px; }
+  .mast h1 { font-size: clamp(38px, 8.5vw, 82px); line-height: .92; margin: 4px 0 6px;
+    font-weight: 700; letter-spacing: -.01em; text-wrap: balance; }
+  .mast .sub { font-style: italic; color: var(--muted); font-size: clamp(14px, 2.4vw, 19px); }
+  .dateline { display: flex; justify-content: space-between; align-items: center;
+    gap: 10px; flex-wrap: wrap; font-family: var(--sans); font-size: 11px;
+    text-transform: uppercase; letter-spacing: .12em; color: var(--muted);
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    padding: 7px 2px; margin-top: 14px; }
+  .dateline b { color: var(--ink); font-weight: 700; }
+
+  /* ---- Standfirst ---- */
+  .standfirst { border-bottom: 1px solid var(--rule); padding: 20px 0 22px; margin-bottom: 24px; }
+  .standfirst .lede { columns: 2; column-gap: 34px; column-rule: 1px solid var(--rule);
+    font-size: 16.5px; max-width: none; }
+  .standfirst .lede p { margin: 0 0 10px; }
+  .standfirst .lede p:first-child::first-letter {
+    font-size: 3.5em; float: left; line-height: .72; padding: 6px 8px 0 0;
+    color: var(--spot); font-weight: 700; }
+  .qm { font-family: var(--sans); font-size: 10.5px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--spot); display: block; margin-bottom: 4px; }
+
+  /* ---- Grid ---- */
+  .cols { display: grid; grid-template-columns: 1.35fr 1fr; gap: 0 40px; }
+  @media (max-width: 760px) { .cols { grid-template-columns: 1fr; gap: 0; }
+    .standfirst .lede { columns: 1; } }
+
+  section { border-top: 1px solid var(--rule); padding: 20px 0 6px; }
+  .col-main > section:first-child, .col-side > section:first-child { border-top: none; padding-top: 4px; }
+  .col-side { border-left: 1px solid var(--rule); padding-left: 40px; }
+  @media (max-width: 760px) { .col-side { border-left: none; padding-left: 0; } }
+
+  .label { font-family: var(--sans); text-transform: uppercase; letter-spacing: .22em;
+    font-size: 11px; color: var(--spot); display: flex; align-items: center; gap: 10px; }
+  .label::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  .hed { font-size: clamp(21px, 3.2vw, 27px); font-weight: 700; line-height: 1.08;
+    margin: 8px 0 4px; text-wrap: balance; }
+  .hed .yr { color: var(--spot); }
+  p { max-width: var(--measure); }
+  .note { color: var(--muted); font-style: italic; font-size: 14.5px; }
+
+  /* ---- Ephemeris (births/deaths) ---- */
+  .eph { list-style: none; margin: 8px 0 4px; padding: 0; }
+  .eph li { display: grid; grid-template-columns: 62px 1fr; gap: 12px;
+    padding: 9px 0; border-bottom: 1px dotted var(--rule); }
+  .eph .yr { font-family: var(--mono); font-variant-numeric: tabular-nums;
+    color: var(--spot); font-weight: 700; font-size: 15px; padding-top: 2px; }
+  .eph .who { font-weight: 700; }
+  .eph .what { color: var(--muted); font-style: italic; }
+  .subhead { font-family: var(--sans); font-size: 11px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--ink); margin: 14px 0 2px; font-weight: 700; }
+
+  /* ---- Charts ledger ---- */
+  .ledger { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 15.5px; }
+  .ledger caption { text-align: left; font-family: var(--sans); font-size: 10.5px;
+    letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding-bottom: 4px; }
+  .ledger td { padding: 8px 0; border-bottom: 1px solid var(--rule); vertical-align: baseline; }
+  .ledger .pos { font-family: var(--mono); color: var(--spot); font-weight: 700;
+    width: 34px; font-variant-numeric: tabular-nums; }
+  .ledger .ttl { font-weight: 700; }
+  .ledger .art { color: var(--muted); font-style: italic; }
+  .ledger .terr { font-family: var(--sans); font-size: 9.5px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--muted); text-align: right; white-space: nowrap; }
+
+  .flagpill { display: inline-block; font-family: var(--sans); font-size: 9.5px;
+    letter-spacing: .1em; text-transform: uppercase; border: 1px solid var(--rule);
+    padding: 1px 6px; color: var(--muted); border-radius: 2px; }
+
+  /* ---- Lists ---- */
+  ol.rank { margin: 8px 0; padding: 0; list-style: none; counter-reset: r;
+    columns: 2; column-gap: 28px; }
+  @media (max-width: 520px) { ol.rank { columns: 1; } }
+  ol.rank li { counter-increment: r; padding: 6px 0; border-bottom: 1px dotted var(--rule);
+    display: flex; gap: 10px; break-inside: avoid; }
+  ol.rank li::before { content: counter(r); font-family: var(--mono); color: var(--spot);
+    font-weight: 700; font-variant-numeric: tabular-nums; min-width: 20px; }
+  ol.rank .val { margin-left: auto; color: var(--muted); font-family: var(--mono);
+    font-size: 13px; font-variant-numeric: tabular-nums; }
+
+  /* ---- Trivia ---- */
+  .qa { padding: 10px 0; border-bottom: 1px dotted var(--rule); }
+  .qa .q { font-weight: 700; }
+  .qa .a { color: var(--spot); font-style: italic; }
+  .qa .a::before { content: "▸ "; }
+
+  .fact { padding: 8px 0; border-bottom: 1px dotted var(--rule); }
+  .fact b { color: var(--spot); }
+
+  footer { border-top: 3px double var(--rule-strong); margin-top: 40px; padding-top: 16px;
+    font-family: var(--sans); font-size: 11px; color: var(--muted); line-height: 1.7; }
+  footer .src b { color: var(--ink); font-weight: 700; letter-spacing: .04em; }
+  footer .tmdb { font-style: italic; margin-top: 8px; display: block; }
+
+  .cornertag { position: fixed; top: 10px; right: 10px; z-index: 5;
+    font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+    background: var(--spot); color: #fff; padding: 4px 9px; border-radius: 2px; opacity: .92; }
+</style>
+
+<div class="cornertag">Direction A · Broadsheet</div>
+<div class="sheet">
+
+  <header class="mast">
+    <div class="kicker">The Weekly Almanac for the Well-Armed Quiz Team</div>
+    <h1>Humanity&rsquo;s Last Quiz</h1>
+    <div class="sub">&ldquo;Everything they might ask, before they ask it&rdquo;</div>
+    <div class="dateline">
+      <span>Edition No.&nbsp;<b>37</b> &middot; Vol.&nbsp;II</span>
+      <span><b>Saturday, 18 July 2026</b></span>
+      <span>Covering <b>5 &ndash; 18 July</b> &middot; Price: your dignity</span>
+    </div>
+  </header>
+
+  <div class="standfirst">
+    <div class="lede">
+      <p><span class="qm">The Quizmaster&rsquo;s Note</span>Three points are all but guaranteed tonight, and they are sitting in this column. The birthdays are running heavy on Hollywood this fortnight, the charts have barely moved, and the geography round smells strongly of landlocked republics. Read once, forget nothing.</p>
+      <p>Everything below is drawn fresh each morning from the public record &mdash; the births and deaths from Wikipedia&rsquo;s own day-pages, the charts from the week just gone. Treat the film figures as &ldquo;what&rsquo;s pulling crowds,&rdquo; not gospel box-office ranking.</p>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="col-main">
+
+      <section>
+        <div class="label">On This Day &amp; Thereabouts</div>
+        <h2 class="hed">The fortnight&rsquo;s births &amp; deaths worth a mark</h2>
+        <div class="subhead">Born</div>
+        <ul class="eph">
+          <li><span class="yr">1918</span><span><span class="who">Nelson Mandela</span> &mdash; <span class="what">anti-apartheid leader, first President of a democratic South Africa</span></span></li>
+          <li><span class="yr">1950</span><span><span class="who">Richard Branson</span> &mdash; <span class="what">founder of the Virgin Group</span></span></li>
+          <li><span class="yr">1967</span><span><span class="who">Vin Diesel</span> &mdash; <span class="what">actor, the <em>Fast &amp; Furious</em> series</span></span></li>
+          <li><span class="yr">1980</span><span><span class="who">Kristen Bell</span> &mdash; <span class="what">actress, <em>Frozen</em> and <em>The Good Place</em></span></span></li>
+          <li><span class="yr">1982</span><span><span class="who">Priyanka Chopra Jonas</span> &mdash; <span class="what">actress and producer; Miss World 2000</span></span></li>
+        </ul>
+        <div class="subhead">Died</div>
+        <ul class="eph">
+          <li><span class="yr">1817</span><span><span class="who">Jane Austen</span> &mdash; <span class="what">novelist, <em>Pride and Prejudice</em></span></span></li>
+          <li><span class="yr">1994</span><span><span class="who">Ernest Hemingway</span> &mdash; <span class="what">Nobel laureate (this week in history)</span></span></li>
+          <li><span class="yr">2024</span><span><span class="who">Bob Newhart</span> &mdash; <span class="what">comedian and actor</span></span></li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="label">The Charts &mdash; This Week</div>
+        <h2 class="hed">Two countries, four number ones</h2>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:0 34px;">
+          <table class="ledger">
+            <caption>United Kingdom &middot; Official Chart</caption>
+            <tr><td class="pos">1</td><td><span class="ttl">Ordinary</span><br><span class="art">Alex Warren</span></td><td class="terr">Single</td></tr>
+            <tr><td class="pos">1</td><td><span class="ttl">The Rise and Fall of a Midwest Princess</span><br><span class="art">Chappell Roan</span></td><td class="terr">Album</td></tr>
+          </table>
+          <table class="ledger">
+            <caption>United States &middot; Billboard</caption>
+            <tr><td class="pos">1</td><td><span class="ttl">Birds of a Feather</span><br><span class="art">Billie Eilish</span></td><td class="terr">Hot 100</td></tr>
+            <tr><td class="pos">1</td><td><span class="ttl">Short n&rsquo; Sweet</span><br><span class="art">Sabrina Carpenter</span></td><td class="terr">Bill. 200</td></tr>
+          </table>
+        </div>
+        <p class="note" style="margin-top:10px;">Banker: the derived <b>No.&nbsp;1 artist</b> in the States this week is <b>Billie Eilish</b> &mdash; taken from the Hot 100 topper.</p>
+      </section>
+
+      <section>
+        <div class="label">The Picture House</div>
+        <h2 class="hed">Filling the seats this weekend</h2>
+        <table class="ledger">
+          <tr><td class="pos">GB</td><td><span class="ttl">Inside Out 2</span> <span class="flagpill">BFI &middot; Comscore</span><br><span class="art">£4.2m UK &amp; Ireland weekend &middot; wk 3</span></td></tr>
+          <tr><td class="pos">US</td><td><span class="ttl">Deadpool &amp; Wolverine</span> <span class="flagpill">TMDb trending</span><br><span class="art">Top of the US trending chart &mdash; not an official gross ranking</span></td></tr>
+        </table>
+      </section>
+
+    </div>
+
+    <aside class="col-side">
+
+      <section>
+        <div class="label">The List of the Day</div>
+        <h2 class="hed">Ten largest countries by land area</h2>
+        <ol class="rank">
+          <li>Russia <span class="val">17.1M km²</span></li>
+          <li>Canada <span class="val">9.98M</span></li>
+          <li>United States <span class="val">9.83M</span></li>
+          <li>China <span class="val">9.60M</span></li>
+          <li>Brazil <span class="val">8.52M</span></li>
+          <li>Australia <span class="val">7.69M</span></li>
+          <li>India <span class="val">3.29M</span></li>
+          <li>Argentina <span class="val">2.78M</span></li>
+          <li>Kazakhstan <span class="val">2.72M</span></li>
+          <li>Algeria <span class="val">2.38M</span></li>
+        </ol>
+      </section>
+
+      <section>
+        <div class="label">Starters for Ten</div>
+        <h2 class="hed">Three to warm up on</h2>
+        <div class="qa"><div class="q">Which element has the chemical symbol&nbsp;W?</div><div class="a">Tungsten</div></div>
+        <div class="qa"><div class="q">In which modern country lies the ancient city of Petra?</div><div class="a">Jordan</div></div>
+        <div class="qa"><div class="q">What is the collective noun for a group of crows?</div><div class="a">A murder</div></div>
+      </section>
+
+      <section>
+        <div class="label">Around the World</div>
+        <h2 class="hed">Geography round</h2>
+        <div class="fact"><b>Vatican City</b> is the smallest sovereign state, at just 0.49&nbsp;km².</div>
+        <div class="fact"><b>Istanbul</b> is the only major city to straddle two continents.</div>
+        <div class="fact">The <b>Nile</b> and the <b>Amazon</b> still trade blows for &ldquo;longest river.&rdquo;</div>
+      </section>
+
+      <section>
+        <div class="label">On This Date, In the Charts</div>
+        <div class="fact"><b>1965</b> UK No.&nbsp;1: <em>Mr. Tambourine Man</em> &mdash; The Byrds</div>
+        <div class="fact"><b>1988</b> US No.&nbsp;1: <em>Hold On to the Nights</em> &mdash; Richard Marx</div>
+      </section>
+
+    </aside>
+  </div>
+
+  <footer>
+    <div class="flag" style="margin-bottom:8px;"><span class="dot">◆</span> Sample edition &middot; all figures are placeholder data for design review</div>
+    <div class="src"><b>Sources:</b> On-this-day &amp; UK charts — Wikipedia (CC BY-SA) &middot; US charts — Billboard via <b>utdata/rwd-billboard-data</b> (MIT) &middot; UK box office — <b>BFI / Comscore</b> &middot; posters &amp; film data — <b>TMDB</b> &middot; trivia — Open Trivia DB (CC BY-SA) &middot; country data — World Bank.</div>
+    <span class="tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+  </footer>
+
+</div>

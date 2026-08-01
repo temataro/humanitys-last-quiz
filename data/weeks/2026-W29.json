@@ -1,0 +1,510 @@
+{
+  "week_id": "2026-W29",
+  "edition_no": 29,
+  "sunday": "2026-07-19",
+  "range_start": "2026-07-13",
+  "range_end": "2026-07-19",
+  "range_label": "13 – 19 July 2026",
+  "generated_at": "2026-08-01T10:16:13+00:00",
+  "standfirst": "Everything below is drawn fresh from the public record — births and deaths from Wikipedia's day-pages, the charts and box office from the week just gone.",
+  "top_list_title": "Ten largest economies by GDP",
+  "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-08-01).",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1995,
+        "who": "Harrison Butker",
+        "what": "American football player",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Harrison_Butker",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 1997,
+        "who": "Neekolul",
+        "what": "American internet personality",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Neekolul",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Wyatt Oleff",
+        "what": "American actor",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wyatt_Oleff",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Mason Teague",
+        "what": "Australian rugby league player",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mason_Teague",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Haley Winn",
+        "what": "American hockey player",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Haley_Winn",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Nihal Sarin",
+        "what": "Indian Chess Grandmaster",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nihal_Sarin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Noah Clowney",
+        "what": "American basketball player",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Noah_Clowney",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2005,
+        "who": "JuJu Watkins",
+        "what": "American basketball player",
+        "on": "2026-07-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/JuJu_Watkins",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2007,
+        "who": "Lamine Yamal",
+        "what": "Spanish footballer",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lamine_Yamal",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2008,
+        "who": "Iain Armitage",
+        "what": "American actor",
+        "on": "2026-07-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Iain_Armitage",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2017,
+        "who": "Martin Landau",
+        "what": "American film and television actor (born 1928)",
+        "on": "2026-07-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Martin_Landau",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2021,
+        "who": "Peter R. de Vries",
+        "what": "Dutch investigative journalist and crime reporter (born 1956)",
+        "on": "2026-07-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Peter_R._de_Vries",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Shannen Doherty",
+        "what": "American actress (born 1971)",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Shannen_Doherty",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Ruth Hesse",
+        "what": "German opera singer (born 1936)",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ruth_Hesse",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Muhammadu Buhari",
+        "what": "Nigerian general and politician, 7th & 15th President of Nigeria (born 1942)",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Muhammadu_Buhari",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "B. Saroja Devi",
+        "what": "Indian actress (born 1938)",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/B._Saroja_Devi",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Andrea Gibson",
+        "what": "American poet and activist (born 1975)",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Andrea_Gibson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "John MacArthur (American pastor)",
+        "what": "John MacArthur, American evangelical preacher (born 1939)",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_MacArthur_(American_pastor)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Fauja Singh",
+        "what": "British-Indian centenarian marathon runner",
+        "on": "2026-07-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fauja_Singh",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Sam Neill",
+        "what": "New Zealand actor (born 1947)",
+        "on": "2026-07-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sam_Neill",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "Billboard Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    }
+  ],
+  "box_office": [],
+  "top_list": [
+    {
+      "value": {
+        "label": "United States",
+        "value": "$30.77T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "China",
+        "value": "$19.50T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Germany",
+        "value": "$5.05T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Japan",
+        "value": "$4.44T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "United Kingdom",
+        "value": "$4.00T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "India",
+        "value": "$3.96T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "France",
+        "value": "$3.37T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Russian Federation",
+        "value": "$2.56T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Italy",
+        "value": "$2.55T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Canada",
+        "value": "$2.32T"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/NY.GDP.MKTP.CD",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which of the following years is commonly referred to as the \"Year Without a Summer\"?",
+        "a": "1816"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "q": "Who was the original author of Frankenstein?",
+        "a": "Mary Shelley"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "q": " What is the only nation that borders both Uruguay and Venezuela?",
+        "a": "Brazil"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "The largest country by land area is Russian Federation, at 16.38M km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "fact": "The smallest country by land area (World Bank data) is Monaco, at 2 km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    },
+    {
+      "value": {
+        "fact": "The most populous country is India, with about 1.46B people."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-08-01T10:16:13+00:00"
+    }
+  ],
+  "chart_history": []
+}

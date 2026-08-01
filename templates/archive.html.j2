@@ -1,0 +1,54 @@
+{% extends "base.html.j2" %}
+{% set nav_active = 'archive' %}
+{% block title %}Humanity's Last Quiz — Archive{% endblock %}
+
+{% block styles %}
+  .sheet { padding-top: 24px; }
+  .arc-head { border-bottom: 3px double var(--rule-strong); padding-bottom: 12px; margin-bottom: 8px; }
+  .arc-head .kicker { font-family: var(--sans); text-transform: uppercase; letter-spacing: .3em;
+    font-size: 11px; color: var(--spot); }
+  .arc-head h1 { font-size: clamp(30px, 6vw, 52px); margin: 6px 0 2px; font-weight: 700; }
+  .arc-head .sub { font-style: italic; color: var(--muted); }
+
+  ol.editions { list-style: none; margin: 0; padding: 0; }
+  ol.editions li { display: grid; grid-template-columns: 92px 1fr auto; gap: 18px;
+    align-items: baseline; padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  @media (max-width: 620px) { ol.editions li { grid-template-columns: 1fr; gap: 4px; } }
+  .no { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--spot);
+    font-weight: 700; font-size: 15px; }
+  .no small { display: block; font-family: var(--sans); font-size: 9.5px; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--muted); font-weight: 400; margin-top: 2px; }
+  .ed-title a { font-weight: 700; font-size: 20px; text-decoration: none; }
+  .ed-title a:hover { text-decoration: underline; }
+  .ed-dek { color: var(--muted); font-style: italic; font-size: 14.5px; margin-top: 3px;
+    max-width: var(--measure); }
+  .ed-meta { font-family: var(--sans); font-size: 10px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); text-align: right; white-space: nowrap; }
+  .tag { display: inline-block; font-family: var(--sans); font-size: 9px; letter-spacing: .1em;
+    text-transform: uppercase; border: 1px solid var(--spot); color: var(--spot); border-radius: 2px;
+    padding: 1px 6px; margin-left: 8px; }
+{% endblock %}
+
+{% block body %}
+<div class="sheet">
+  <div class="arc-head">
+    <div class="kicker">The Bound Volumes</div>
+    <h1>Archive</h1>
+    <div class="sub">Every edition, most recent first &mdash; {{ editions|length }} in all.</div>
+  </div>
+
+  <ol class="editions">
+    {% for e in editions %}
+    <li>
+      <div class="no">No.&nbsp;{{ e.edition_no }}<small>{{ e.week_id }}</small></div>
+      <div>
+        <div class="ed-title"><a href="{{ e.week_id }}.html">{{ e.range_label }}</a>
+          {% if e.placeholder %}<span class="tag">Sample</span>{% endif %}</div>
+        <div class="ed-dek">{{ e.standfirst[:180] }}{% if e.standfirst|length > 180 %}&hellip;{% endif %}</div>
+      </div>
+      <div class="ed-meta">{{ e.births|length + e.deaths|length }} people<br>{{ e.top_list|length }}-item list</div>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
+{% endblock %}

@@ -1,0 +1,97 @@
+name: Weekly edition
+
+# Builds the week just gone every Sunday, commits the new archive JSON, and
+# regenerates the static site. Also runnable on demand (with an optional Sunday).
+on:
+  schedule:
+    # 07:00 UTC every Sunday — after the week's charts/box office have settled.
+    - cron: "0 7 * * 0"
+  workflow_dispatch:
+    inputs:
+      sunday:
+        description: "Publish Sunday (YYYY-MM-DD); blank = last completed week"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-edition
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build the edition
+        id: build
+        # No secrets needed — every data source is free and keyless. A source
+        # outage leaves that section empty; only a total outage → placeholder.
+        run: |
+          PYTHONPATH=src python -m hlq.cli build ${{ github.event.inputs.sunday && format('--sunday {0}', github.event.inputs.sunday) || '' }}
+
+      - name: Render the site
+        id: render
+        run: PYTHONPATH=src python -m hlq.cli render
+
+      # Runs even when the build/render steps fail, so the live site always gets
+      # a fresh heartbeat.json recording that the cron ran and whether it passed.
+      - name: Write heartbeat & commit
+        if: always()
+        env:
+          OUTCOME: ${{ (steps.build.outcome == 'success' && steps.render.outcome == 'success') && 'success' || 'failure' }}
+        run: |
+          mkdir -p site
+          cat > site/heartbeat.json <<EOF
+          {
+            "last_run": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "outcome": "${OUTCOME}",
+            "trigger": "${{ github.event_name }}",
+            "sha": "${{ github.sha }}",
+            "run_url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }
+          EOF
+          git config user.name  "hlq-bot"
+          git config user.email "tal@kamar.com"
+          git add data/weeks data/raw site
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: weekly edition $(date -u +%Y-%m-%d) [${OUTCOME}] (AI-generated via Gemini web-search aggregation; tal@kamar.com)"
+            git push
+          fi
+
+  # Publishes site/ to GitHub Pages. Runs even if the build failed, so a failure
+  # heartbeat still reaches the live site. Enable Pages (Settings → Pages →
+  # GitHub Actions) for this to take effect; harmless until then.
+  pages:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Pull the commit just pushed
+        run: git pull --ff-only || true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

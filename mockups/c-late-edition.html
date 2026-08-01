@@ -1,0 +1,239 @@
+<title>Humanity's Last Quiz — The Late Edition</title>
+<style>
+  :root {
+    --slate: #14181b;
+    --slate-2: #171c20;
+    --panel: #1b2227;
+    --panel-2: #212a30;
+    --chalk: #eceadd;
+    --chalk-soft: #b9bcb2;
+    --chalk-faint: #7d857f;
+    --amber: #e6b25a;
+    --amber-deep: #caa04a;
+    --cyan: #7fc6c0;
+    --rule: #2a343a;
+    --rule-2: #333f46;
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: "SFMono-Regular", ui-monospace, "Consolas", "Liberation Mono", monospace;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--slate); color: var(--chalk);
+    font-family: var(--sans); line-height: 1.55; -webkit-font-smoothing: antialiased;
+    background-image: radial-gradient(1100px 380px at 50% -140px, rgba(230,178,90,.10), transparent 70%);
+    background-repeat: no-repeat; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px) 76px; }
+
+  .label { font-family: var(--sans); text-transform: uppercase; letter-spacing: .2em;
+    font-size: 10.5px; font-weight: 700; color: var(--amber); }
+
+  /* ---- Masthead ---- */
+  header.mast { text-align: center; padding: 34px 0 18px; }
+  header.mast .kick { font-family: var(--sans); text-transform: uppercase; letter-spacing: .4em;
+    font-size: 10.5px; color: var(--amber); }
+  header.mast h1 { font-family: var(--serif); font-weight: 700; font-size: clamp(34px, 7.5vw, 74px);
+    line-height: .95; margin: 8px 0 8px; letter-spacing: -.01em; text-wrap: balance; }
+  header.mast .sub { font-family: var(--serif); font-style: italic; color: var(--chalk-soft);
+    font-size: clamp(13px, 2.2vw, 17px); }
+  .dateline { display: flex; justify-content: center; gap: 22px; flex-wrap: wrap;
+    margin-top: 16px; padding: 9px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--chalk-faint); }
+  .dateline b { color: var(--amber); }
+
+  /* ---- Bento grid ---- */
+  .bento { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; margin-top: 26px; }
+  .cell { background: var(--panel); border: 1px solid var(--rule); border-radius: 12px;
+    padding: 18px 20px 20px; }
+  .cell h3 { font-family: var(--serif); font-weight: 700; font-size: 20px; margin: 8px 0 12px;
+    text-wrap: balance; }
+  .cell > .label { display: flex; align-items: center; gap: 9px; }
+  .cell > .label::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+
+  .span-7 { grid-column: span 7; } .span-5 { grid-column: span 5; }
+  .span-4 { grid-column: span 4; } .span-6 { grid-column: span 6; } .span-3 { grid-column: span 3; }
+  @media (max-width: 900px) { .span-7,.span-5,.span-4,.span-6 { grid-column: span 12; }
+    .span-3 { grid-column: span 6; } }
+  @media (max-width: 520px) { .span-3 { grid-column: span 12; } }
+
+  /* ---- Number-one tiles ---- */
+  .ones { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 460px) { .ones { grid-template-columns: 1fr; } }
+  .one { background: var(--slate-2); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 13px 14px; position: relative; overflow: hidden; }
+  .one::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+    background: var(--amber); }
+  .one.music::before { background: var(--cyan); }
+  .one .terr { font-size: 9.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--chalk-faint); }
+  .one .metric { font-size: 10px; color: var(--amber); text-transform: uppercase; letter-spacing: .08em; }
+  .one.music .metric { color: var(--cyan); }
+  .one .val { font-family: var(--serif); font-weight: 700; font-size: 17px; line-height: 1.15;
+    margin: 5px 0 1px; text-wrap: balance; }
+  .one .by { color: var(--chalk-soft); font-style: italic; font-family: var(--serif); font-size: 13px; }
+
+  /* ---- People ---- */
+  .minihead { font-size: 10px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--chalk-faint); margin: 2px 0 6px; }
+  .person { display: grid; grid-template-columns: 44px 1fr; gap: 10px; padding: 7px 0;
+    border-bottom: 1px solid var(--rule); }
+  .person:last-child { border-bottom: none; }
+  .person .yr { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--amber);
+    font-weight: 700; font-size: 13.5px; }
+  .person .who { font-weight: 600; font-size: 14px; }
+  .person .what { color: var(--chalk-faint); font-size: 12px; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 22px; }
+  @media (max-width: 520px) { .two { grid-template-columns: 1fr; } }
+
+  ol.rank { margin: 0; padding: 0; list-style: none; counter-reset: r; }
+  ol.rank li { counter-increment: r; display: flex; align-items: baseline; gap: 11px;
+    padding: 6.5px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
+  ol.rank li:last-child { border-bottom: none; }
+  ol.rank li::before { content: counter(r, decimal-leading-zero); font-family: var(--mono);
+    color: var(--amber); font-weight: 700; font-size: 12px; min-width: 22px; font-variant-numeric: tabular-nums; }
+  ol.rank .v { margin-left: auto; font-family: var(--mono); font-size: 11.5px; color: var(--chalk-faint);
+    font-variant-numeric: tabular-nums; }
+
+  .qa { padding: 8px 0; border-bottom: 1px solid var(--rule); }
+  .qa:last-child { border-bottom: none; }
+  .qa .q { font-weight: 600; font-size: 13.5px; }
+  .qa .a { color: var(--cyan); font-family: var(--serif); font-style: italic; font-size: 13.5px; }
+  .qa .a::before { content: "▸ "; font-style: normal; }
+
+  .fact { padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 13px; }
+  .fact:last-child { border-bottom: none; }
+  .fact b { color: var(--amber); }
+
+  .histrow { display: flex; gap: 10px; flex-wrap: wrap; }
+  .histrow .h { flex: 1 1 190px; background: var(--slate-2); border: 1px solid var(--rule);
+    border-radius: 9px; padding: 10px 13px; font-size: 12.5px; }
+  .histrow .h b { color: var(--amber); font-family: var(--mono); }
+  .movie-note { color: var(--chalk-faint); font-style: italic; font-size: 12px; margin-top: 8px; }
+
+  footer { margin-top: 22px; padding: 18px 20px; background: var(--slate-2);
+    border: 1px solid var(--rule); border-radius: 12px; font-size: 11px; color: var(--chalk-faint);
+    line-height: 1.7; }
+  footer b { color: var(--chalk-soft); }
+  footer .tmdb { font-style: italic; display: block; margin-top: 6px; }
+  .sampleflag { display: inline-block; border: 1px solid var(--amber-deep); color: var(--amber);
+    font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 20px; margin-bottom: 10px; }
+
+  .cornertag { position: fixed; top: 10px; right: 10px; z-index: 5; font-size: 10px;
+    letter-spacing: .12em; text-transform: uppercase; background: var(--amber); color: #201607;
+    padding: 4px 9px; border-radius: 20px; opacity: .95; font-weight: 700; }
+</style>
+
+<div class="cornertag">Direction C · Late Edition</div>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="kick">The Late Edition &middot; printed after last orders</div>
+    <h1>Humanity&rsquo;s Last Quiz</h1>
+    <div class="sub">&ldquo;everything they might ask, before they ask it&rdquo;</div>
+    <div class="dateline">
+      <span>Edition <b>No. 37</b></span>
+      <span><b>Saturday, 18 July 2026</b></span>
+      <span>covering <b>5&ndash;18 July</b></span>
+    </div>
+  </header>
+
+  <div class="bento">
+
+    <div class="cell span-7">
+      <div class="label">Tonight&rsquo;s Bankers &mdash; four near-certain points</div>
+      <div class="ones" style="margin-top:12px;">
+        <div class="one music">
+          <div class="terr">United Kingdom</div>
+          <div class="metric">No. 1 Single</div>
+          <div class="val">Ordinary</div>
+          <div class="by">Alex Warren</div>
+        </div>
+        <div class="one music">
+          <div class="terr">United States</div>
+          <div class="metric">Billboard Hot 100</div>
+          <div class="val">Birds of a Feather</div>
+          <div class="by">Billie Eilish</div>
+        </div>
+        <div class="one">
+          <div class="terr">UK &amp; Ireland</div>
+          <div class="metric">Box Office No. 1</div>
+          <div class="val">Inside Out 2</div>
+          <div class="by">£4.2m weekend</div>
+        </div>
+        <div class="one">
+          <div class="terr">United States</div>
+          <div class="metric">Trending in cinemas</div>
+          <div class="val">Deadpool &amp; Wolverine</div>
+          <div class="by">not an official gross</div>
+        </div>
+      </div>
+      <div class="movie-note">UK film from BFI / Comscore weekend figures; US film is TMDb&rsquo;s trending list, a &ldquo;what&rsquo;s hot&rdquo; proxy rather than a ranked gross.</div>
+    </div>
+
+    <div class="cell span-5">
+      <div class="label">On This Day &amp; the Fortnight Around It</div>
+      <h3>Births &amp; deaths</h3>
+      <div class="two">
+        <div>
+          <div class="minihead">Born</div>
+          <div class="person"><span class="yr">1918</span><span><span class="who">Nelson Mandela</span><br><span class="what">South African president</span></span></div>
+          <div class="person"><span class="yr">1950</span><span><span class="who">Richard Branson</span><br><span class="what">Virgin Group</span></span></div>
+          <div class="person"><span class="yr">1967</span><span><span class="who">Vin Diesel</span><br><span class="what"><em>Fast &amp; Furious</em></span></span></div>
+          <div class="person"><span class="yr">1982</span><span><span class="who">Priyanka Chopra</span><br><span class="what">actress &amp; producer</span></span></div>
+        </div>
+        <div>
+          <div class="minihead">Died</div>
+          <div class="person"><span class="yr">1817</span><span><span class="who">Jane Austen</span><br><span class="what">novelist</span></span></div>
+          <div class="person"><span class="yr">1961</span><span><span class="who">E. Hemingway</span><br><span class="what">Nobel laureate</span></span></div>
+          <div class="person"><span class="yr">2024</span><span><span class="who">Bob Newhart</span><br><span class="what">comedian</span></span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cell span-4">
+      <div class="label">The List of the Day</div>
+      <h3>Largest countries by area</h3>
+      <ol class="rank">
+        <li>Russia <span class="v">17.1M km²</span></li>
+        <li>Canada <span class="v">9.98M</span></li>
+        <li>United States <span class="v">9.83M</span></li>
+        <li>China <span class="v">9.60M</span></li>
+        <li>Brazil <span class="v">8.52M</span></li>
+        <li>Australia <span class="v">7.69M</span></li>
+      </ol>
+    </div>
+
+    <div class="cell span-4">
+      <div class="label">Starters for Ten</div>
+      <h3>Warm-up round</h3>
+      <div class="qa"><div class="q">Element with the symbol W?</div><div class="a">Tungsten</div></div>
+      <div class="qa"><div class="q">Petra lies in which country?</div><div class="a">Jordan</div></div>
+      <div class="qa"><div class="q">Collective noun for crows?</div><div class="a">A murder</div></div>
+    </div>
+
+    <div class="cell span-4">
+      <div class="label">Around the World</div>
+      <h3>Geography round</h3>
+      <div class="fact"><b>Vatican City</b> — smallest state, 0.49 km².</div>
+      <div class="fact"><b>Istanbul</b> straddles two continents.</div>
+      <div class="fact"><b>Nile</b> vs <b>Amazon</b> — longest-river dispute.</div>
+    </div>
+
+    <div class="cell span-12">
+      <div class="label">On This Date, In the Charts</div>
+      <div class="histrow" style="margin-top:12px;">
+        <div class="h"><b>1965</b> &middot; UK No. 1 &mdash; <em>Mr. Tambourine Man</em>, The Byrds</div>
+        <div class="h"><b>1988</b> &middot; US No. 1 &mdash; <em>Hold On to the Nights</em>, Richard Marx</div>
+        <div class="h"><b>1997</b> &middot; UK No. 1 &mdash; <em>I&rsquo;ll Be Missing You</em>, Puff Daddy</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <span class="sampleflag">Sample edition · placeholder data</span><br>
+    <b>Sources:</b> on-this-day &amp; UK charts — Wikipedia (CC BY-SA) · US charts — Billboard via utdata (MIT) · UK box office — BFI / Comscore · film data — TMDB · trivia — Open Trivia DB (CC BY-SA) · country data — World Bank.
+    <span class="tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+  </footer>
+
+</div>

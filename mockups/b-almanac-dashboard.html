@@ -1,0 +1,272 @@
+<title>Humanity's Last Quiz — Almanac × Dashboard</title>
+<style>
+  :root {
+    --paper: #fbfbf8;
+    --surface: #ffffff;
+    --surface-2: #f4f5f1;
+    --ink: #18211c;
+    --muted: #5f6b64;
+    --faint: #8b968f;
+    --accent: #0f5c46;
+    --accent-soft: #e4efe9;
+    --accent-ink: #0b4335;
+    --gold: #9a7b1f;
+    --rule: #e5e7e1;
+    --rule-2: #d3d7cf;
+    --serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --mono: "SFMono-Regular", ui-monospace, "Consolas", "Liberation Mono", monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0f1512; --surface: #161d19; --surface-2: #1b231e; --ink: #e9efe9;
+      --muted: #97a49c; --faint: #6f7d75; --accent: #52c19b; --accent-soft: #14261f;
+      --accent-ink: #7fd3b4; --gold: #d8b25c; --rule: #25302a; --rule-2: #303c35;
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #fbfbf8; --surface: #ffffff; --surface-2: #f4f5f1; --ink: #18211c;
+    --muted: #5f6b64; --faint: #8b968f; --accent: #0f5c46; --accent-soft: #e4efe9;
+    --accent-ink: #0b4335; --gold: #9a7b1f; --rule: #e5e7e1; --rule-2: #d3d7cf;
+  }
+  :root[data-theme="dark"] {
+    --paper: #0f1512; --surface: #161d19; --surface-2: #1b231e; --ink: #e9efe9;
+    --muted: #97a49c; --faint: #6f7d75; --accent: #52c19b; --accent-soft: #14261f;
+    --accent-ink: #7fd3b4; --gold: #d8b25c; --rule: #25302a; --rule-2: #303c35;
+  }
+
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--sans); line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1140px; margin: 0 auto; padding: 0 clamp(16px, 4vw, 40px) 72px; }
+
+  .label { font-family: var(--sans); text-transform: uppercase; letter-spacing: .18em;
+    font-size: 10.5px; font-weight: 700; color: var(--accent); }
+
+  /* ---- Masthead bar ---- */
+  header.top { display: flex; align-items: baseline; justify-content: space-between;
+    gap: 16px; flex-wrap: wrap; padding: 22px 0 16px; border-bottom: 1px solid var(--rule); }
+  .wordmark { font-family: var(--serif); font-weight: 700; letter-spacing: -.01em;
+    font-size: clamp(23px, 3.6vw, 31px); line-height: 1; }
+  .wordmark .amp { color: var(--accent); }
+  .tagline { font-family: var(--serif); font-style: italic; color: var(--muted);
+    font-size: 14px; }
+  .meta { text-align: right; font-size: 11px; color: var(--muted); letter-spacing: .04em; }
+  .meta b { color: var(--ink); }
+
+  /* ---- Hero KPI row ---- */
+  .kpi-head { display: flex; align-items: center; gap: 12px; margin: 28px 0 12px; }
+  .kpi-head h2 { font-family: var(--serif); font-size: clamp(20px, 3vw, 26px); margin: 0;
+    font-weight: 700; }
+  .kpi-head .rule { flex: 1; height: 1px; background: var(--rule); }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  @media (max-width: 860px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 460px) { .kpis { grid-template-columns: 1fr; } }
+  .kpi { background: var(--surface); border: 1px solid var(--rule);
+    border-top: 3px solid var(--accent); border-radius: 8px; padding: 15px 16px 16px;
+    display: flex; flex-direction: column; gap: 3px; min-height: 132px; }
+  .kpi .terr { display: inline-flex; align-items: center; gap: 6px; font-size: 10px;
+    font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .kpi .terr .flagdot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  .kpi .metric { font-size: 11px; color: var(--faint); text-transform: uppercase;
+    letter-spacing: .08em; margin-top: 2px; }
+  .kpi .val { font-family: var(--serif); font-weight: 700; font-size: 19px; line-height: 1.18;
+    margin-top: auto; text-wrap: balance; }
+  .kpi .by { color: var(--muted); font-size: 13px; font-style: italic; font-family: var(--serif); }
+  .kpi .src { font-size: 9.5px; color: var(--faint); letter-spacing: .06em; text-transform: uppercase; margin-top: 6px; }
+  .kpi.movie { border-top-color: var(--gold); }
+  .kpi.movie .terr .flagdot { background: var(--gold); }
+
+  /* ---- Main grid ---- */
+  .grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 34px; margin-top: 34px; }
+  @media (max-width: 800px) { .grid { grid-template-columns: 1fr; gap: 24px; } }
+
+  .card { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 18px 20px 20px; margin-bottom: 18px; }
+  .card > .label { display: flex; align-items: center; gap: 9px; }
+  .card > .label::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
+  .card h3 { font-family: var(--serif); font-weight: 700; font-size: 20px; margin: 8px 0 12px;
+    text-wrap: balance; }
+
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 26px; }
+  @media (max-width: 520px) { .split { grid-template-columns: 1fr; } }
+  .minihead { font-size: 10.5px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--muted); margin: 4px 0 4px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+
+  .person { display: grid; grid-template-columns: 46px 1fr; gap: 10px; padding: 8px 0;
+    border-bottom: 1px solid var(--rule); }
+  .person:last-child { border-bottom: none; }
+  .person .yr { font-family: var(--mono); font-variant-numeric: tabular-nums;
+    color: var(--accent); font-weight: 700; font-size: 14px; }
+  .person .who { font-weight: 600; font-size: 14.5px; }
+  .person .what { color: var(--muted); font-size: 12.5px; }
+
+  ol.rank { margin: 0; padding: 0; list-style: none; counter-reset: r; }
+  ol.rank li { counter-increment: r; display: flex; align-items: baseline; gap: 11px;
+    padding: 7px 0; border-bottom: 1px solid var(--rule); font-size: 14.5px; }
+  ol.rank li:last-child { border-bottom: none; }
+  ol.rank li::before { content: counter(r, decimal-leading-zero); font-family: var(--mono);
+    color: var(--accent); font-weight: 700; font-size: 12px; min-width: 22px;
+    font-variant-numeric: tabular-nums; }
+  ol.rank .v { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted);
+    font-variant-numeric: tabular-nums; }
+
+  .qa { padding: 9px 0; border-bottom: 1px solid var(--rule); }
+  .qa:last-child { border-bottom: none; }
+  .qa .q { font-weight: 600; font-size: 14px; }
+  .qa .a { color: var(--accent-ink); font-family: var(--serif); font-style: italic; font-size: 14px; }
+  .qa .a::before { content: "→ "; color: var(--accent); font-style: normal; }
+
+  .fact { padding: 8px 0; border-bottom: 1px solid var(--rule); font-size: 13.5px; }
+  .fact:last-child { border-bottom: none; }
+  .fact b { color: var(--accent-ink); }
+
+  .history { display: flex; gap: 10px; flex-wrap: wrap; }
+  .history .h { flex: 1 1 180px; background: var(--surface-2); border-radius: 8px;
+    padding: 10px 12px; font-size: 13px; }
+  .history .h b { color: var(--accent); font-family: var(--mono); }
+
+  footer { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--rule);
+    font-size: 11px; color: var(--muted); line-height: 1.7; }
+  footer b { color: var(--ink); }
+  footer .tmdb { font-style: italic; display: block; margin-top: 6px; color: var(--faint); }
+  .sampleflag { display: inline-block; background: var(--accent-soft); color: var(--accent-ink);
+    font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 20px; margin-bottom: 10px; }
+
+  .cornertag { position: fixed; top: 10px; right: 10px; z-index: 5; font-size: 10px;
+    letter-spacing: .12em; text-transform: uppercase; background: var(--accent); color: #fff;
+    padding: 4px 9px; border-radius: 20px; opacity: .92; font-weight: 700; }
+</style>
+
+<div class="cornertag">Direction B · Hybrid</div>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <div class="wordmark">Humanity&rsquo;s Last Quiz</div>
+      <div class="tagline">the weekly almanac for the well-armed team</div>
+    </div>
+    <div class="meta">
+      Edition <b>No. 37</b><br>
+      <b>Saturday, 18 July 2026</b><br>
+      covering 5&ndash;18 July
+    </div>
+  </header>
+
+  <div class="kpi-head">
+    <h2>Tonight&rsquo;s bankers</h2>
+    <span class="rule"></span>
+    <span class="label">4 near-certain points</span>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi">
+      <span class="terr"><span class="flagdot"></span>United Kingdom</span>
+      <span class="metric">No. 1 Single</span>
+      <span class="val">Ordinary</span>
+      <span class="by">Alex Warren</span>
+      <span class="src">Official Chart · Wikipedia</span>
+    </div>
+    <div class="kpi">
+      <span class="terr"><span class="flagdot"></span>United States</span>
+      <span class="metric">Hot 100 · No. 1</span>
+      <span class="val">Birds of a Feather</span>
+      <span class="by">Billie Eilish</span>
+      <span class="src">Billboard · utdata</span>
+    </div>
+    <div class="kpi movie">
+      <span class="terr"><span class="flagdot"></span>UK &amp; Ireland</span>
+      <span class="metric">Box Office · No. 1</span>
+      <span class="val">Inside Out 2</span>
+      <span class="by">£4.2m weekend</span>
+      <span class="src">BFI / Comscore</span>
+    </div>
+    <div class="kpi movie">
+      <span class="terr"><span class="flagdot"></span>United States</span>
+      <span class="metric">Trending in cinemas</span>
+      <span class="val">Deadpool &amp; Wolverine</span>
+      <span class="by">not an official gross</span>
+      <span class="src">TMDb trending</span>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="col-a">
+
+      <div class="card">
+        <div class="label">On This Day &amp; the Fortnight Around It</div>
+        <h3>Births &amp; deaths worth a mark</h3>
+        <div class="split">
+          <div>
+            <div class="minihead">Born</div>
+            <div class="person"><span class="yr">1918</span><span><span class="who">Nelson Mandela</span><br><span class="what">first President of a democratic South Africa</span></span></div>
+            <div class="person"><span class="yr">1950</span><span><span class="who">Richard Branson</span><br><span class="what">founder, the Virgin Group</span></span></div>
+            <div class="person"><span class="yr">1967</span><span><span class="who">Vin Diesel</span><br><span class="what">actor, <em>Fast &amp; Furious</em></span></span></div>
+            <div class="person"><span class="yr">1980</span><span><span class="who">Kristen Bell</span><br><span class="what">actress, <em>Frozen</em></span></span></div>
+            <div class="person"><span class="yr">1982</span><span><span class="who">Priyanka Chopra</span><br><span class="what">actress &amp; producer</span></span></div>
+          </div>
+          <div>
+            <div class="minihead">Died</div>
+            <div class="person"><span class="yr">1817</span><span><span class="who">Jane Austen</span><br><span class="what">novelist, <em>Pride and Prejudice</em></span></span></div>
+            <div class="person"><span class="yr">1961</span><span><span class="who">Ernest Hemingway</span><br><span class="what">Nobel laureate (this week)</span></span></div>
+            <div class="person"><span class="yr">2024</span><span><span class="who">Bob Newhart</span><br><span class="what">comedian &amp; actor</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="label">On This Date, In the Charts</div>
+        <h3>History rhymes</h3>
+        <div class="history">
+          <div class="h"><b>1965</b> · UK No. 1<br><em>Mr. Tambourine Man</em> — The Byrds</div>
+          <div class="h"><b>1988</b> · US No. 1<br><em>Hold On to the Nights</em> — Richard Marx</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-b">
+
+      <div class="card">
+        <div class="label">The List of the Day</div>
+        <h3>Largest countries by area</h3>
+        <ol class="rank">
+          <li>Russia <span class="v">17.1M km²</span></li>
+          <li>Canada <span class="v">9.98M</span></li>
+          <li>United States <span class="v">9.83M</span></li>
+          <li>China <span class="v">9.60M</span></li>
+          <li>Brazil <span class="v">8.52M</span></li>
+          <li>Australia <span class="v">7.69M</span></li>
+          <li>India <span class="v">3.29M</span></li>
+          <li>Argentina <span class="v">2.78M</span></li>
+        </ol>
+      </div>
+
+      <div class="card">
+        <div class="label">Starters for Ten</div>
+        <h3>Warm-up round</h3>
+        <div class="qa"><div class="q">Which element has the symbol W?</div><div class="a">Tungsten</div></div>
+        <div class="qa"><div class="q">Petra lies in which country?</div><div class="a">Jordan</div></div>
+        <div class="qa"><div class="q">Collective noun for crows?</div><div class="a">A murder</div></div>
+      </div>
+
+      <div class="card">
+        <div class="label">Around the World</div>
+        <h3>Geography round</h3>
+        <div class="fact"><b>Vatican City</b> — smallest state, 0.49 km².</div>
+        <div class="fact"><b>Istanbul</b> straddles two continents.</div>
+        <div class="fact">The <b>Nile</b> vs the <b>Amazon</b> — longest-river dispute.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <span class="sampleflag">Sample edition · placeholder data</span><br>
+    <b>Sources:</b> on-this-day &amp; UK charts — Wikipedia (CC BY-SA) · US charts — Billboard via utdata (MIT) · UK box office — BFI / Comscore · film data — TMDB · trivia — Open Trivia DB (CC BY-SA) · country data — World Bank.
+    <span class="tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+  </footer>
+
+</div>
