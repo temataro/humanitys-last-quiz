@@ -1,0 +1,355 @@
+{
+  "week_id": "2026-W31",
+  "edition_no": 31,
+  "sunday": "2026-08-02",
+  "range_start": "2026-07-27",
+  "range_end": "2026-08-02",
+  "range_label": "27 July – 2 August 2026",
+  "generated_at": "2026-08-02T09:07:28+00:00",
+  "standfirst": "Everything below is drawn fresh from the public record — births and deaths from Wikipedia's day-pages, the charts and box office from the week just gone.",
+  "top_list_title": "The list of the day",
+  "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-08-01).",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1995,
+        "who": "Mercedes Russell",
+        "what": "American basketball player",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mercedes_Russell",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1995,
+        "who": "Drew Rasmussen",
+        "what": "American baseball player",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Drew_Rasmussen",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1996,
+        "who": "Harriet Dart",
+        "what": "British tennis player",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Harriet_Dart",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "GloRilla",
+        "what": "American rapper",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/GloRilla",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Emile Smith Rowe",
+        "what": "English footballer",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Emile_Smith_Rowe",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Miguel Gutiérrez (footballer, born 2001)",
+        "what": "Miguel Gutiérrez, Spanish footballer",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Miguel_Guti%C3%A9rrez_(footballer%2C_born_2001)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Elvina Kalieva",
+        "what": "American tennis player",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elvina_Kalieva",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Malik Nabers",
+        "what": "American football player",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Malik_Nabers",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Johnny Brackins",
+        "what": "American long jumper and hurdler",
+        "on": "2026-07-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johnny_Brackins",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Jens Castrop",
+        "what": "German-South Korean footballer",
+        "on": "2026-07-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jens_Castrop",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2018,
+        "who": "Marco Aurelio Denegri",
+        "what": "Peruvian literature critic, television host and sexologist",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marco_Aurelio_Denegri",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2018,
+        "who": "Oliver Dragojević",
+        "what": "Croatian recording artist (born 1947)",
+        "on": "2026-07-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oliver_Dragojevi%C4%87",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2022,
+        "who": "Tony Dow",
+        "what": "American actor, film producer, director, and sculptor (born 1945)",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tony_Dow",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Edna O'Brien",
+        "what": "Irish novelist, playwright, poet and short story writer (born 1930)",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Edna_O'Brien",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Pavel Kushnir",
+        "what": "Russian pianist, writer, activist and political prisoner (born 1984)",
+        "on": "2026-07-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pavel_Kushnir",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "John Anderson (television personality)",
+        "what": "John Anderson, Scottish television personality, teacher and coach (born 1931)",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Anderson_(television_personality)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Doug Creek",
+        "what": "American baseball player (born 1969)",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Doug_Creek",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Reyes Moronta",
+        "what": "Dominican baseball player (born 1993)",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Reyes_Moronta",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Laura Dahlmeier",
+        "what": "German biathlete, Olympic champion (born 1993)",
+        "on": "2026-07-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Laura_Dahlmeier",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Alon Abutbul",
+        "what": "Israeli film, television and theater actor (born 1965)",
+        "on": "2026-07-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alon_Abutbul",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "Billboard Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    }
+  ],
+  "box_office": [],
+  "top_list": [],
+  "trivia": [
+    {
+      "value": {
+        "q": "What album did The Lumineers release in 2016?",
+        "a": "Cleopatra"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "q": "Which occupation did John Tanner, the main protagonist for Driver and Driver 2, had before turning into an undercover cop?",
+        "a": "Racing Driver"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    },
+    {
+      "value": {
+        "q": "What is the state capital of South Dakota?",
+        "a": "Pierre"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-02T09:07:28+00:00"
+    }
+  ],
+  "geography": [],
+  "chart_history": []
+}
