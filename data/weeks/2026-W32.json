@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W32",
+  "edition_no": 32,
+  "sunday": "2026-08-09",
+  "range_start": "2026-08-03",
+  "range_end": "2026-08-09",
+  "range_label": "3 – 9 August 2026",
+  "generated_at": "2026-08-09T07:52:28+00:00",
+  "standfirst": "As country music continues its unprecedented stranglehold on the American airwaves, Ariana Grande claims her sixth consecutive UK album topper with Petal. Meanwhile, superhero blockbusters and classic trivia fill out the summer margins for quizmasters aiming to test their pub regulars.",
+  "top_list_title": "Ten largest islands in the world by land area",
+  "banker": "Ella Langley is the week's safest answer for chart dominance, as 'Choosin' Texas' marks a historic 16th consecutive week at #1 on the Billboard Hot 100 while leading an unprecedented all-country top five.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1992,
+        "who": "Daniele Garozzo",
+        "what": "Italian fencer",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniele_Garozzo",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1994,
+        "who": "Bobby Shmurda",
+        "what": "American rapper",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bobby_Shmurda",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1995,
+        "who": "Bruna Marquezine",
+        "what": "Brazilian actress",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bruna_Marquezine",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1997,
+        "who": "Luis Robert Jr.",
+        "what": "Cuban baseball player",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Luis_Robert_Jr.",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1998,
+        "who": "Lil Skies",
+        "what": "American rapper",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lil_Skies",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Zach Wilson",
+        "what": "American football player",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zach_Wilson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Brahim Díaz",
+        "what": "Spanish-Moroccan footballer",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brahim_D%C3%ADaz",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Yoo Yeon-jung",
+        "what": "South Korean singer",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Yoo_Yeon-jung",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Gavi (footballer)",
+        "what": "Gavi, Spanish footballer",
+        "on": "2026-08-05"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gavi_(footballer)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2008,
+        "who": "Hudson Meek",
+        "what": "American actor (died 2024)",
+        "on": "2026-08-05"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hudson_Meek",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2022,
+        "who": "Judith Durham",
+        "what": "Australian singer-songwriter (born 1943)",
+        "on": "2026-08-05"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Judith_Durham",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Mark Margolis",
+        "what": "American actor (born 1939)",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mark_Margolis",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Bram Moolenaar",
+        "what": "Dutch software engineer (born 1961)",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bram_Moolenaar",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Dalia Fadila",
+        "what": "Israeli educator (born 1971/1972)",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dalia_Fadila",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Yamini Krishnamurthy",
+        "what": "Indian dancer (born 1940)",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Yamini_Krishnamurthy",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Charles Cyphers",
+        "what": "American actor (born 1939)",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Charles_Cyphers",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Tsung-Dao Lee",
+        "what": "Chinese-American physicist and academic, Nobel Prize laureate (born 1926)",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsung-Dao_Lee",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Duane Thomas",
+        "what": "American football player (born 1947)",
+        "on": "2026-08-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Duane_Thomas",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Loni Anderson",
+        "what": "American actress (born 1945)",
+        "on": "2026-08-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Loni_Anderson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Col Joye",
+        "what": "Australian singer-songwriter and guitarist (born 1937)",
+        "on": "2026-08-05"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Col_Joye",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Rein Me In",
+        "artist": "Sam Fender & Olivia Dean"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Petal",
+        "artist": "Ariana Grande"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/chart-news/ariana-grande-blooms-with-sixth-number-1-album-petal/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "I'm the Problem",
+        "artist": "Morgan Wallen"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Spider-Man: Brand New Day",
+        "note": "#1 at the domestic box office, grossing $43 million on Friday, 7 August 2026"
+      },
+      "source": {
+        "name": "the-numbers.com",
+        "url": "https://www.the-numbers.com/box-office-chart/daily/2026/08/07",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Spider-Man: Brand New Day",
+        "note": "#1 film at the UK box office for the weekend preceding August 3"
+      },
+      "source": {
+        "name": "bfi.org.uk",
+        "url": "https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Greenland",
+        "value": "2,166,086 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "New Guinea",
+        "value": "821,400 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Borneo",
+        "value": "755,000 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Madagascar",
+        "value": "591,896 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Baffin Island",
+        "value": "507,451 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Sumatra",
+        "value": "480,793 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Honshu",
+        "value": "227,898 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Victoria Island",
+        "value": "217,291 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Great Britain",
+        "value": "209,331 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "label": "Ellesmere Island",
+        "value": "196,236 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-largest-islands-in-the-world",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which album, whose iconic cover photograph was taken outside London's Apple Studios on 8 August 1969, became the final studio album recorded by The Beatles?",
+        "a": "Abbey Road"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/Abbey-Road-album-by-the-Beatles",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "q": "On 3 August 1958, which US nuclear-powered submarine became the first vessel to cross the Geographic North Pole submerged?",
+        "a": "USS Nautilus"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/Nautilus-submarine-1954",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "q": "On 7 August 1987, long-distance swimmer Lynne Cox became the first person to swim across which body of water, traveling from Alaska to the Soviet Union?",
+        "a": "The Bering Strait"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/biography/Lynne-Cox",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "Kazakhstan is the largest landlocked country in the world, spanning an area of roughly 2.7 million square kilometers."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Kazakhstan",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "fact": "Liechtenstein and Uzbekistan are the world's only two double-landlocked countries, meaning they are entirely surrounded by landlocked neighbors."
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-world-s-two-double-landlocked-countries.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Caspian Sea is the largest inland body of water in the world, bordered by Russia, Kazakhstan, Turkmenistan, Iran, and Azerbaijan."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Caspian-Sea",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 1958,
+        "territory": "US",
+        "title": "Poor Little Fool",
+        "artist": "Ricky Nelson"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/1958-08-04/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    },
+    {
+      "value": {
+        "year": 1968,
+        "territory": "UK",
+        "title": "Mony Mony",
+        "artist": "Tommy James and the Shondells"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/19680807/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-09T07:52:28+00:00"
+    }
+  ]
+}
