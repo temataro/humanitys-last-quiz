@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W33",
+  "edition_no": 33,
+  "sunday": "2026-08-16",
+  "range_start": "2026-08-10",
+  "range_end": "2026-08-16",
+  "range_label": "10 – 16 August 2026",
+  "generated_at": "2026-08-16T07:29:06+00:00",
+  "standfirst": "In a week where web-slingers and ancient Greek kings ruled the multiplex, pop royalty reasserted control over the album charts. Tom Holland and Matt Damon continued their box-office hegemony, while Ariana Grande's latest studio effort sailed straight to the summit of the Billboard 200. Meanwhile, country chart stalwarts and British indie favorites held firm on their respective singles terrain.",
+  "top_list_title": "Ten longest rivers in the world",
+  "banker": "Tom Holland is the single safest '#1 artist' answer this week, as Spider-Man: Brand New Day dominated both the US and UK box office charts while he also co-starred in Christopher Nolan's billion-dollar blockbuster The Odyssey.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1999,
+        "who": "Gregoria Mariska Tunjung",
+        "what": "Indonesian badminton player",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gregoria_Mariska_Tunjung",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Changbin",
+        "what": "South Korean rapper",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Changbin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Sophia Wilson",
+        "what": "Sophia Smith, American soccer player",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sophia_Wilson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Jüri Vips",
+        "what": "Estonian racing driver",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/J%C3%BCri_Vips",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Tristan Charpentier",
+        "what": "French racing driver",
+        "on": "2026-08-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tristan_Charpentier",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Moyuka Uchijima",
+        "what": "Japanese tennis player",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Moyuka_Uchijima",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Dixie D'Amelio",
+        "what": "American social media personality and singer",
+        "on": "2026-08-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dixie_D'Amelio",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Marvin Harrison Jr.",
+        "what": "American football player",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marvin_Harrison_Jr.",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2005,
+        "who": "Tidjane Salaün",
+        "what": "French basketball player",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tidjane_Sala%C3%BCn",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2005,
+        "who": "Nikola Topić",
+        "what": "Serbian basketball player",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nikola_Topi%C4%87",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2021,
+        "who": "Una Stubbs",
+        "what": "English actress, TV personality, and dancer (born 1937)",
+        "on": "2026-08-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Una_Stubbs",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2022,
+        "who": "Vesa-Matti Loiri",
+        "what": "Finnish actor, musician and comedian (born 1945)",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vesa-Matti_Loiri",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Rachael Lillis",
+        "what": "American voice actress and scriptwriter (born 1978)",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rachael_Lillis",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Peggy Moffitt",
+        "what": "American model and actress (born 1937)",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Peggy_Moffitt",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Ángel Salazar",
+        "what": "Cuban-American comedian and actor (born 1956)",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/%C3%81ngel_Salazar",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Noël Treanor",
+        "what": "Irish Roman Catholic prelate (born 1950)",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/No%C3%ABl_Treanor",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Kim Kahana",
+        "what": "American actor and stunt performer (born 1929)",
+        "on": "2026-08-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kim_Kahana",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Anas Al-Sharif",
+        "what": "Palestinian journalist and videographer (born 1996)",
+        "on": "2026-08-10"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Anas_Al-Sharif",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Miguel Uribe Turbay",
+        "what": "Colombian precandidate to presidency (born 1986)",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Miguel_Uribe_Turbay",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Danielle Spencer (American actress)",
+        "what": "Danielle Spencer, American actress (born 1965)",
+        "on": "2026-08-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Danielle_Spencer_(American_actress)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Rein Me In",
+        "artist": "Sam Fender & Olivia Dean"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "A Love Letter To A Broken Town",
+        "artist": "The Reytons"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/official-albums-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "petal",
+        "artist": "Ariana Grande"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Spider-Man: Brand New Day",
+        "note": "$144.25M weekend gross (2nd week at #1)"
+      },
+      "source": {
+        "name": "the-numbers.com",
+        "url": "https://www.the-numbers.com/box-office-chart/weekend/2026/08/07",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Spider-Man: Brand New Day",
+        "note": "£12.05M weekend gross (2nd week at #1)"
+      },
+      "source": {
+        "name": "bfi.org.uk",
+        "url": "https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Nile",
+        "value": "6,650 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Amazon",
+        "value": "6,577 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Yangtze",
+        "value": "6,300 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Mississippi–Missouri",
+        "value": "5,971 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Yenisey",
+        "value": "5,540 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Yellow River (Huang He)",
+        "value": "5,464 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Ob–Irtysh",
+        "value": "5,410 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Paraná",
+        "value": "4,880 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Congo",
+        "value": "4,700 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "label": "Amur",
+        "value": "4,444 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/river",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "What is the atomic number of gold on the periodic table?",
+        "a": "79"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/chemical-element",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "q": "Which French engineer designed the internal structural framework of the Statue of Liberty before erecting his famous namesake tower in Paris?",
+        "a": "Alexandre-Gustave Eiffel"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/Statue-of-Liberty",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "q": "Which Pacific island nation officially changed its name back to its indigenous name, Naoero, in 2026?",
+        "a": "Nauru"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Nauru",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "The Mariana Trench in the western Pacific Ocean contains the deepest known point on Earth, extending nearly 11,000 metres (36,000 feet) below sea level."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Mariana-Trench",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "fact": "Covering roughly 14 million square kilometres, the Antarctic Ice Sheet is technically the largest desert on Earth due to receiving fewer than 5 cm of annual precipitation."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/desert",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Great Wall of China is a massive complex of fortifications spanning more than 6,000 kilometres across northern China and southern Mongolia."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/Great-Wall-of-China",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 1996,
+        "territory": "UK",
+        "title": "Wannabe",
+        "artist": "Spice Girls"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/19960811/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    },
+    {
+      "value": {
+        "year": 2016,
+        "territory": "UK",
+        "title": "Cold Water",
+        "artist": "Major Lazer feat. Justin Bieber & MØ"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/20160805/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-16T07:29:06+00:00"
+    }
+  ]
+}

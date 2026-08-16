@@ -1,10 +1,10 @@
 {
-  "rendered_at": "2026-08-09T07:53:22+00:00",
-  "week_id": "2026-W32",
-  "edition_no": 32,
-  "generated_at": "2026-08-09T07:52:28+00:00",
+  "rendered_at": "2026-08-16T07:29:56+00:00",
+  "week_id": "2026-W33",
+  "edition_no": 33,
+  "generated_at": "2026-08-16T07:29:06+00:00",
   "mode": "live",
-  "editions": 4,
+  "editions": 5,
   "counts": {
     "births": 10,
     "deaths": 10,
@@ -21,7 +21,6 @@
     "billboard.com",
     "the-numbers.com",
     "bfi.org.uk",
-    "britannica.com",
-    "worldatlas.com"
+    "britannica.com"
   ]
 }
