@@ -1,10 +1,10 @@
 {
-  "rendered_at": "2026-08-16T07:29:56+00:00",
-  "week_id": "2026-W33",
-  "edition_no": 33,
-  "generated_at": "2026-08-16T07:29:06+00:00",
+  "rendered_at": "2026-08-23T07:32:20+00:00",
+  "week_id": "2026-W34",
+  "edition_no": 34,
+  "generated_at": "2026-08-23T07:31:09+00:00",
   "mode": "live",
-  "editions": 5,
+  "editions": 6,
   "counts": {
     "births": 10,
     "deaths": 10,
@@ -19,8 +19,9 @@
     "Wikipedia",
     "officialcharts.com",
     "billboard.com",
-    "the-numbers.com",
-    "bfi.org.uk",
+    "mediaplaynews.com",
+    "screendaily.com",
+    "worldatlas.com",
     "britannica.com"
   ]
 }

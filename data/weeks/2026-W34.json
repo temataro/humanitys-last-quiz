@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W34",
+  "edition_no": 34,
+  "sunday": "2026-08-23",
+  "range_start": "2026-08-17",
+  "range_end": "2026-08-23",
+  "range_label": "17 – 23 August 2026",
+  "generated_at": "2026-08-23T07:31:09+00:00",
+  "standfirst": "As August reaches its peak, Ella Langley's country juggernaut 'Choosin' Texas' continues its record-breaking reign atop the US charts, while Phoebe Bridgers lands her first solo UK #1 album with 'Lost Weekend'. Meanwhile, Spider-Man: Brand New Day swings past box office milestones to cap off one of the highest-grossing summer cinema seasons in history.",
+  "top_list_title": "Ten largest countries in the world by total land area",
+  "banker": "Ella Langley is the week's quintessential banker answer, having logged an unprecedented 18th week at #1 on the Billboard Hot 100 with 'Choosin' Texas'.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1999,
+        "who": "Cassius Stanley",
+        "what": "American basketball player",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cassius_Stanley",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Lil Pump",
+        "what": "American rapper and songwriter",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lil_Pump",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Bart Verbruggen",
+        "what": "Dutch footballer",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bart_Verbruggen",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Rayan Cherki",
+        "what": "French footballer",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rayan_Cherki",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Nastasja Schunk",
+        "what": "German tennis player",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nastasja_Schunk",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "The Kid Laroi",
+        "what": "Australian rapper and songwriter",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Kid_Laroi",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Kevin McGonigle",
+        "what": "American baseball player",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kevin_McGonigle",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Chae Hyun-woo",
+        "what": "South Korean football player",
+        "on": "2026-08-19"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chae_Hyun-woo",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Nguyễn Đình Bắc",
+        "what": "Vietnamese football player",
+        "on": "2026-08-19"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_%C4%90%C3%ACnh_B%E1%BA%AFc",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2006,
+        "who": "Summer McIntosh",
+        "what": "Canadian swimmer",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Summer_McIntosh",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2016,
+        "who": "Arthur Hiller",
+        "what": "Canadian actor, director, and producer (born 1923)",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Arthur_Hiller",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Vašo Patejdl",
+        "what": "Václav Patejdl, Slovak musician (born 1954)",
+        "on": "2026-08-19"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Va%C5%A1o_Patejdl",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Virginia Ogilvy, Countess of Airlie",
+        "what": "British countess (born 1933)",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Virginia_Ogilvy%2C_Countess_of_Airlie",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Silvio Santos",
+        "what": "Brazilian media mogul and television host (born 1930)",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Silvio_Santos",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Ruth Johnson Colvin",
+        "what": "American author and educator, founded ProLiteracy Worldwide (born 1916)",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ruth_Johnson_Colvin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Alain Delon",
+        "what": "French-Swiss actor (born 1935)",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alain_Delon",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Phil Donahue",
+        "what": "American talk show host and producer (born 1935)",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Phil_Donahue",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Maria Branyas",
+        "what": "American-Spanish supercentenarian (born 1907)",
+        "on": "2026-08-19"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maria_Branyas",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Terence Stamp",
+        "what": "English actor (born 1938)",
+        "on": "2026-08-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Terence_Stamp",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Bill Rasmussen",
+        "what": "American sports director, co-founded ESPN (born 1932)",
+        "on": "2026-08-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bill_Rasmussen",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Rein Me In",
+        "artist": "Sam Fender & Olivia Dean"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Lost Weekend",
+        "artist": "Phoebe Bridgers"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/chart-news/phoebe-bridgers-celebrates-first-solo-number-1-album-with-lost-weekend__43719/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "This & That",
+        "artist": "Stray Kids"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Spider-Man: Brand New Day",
+        "note": "Maintained its #1 spot at the domestic box office for a fourth straight weekend with a projected $40 million gross."
+      },
+      "source": {
+        "name": "mediaplaynews.com",
+        "url": "https://www.mediaplaynews.com/spider-man-brand-new-day-eyes-fourth-straight-box-office-weekend-win/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Insidious: Out of the Further",
+        "note": "Led the lineup of new wide releases entering UK and Irish cinemas for the weekend of 21–23 August."
+      },
+      "source": {
+        "name": "screendaily.com",
+        "url": "https://www.screendaily.com/news/uk-ireland-box-office-preview-insidious-out-of-the-further-and-spa-weekend-head-up-new-releases/5207758.article",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Russia",
+        "value": "17.1 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "Canada",
+        "value": "9.98 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "China",
+        "value": "9.70 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "United States",
+        "value": "9.37 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "Brazil",
+        "value": "8.51 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "Australia",
+        "value": "7.69 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "India",
+        "value": "3.28 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "Argentina",
+        "value": "2.78 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "Kazakhstan",
+        "value": "2.72 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "label": "Algeria",
+        "value": "2.38 million sq km"
+      },
+      "source": {
+        "name": "worldatlas.com",
+        "url": "https://www.worldatlas.com/articles/the-largest-countries-in-asia-by-area.html",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Who was the first human to travel into outer space in April 1961?",
+        "a": "Yuri Gagarin"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/biography/Yuri-Gagarin",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "q": "What event was the Eiffel Tower originally built to serve as the entrance arch for in 1889?",
+        "a": "1889 World's Fair (Exposition Universelle)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/Eiffel-Tower-Paris-France",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "q": "From which Latin word is the chemical symbol for gold (Au) derived?",
+        "a": "Aurum"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/gold-chemical-element",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "Lake Baikal in Siberia is both the deepest lake in the world at 5,387 feet (1,642 metres) and the oldest freshwater lake on Earth."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Lake-Baikal",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Missouri River is the longest river in North America, flowing 2,341 miles from Montana to meet the Mississippi River."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Missouri-River",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "fact": "Denali in Alaska is the highest mountain peak in North America, reaching an elevation of 20,310 feet (6,190 metres)."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Denali-mountain-Alaska",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 1996,
+        "territory": "UK",
+        "title": "Wannabe",
+        "artist": "Spice Girls"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/19960818/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    },
+    {
+      "value": {
+        "year": 2016,
+        "territory": "UK",
+        "title": "Cold Water",
+        "artist": "Major Lazer ft. Justin Bieber & MØ"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/chart-news/major-lazer-justin-bieber-mos-cold-water-claims-a-fourth-week-at-uk-singles-number-1__16056/",
+        "license": ""
+      },
+      "retrieved_at": "2026-08-23T07:31:09+00:00"
+    }
+  ]
+}
