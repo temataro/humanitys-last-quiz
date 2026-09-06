@@ -1,0 +1,510 @@
+{
+  "week_id": "2026-W36",
+  "edition_no": 36,
+  "sunday": "2026-09-06",
+  "range_start": "2026-08-31",
+  "range_end": "2026-09-06",
+  "range_label": "31 August – 6 September 2026",
+  "generated_at": "2026-09-06T11:30:41+00:00",
+  "standfirst": "Everything below is drawn fresh from the public record — births and deaths from Wikipedia's day-pages, the charts and box office from the week just gone.",
+  "top_list_title": "Ten largest countries by land area",
+  "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-09-05).",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1998,
+        "who": "BossMan Dlow",
+        "what": "American rapper",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/BossMan_Dlow",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 1998,
+        "who": "Nickeil Alexander-Walker",
+        "what": "Canadian basketball player",
+        "on": "2026-09-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nickeil_Alexander-Walker",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Sauce Gardner",
+        "what": "American football player",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sauce_Gardner",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Mikhail Iakovlev",
+        "what": "Israeli Olympic cyclist",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mikhail_Iakovlev",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Amanda Anisimova",
+        "what": "American tennis player",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amanda_Anisimova",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Diane Parry",
+        "what": "French tennis player",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Diane_Parry",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Illia Zabarnyi",
+        "what": "Ukrainian footballer",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Illia_Zabarnyi",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Bradley Barcola",
+        "what": "French footballer",
+        "on": "2026-09-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bradley_Barcola",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "An Yu-jin",
+        "what": "South Korean singer and actress",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/An_Yu-jin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Jang Won-young",
+        "what": "South Korean singer and model",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jang_Won-young",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2021,
+        "who": "Mahal (actress)",
+        "what": "Mahal, Filipino comedian and actress (born 1974)",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mahal_(actress)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2021,
+        "who": "Francesco Morini",
+        "what": "Italian footballer (born 1944)",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Francesco_Morini",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Silvina Luna",
+        "what": "Argentine model and actress (born 1980)",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Silvina_Luna",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Jimmy Buffett",
+        "what": "American singer-songwriter, musician, author and businessman (born 1946)",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jimmy_Buffett",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Sol Bamba",
+        "what": "Ivorian-French footballer (born 1985)",
+        "on": "2026-08-31"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sol_Bamba",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Linda Deutsch",
+        "what": "American journalist (born 1943)",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Linda_Deutsch",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "James Darren",
+        "what": "American actor (born 1936)",
+        "on": "2026-09-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/James_Darren",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Rodolfo Hernández Suárez",
+        "what": "Colombian politician (born 1945)",
+        "on": "2026-09-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rodolfo_Hern%C3%A1ndez_Su%C3%A1rez",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Joe Bugner",
+        "what": "Hungarian-British boxer and actor (born 1950)",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Joe_Bugner",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Carla Jeffery",
+        "what": "American actor and singer (born 1993)",
+        "on": "2026-09-01"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Carla_Jeffery",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "Billboard Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    }
+  ],
+  "box_office": [],
+  "top_list": [
+    {
+      "value": {
+        "label": "Russian Federation",
+        "value": "16.38M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "China",
+        "value": "9.39M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "United States",
+        "value": "9.15M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "Canada",
+        "value": "8.79M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "Brazil",
+        "value": "8.36M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "Australia",
+        "value": "7.69M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "India",
+        "value": "2.97M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "Argentina",
+        "value": "2.74M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "Kazakhstan",
+        "value": "2.70M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "label": "Algeria",
+        "value": "2.38M km²"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "What colour is the female blackbird?",
+        "a": "Brown"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "q": "What device allows Tracer to manipulate her own time in the game \"Overwatch\"?",
+        "a": "Chronal Accelerator"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "q": "Which band name isn't a Stand in \"JoJo's Bizarre Adventure\"?",
+        "a": "AC/DC"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "The largest country by land area is Russian Federation, at 16.38M km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "fact": "The smallest country by land area (World Bank data) is Monaco, at 2 km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    },
+    {
+      "value": {
+        "fact": "The most populous country is India, with about 1.46B people."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-09-06T11:30:41+00:00"
+    }
+  ],
+  "chart_history": []
+}
