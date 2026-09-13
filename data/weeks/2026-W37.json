@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W37",
+  "edition_no": 37,
+  "sunday": "2026-09-13",
+  "range_start": "2026-09-07",
+  "range_end": "2026-09-13",
+  "range_label": "7 – 13 September 2026",
+  "generated_at": "2026-09-13T12:31:55+00:00",
+  "standfirst": "Sienna Spiro captures her first UK #1 single with 'Great Expectation', while Leicester rockers Kasabian secure another chart-topping album with 'Act III'. Across the Atlantic, Rod Wave claims the Billboard 200 crown as Ella Langley continues her record-breaking run on the Hot 100.",
+  "top_list_title": "Ten largest landlocked countries by land area",
+  "banker": "Ella Langley, whose hit 'Choosin' Texas' notched 21 weeks at #1 on the Billboard Hot 100 in 2026, is the safest single choice for artist of the week.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1999,
+        "who": "Gracie Abrams",
+        "what": "American singer-songwriter",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gracie_Abrams",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Ariarne Titmus",
+        "what": "Australian swimmer",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ariarne_Titmus",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Bill Mamadou",
+        "what": "Singaporean footballer",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bill_Mamadou",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Hailey Van Lith",
+        "what": "American basketball player",
+        "on": "2026-09-09"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hailey_Van_Lith",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Gaten Matarazzo",
+        "what": "American actor and singer",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gaten_Matarazzo",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Nicolas Cantu",
+        "what": "American actor and internet personality",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nicolas_Cantu",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Luke Hughes (ice hockey)",
+        "what": "Luke Hughes, American ice hockey player",
+        "on": "2026-09-09"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Luke_Hughes_(ice_hockey)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Tsugumi Aritomo",
+        "what": "Japanese entertainer",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tsugumi_Aritomo",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Lewis Hall (footballer)",
+        "what": "Lewis Hall, English footballer",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lewis_Hall_(footballer)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2006,
+        "who": "Ian Chen (actor)",
+        "what": "Ian Chen, American actor",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ian_Chen_(actor)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2018,
+        "who": "Pedro Jirón",
+        "what": "Nicaraguan footballer (born 1939)",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pedro_Jir%C3%B3n",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2018,
+        "who": "Mac Miller",
+        "what": "American rapper (born 1992)",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mac_Miller",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Wanda Janicka",
+        "what": "Polish architect, participant in the Warsaw Uprising (born 1923)",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wanda_Janicka",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Dan Morgenstern",
+        "what": "German-American jazz writer and editor (born 1929)",
+        "on": "2026-09-07"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dan_Morgenstern",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Mauricio Arriaza Chicas",
+        "what": "Salvadoran police officer (born 1964)",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mauricio_Arriaza_Chicas",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Ed Kranepool",
+        "what": "American baseball player (born 1944)",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ed_Kranepool",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Henny Moan",
+        "what": "Norwegian actress (born 1936)",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Henny_Moan",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "John Cassaday",
+        "what": "American comic book artist and writer (born 1971)",
+        "on": "2026-09-09"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Cassaday",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Mark Norell",
+        "what": "American vertebrate paleontologist (born 1957).",
+        "on": "2026-09-09"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mark_Norell",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Tung Chee-hwa",
+        "what": "Hong Kong politician and businessman, first Chief Executive of Hong Kong (born 1937)",
+        "on": "2026-09-08"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tung_Chee-hwa",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Great Expectation",
+        "artist": "Sienna Spiro"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/20260911/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Act III",
+        "artist": "Kasabian"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/albums-chart/20260911/7502/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/2026-09-12/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "Don't Look Down",
+        "artist": "Rod Wave"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/2026-09-12/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Practical Magic 2",
+        "note": "Debuted at #1 at the domestic box office with a $13M opening Friday and an estimated $27M weekend gross."
+      },
+      "source": {
+        "name": "the-numbers.com",
+        "url": "https://www.the-numbers.com/market/2026/daily/2026/09/11",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Oasis: Don't Look Back In Anger",
+        "note": "Topped the UK-Ireland box office on its opening day with £675,000."
+      },
+      "source": {
+        "name": "screendaily.com",
+        "url": "https://www.screendaily.com/news/uk-ireland-box-office-preview-oasis-dont-look-back-in-anger-tops-chart-on-first-day/5197022.article",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Kazakhstan",
+        "value": "2,724,900 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Mongolia",
+        "value": "1,564,116 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Chad",
+        "value": "1,284,000 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Niger",
+        "value": "1,267,000 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Mali",
+        "value": "1,240,192 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Ethiopia",
+        "value": "1,104,300 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Bolivia",
+        "value": "1,098,581 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Zambia",
+        "value": "752,618 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Afghanistan",
+        "value": "652,864 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "label": "Central African Republic",
+        "value": "622,984 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-landlocked-countries-2062334",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which Soviet cosmonaut became the first woman in space when she launched aboard Vostok 6 in June 1963?",
+        "a": "Valentina Tereshkova"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/biography/Valentina-Tereshkova",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "q": "Who was the youngest male singles champion in Wimbledon history, winning the title in 1985 at age 17?",
+        "a": "Boris Becker"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/biography/Boris-Becker",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "q": "What German doll served as the adult-oriented inspiration for Ruth Handler's creation of the Barbie doll in the late 1950s?",
+        "a": "Bild Lilli"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/6-interesting-facts-about-barbie",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "Kazakhstan is the world's largest landlocked country, covering an area of 2,724,900 square kilometers."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Kazakhstan",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "fact": "Vatican City is the world's smallest sovereign nation by land area, occupying just 0.44 square kilometers."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-the-smallest-countries-by-area-2062968",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Nile River is widely recognized as the longest river in the world, spanning approximately 6,650 kilometers."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Nile-River",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 1976,
+        "territory": "UK",
+        "title": "Dancing Queen",
+        "artist": "ABBA"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/19760911/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    },
+    {
+      "value": {
+        "year": 1996,
+        "territory": "UK",
+        "title": "Wannabe",
+        "artist": "Spice Girls"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/19960911/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-13T12:31:55+00:00"
+    }
+  ]
+}
