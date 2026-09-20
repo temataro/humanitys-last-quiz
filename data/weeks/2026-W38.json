@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W38",
+  "edition_no": 38,
+  "sunday": "2026-09-20",
+  "range_start": "2026-09-14",
+  "range_end": "2026-09-20",
+  "range_label": "14 – 20 September 2026",
+  "generated_at": "2026-09-20T12:00:45+00:00",
+  "standfirst": "As September hits its midpoint, country sensation Ella Langley continues an extraordinary run across the US charts, capturing both top spots simultaneously. Meanwhile, Zach Cregger's horror reboot of Resident Evil breathes ferocious new life into the weekend box office, and UK jazz group Ezra Collective makes history on the official albums chart.",
+  "top_list_title": "Ten largest islands in the world by area",
+  "banker": "Ella Langley is the week's ultimate safe bet, sitting atop both the US Billboard Hot 100 (with 'Choosin' Texas') and the Billboard 200 (with 'Dandelion') for the chart week of September 19, 2026.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1995,
+        "who": "Rafael Santos Borré",
+        "what": "Colombian footballer",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rafael_Santos_Borr%C3%A9",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 1996,
+        "who": "Hugh Bernard",
+        "what": "English cricketer",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hugh_Bernard",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 1997,
+        "who": "Benjamin Ingrosso",
+        "what": "Swedish singer and songwriter",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Benjamin_Ingrosso",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 1997,
+        "who": "Dominic Solanke",
+        "what": "English footballer",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dominic_Solanke",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 1997,
+        "who": "Quin Houff",
+        "what": "American racing driver",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Quin_Houff",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Jaren Jackson Jr.",
+        "what": "American basketball player",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jaren_Jackson_Jr.",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Han (musician)",
+        "what": "Han, South Korean rapper",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Han_(musician)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Felix (rapper)",
+        "what": "Felix, Australian singer based in South Korea, member of Stray Kids",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Felix_(rapper)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Ryan Couchman",
+        "what": "Australian rugby league player",
+        "on": "2026-09-16"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ryan_Couchman",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Toby Couchman",
+        "what": "Australian rugby league player",
+        "on": "2026-09-16"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Toby_Couchman",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2021,
+        "who": "Lou Angotti",
+        "what": "Canadian ice hockey player and coach (born 1938)",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lou_Angotti",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Fernando Botero",
+        "what": "Colombian painter and sculptor (born 1932)",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fernando_Botero",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Jaber Al-Mubarak Al-Hamad Al-Sabah",
+        "what": "Jaber Mubarak Al-Sabah, Kuwaiti royal and politician, 7th Prime Minister of Kuwait (born 1942)",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jaber_Al-Mubarak_Al-Hamad_Al-Sabah",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Otis Davis",
+        "what": "American sprinter (born 1932)",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Otis_Davis",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Tito Jackson",
+        "what": "American singer-songwriter and guitarist (born 1953)",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tito_Jackson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Elias Khoury",
+        "what": "Lebanese intellectual, playwright and novelist (born 1948)",
+        "on": "2026-09-15"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elias_Khoury",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Jim Edgar",
+        "what": "American politician, 38th Governor of Illinois",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jim_Edgar",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Ricky Hatton",
+        "what": "British professional boxer (born 1978)",
+        "on": "2026-09-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ricky_Hatton",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Robert Redford",
+        "what": "American actor, producer and director (born 1936)",
+        "on": "2026-09-16"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Robert_Redford",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Randy Pedersen",
+        "what": "American bowler and sportscaster (born 1962)",
+        "on": "2026-09-16"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Randy_Pedersen",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Great Expectation",
+        "artist": "Sienna Spiro"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/chart-news/ashe-stop-the-wedding-sienna-spiro-great-expectation-number-1-single/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Here Because Of Hope",
+        "artist": "Ezra Collective"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/chart-news/ezra-collective-here-because-of-hope-number-1-album/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "Dandelion",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Resident Evil",
+        "note": "Zach Cregger's reboot dominated the US box office over the 18–20 September weekend with a projected $40M–$50M opening."
+      },
+      "source": {
+        "name": "boxofficepro.com",
+        "url": "https://www.boxofficepro.com/weekend-preview-resident-evil-set-to-swarm-cinemas-with-a-franchise-record/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Practical Magic 2",
+        "note": "Topped the UK cinema box office for mid-September, generating £2.8m in weekend earnings."
+      },
+      "source": {
+        "name": "25thframe.co.uk",
+        "url": "https://25thframe.co.uk/box-office/uk/2026/09/18",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Greenland",
+        "value": "2,166,086 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "New Guinea",
+        "value": "821,400 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Borneo",
+        "value": "755,000 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Madagascar",
+        "value": "591,896 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Baffin Island",
+        "value": "507,451 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Sumatra",
+        "value": "480,793 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Honshu",
+        "value": "227,898 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Victoria Island",
+        "value": "217,291 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Great Britain",
+        "value": "209,331 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "label": "Ellesmere Island",
+        "value": "196,236 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-islands-2070381",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which chemical element with atomic number 74 gets its chemical symbol 'W' from its German name, Wolfram?",
+        "a": "Tungsten"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/science/tungsten-chemical-element",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "q": "What is the name of the sovereign kingdom that is entirely surrounded as an enclave within South Africa?",
+        "a": "Lesotho"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Lesotho",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "q": "Which English author completed the iconic 1818 Gothic novel 'Frankenstein; or, The Modern Prometheus'?",
+        "a": "Mary Wollstonecraft Shelley"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/biography/Mary-Wollstonecraft-Shelley",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "Djibouti acts as a crucial trade hub in the Horn of Africa, utilizing the electrified Djibouti–Addis Ababa railway to serve as the chief port for landlocked Ethiopia."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Djibouti/Trade-ports-and-telecommunications",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Caspian Sea, bordered by Kazakhstan, Turkmenistan, Iran, Azerbaijan, and Russia, is the world's largest inland body of water."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2228655",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "fact": "Port Incheon in South Korea and Dalian in China are among the major shipping hubs lining the Yellow Sea."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Yellow-Sea",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 2006,
+        "territory": "UK",
+        "title": "I Don't Feel Like Dancin'",
+        "artist": "Scissor Sisters"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/20060910/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    },
+    {
+      "value": {
+        "year": 2016,
+        "territory": "UK",
+        "title": "Closer",
+        "artist": "The Chainsmokers feat. Halsey"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/chart-news/the-chainsmokers-closer-extends-its-reign-over-the-official-singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-20T12:00:45+00:00"
+    }
+  ]
+}
