@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W39",
+  "edition_no": 39,
+  "sunday": "2026-09-27",
+  "range_start": "2026-09-21",
+  "range_end": "2026-09-27",
+  "range_label": "21 – 27 September 2026",
+  "generated_at": "2026-09-27T12:44:13+00:00",
+  "standfirst": "This week's alchemical mix of pop culture sees Jhené Aiko and beabadoobee claiming flagship album top spots while Sienna Spiro holds fast atop the UK singles rundown. Meanwhile, moviegoers proved surprisingly keen on zombie outbreaks as Resident Evil dominated both transatlantic box office charts. Should any of your quiz team members struggle, remind them that landlocked giant Kazakhstan remains comfortably immense regardless of chart movement.",
+  "top_list_title": "Ten largest landlocked countries by land area",
+  "banker": "Ella Langley is the week's single safest banker answer, continuing her run atop the Billboard Hot 100 with 'Choosin' Texas' alongside major sales performance for her album 'Dandelion'.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1999,
+        "who": "Alexander Isak",
+        "what": "Eritrean-Swedish professional footballer",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alexander_Isak",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Wang Junkai",
+        "what": "Chinese singer",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wang_Junkai",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Lizzy McAlpine",
+        "what": "American singer-songwriter",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lizzy_McAlpine",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Yuqi",
+        "what": "Song Yu-qi, Chinese singer",
+        "on": "2026-09-23"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Yuqi",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Louise Christie",
+        "what": "British rhythm gymnast",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Louise_Christie",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Stephen Crichton",
+        "what": "Samoan rugby league footballer",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stephen_Crichton",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Lai Kuan-lin",
+        "what": "Taiwanese film director",
+        "on": "2026-09-23"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lai_Kuan-lin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Jessie Murph",
+        "what": "American singer and songwriter",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jessie_Murph",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2006,
+        "who": "Alisha Palmowski",
+        "what": "British female racing driver",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alisha_Palmowski",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2009,
+        "who": "Coco Yoshizawa",
+        "what": "Japanese skateboarder",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Coco_Yoshizawa",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2021,
+        "who": "John Elliott (businessman)",
+        "what": "John Elliott, Australian businessman (born 1941)",
+        "on": "2026-09-23"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Elliott_(businessman)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2021,
+        "who": "Nino Vaccarella",
+        "what": "Italian race car driver (born 1933)",
+        "on": "2026-09-23"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Nino_Vaccarella",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2022,
+        "who": "Carlos Balá",
+        "what": "Argentine actor and comedian (born 1925)",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Carlos_Bal%C3%A1",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Altemio Sanchez",
+        "what": "Puerto Rican serial killer and rapist (born 1958)",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Altemio_Sanchez",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Raquel Blandón",
+        "what": "Guatemalan lawyer and activist, First Lady of Guatemala (born 1943)",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Raquel_Bland%C3%B3n",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Benny Golson",
+        "what": "American saxophonist and composer (born 1929)",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Benny_Golson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Roy Clay",
+        "what": "American computer scientist (born 1929)",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Roy_Clay",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Fredric Jameson",
+        "what": "American academic and literary critic (born 1934)",
+        "on": "2026-09-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fredric_Jameson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Angry Anderson",
+        "what": "Australian singer and actor (born 1947)",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Angry_Anderson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Terry Denton",
+        "what": "Australian author and illustrator (born 1950)",
+        "on": "2026-09-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Terry_Denton",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Great Expectation",
+        "artist": "Sienna Spiro"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Pylon",
+        "artist": "beabadoobee"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/albums-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "Westside Whimsy",
+        "artist": "Jhené Aiko"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Resident Evil",
+        "note": "Topped the US weekend box office with a franchise-record opening of approximately $60 million."
+      },
+      "source": {
+        "name": "boxofficemojo.com",
+        "url": "https://www.boxofficemojo.com",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Resident Evil",
+        "note": "Topped the UK & Ireland box office with a franchise-record £4.2 million opening weekend gross."
+      },
+      "source": {
+        "name": "screendaily.com",
+        "url": "https://www.screendaily.com/news/resident-evil-tops-uk-ireland-box-office-with-franchise-record-opening-42m/5197823.article",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Kazakhstan",
+        "value": "2,724,900 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Mongolia",
+        "value": "1,564,116 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Chad",
+        "value": "1,284,000 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Niger",
+        "value": "1,267,000 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Mali",
+        "value": "1,240,192 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Ethiopia",
+        "value": "1,104,300 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Bolivia",
+        "value": "1,098,581 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Zambia",
+        "value": "752,618 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Afghanistan",
+        "value": "652,864 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "label": "Central African Republic",
+        "value": "622,984 km²"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which volcano, located on the east coast of Sicily, is recognised as the highest active volcano in Europe?",
+        "a": "Mount Etna"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Mount-Etna",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "q": "Stretching across northern Chile, which plateau region is known as the driest non-polar desert on Earth?",
+        "a": "Atacama Desert"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Atacama-Desert",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "q": "Which body of water in southern Siberia holds the record as both the deepest and oldest freshwater lake in the world?",
+        "a": "Lake Baikal"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Lake-Baikal",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "Ethiopia is the world's most populous landlocked country, with an estimated population exceeding 120 million people."
+      },
+      "source": {
+        "name": "worldbank.org",
+        "url": "https://www.worldbank.org/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "fact": "Indonesia is the world's largest island country by total land area, encompassing more than 17,000 individual islands."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Indonesia",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "fact": "Liechtenstein and Uzbekistan are the only two 'doubly landlocked' countries in the world, surrounded entirely by other landlocked nations."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/landlocked-country",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 1986,
+        "territory": "UK",
+        "title": "Don't Leave Me This Way",
+        "artist": "The Communards"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/19860921/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    },
+    {
+      "value": {
+        "year": 2016,
+        "territory": "UK",
+        "title": "Say You Won't Let Go",
+        "artist": "James Arthur"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/20160923/7501/",
+        "license": ""
+      },
+      "retrieved_at": "2026-09-27T12:44:13+00:00"
+    }
+  ]
+}
