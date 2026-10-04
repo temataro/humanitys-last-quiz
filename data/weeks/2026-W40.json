@@ -1,0 +1,510 @@
+{
+  "week_id": "2026-W40",
+  "edition_no": 40,
+  "sunday": "2026-10-04",
+  "range_start": "2026-09-28",
+  "range_end": "2026-10-04",
+  "range_label": "28 September – 4 October 2026",
+  "generated_at": "2026-10-04T13:01:49+00:00",
+  "standfirst": "Everything below is drawn fresh from the public record — births and deaths from Wikipedia's day-pages, the charts and box office from the week just gone.",
+  "top_list_title": "Ten most populous countries",
+  "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-10-03).",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1994,
+        "who": "Halsey (singer)",
+        "what": "Halsey, American singer",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Halsey_(singer)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 1995,
+        "who": "Sasha Lane",
+        "what": "American actress",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sasha_Lane",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 1998,
+        "who": "Panna Udvardy",
+        "what": "Hungarian tennis player",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Panna_Udvardy",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Kayla Day",
+        "what": "American tennis player",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kayla_Day",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Choi Ye-na",
+        "what": "South Korean singer and dancer",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Choi_Ye-na",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Frankie Jonas",
+        "what": "American actor, singer, and songwriter",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Frankie_Jonas",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Jaden McDaniels",
+        "what": "American basketball player",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jaden_McDaniels",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Levi Miller",
+        "what": "Australian actor and model",
+        "on": "2026-09-30"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Levi_Miller",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Alberto Moleiro",
+        "what": "Spanish footballer",
+        "on": "2026-09-30"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alberto_Moleiro",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Isack Hadjar",
+        "what": "French-Algerian racing driver",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Isack_Hadjar",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2022,
+        "who": "Kathleen Booth",
+        "what": "British computer scientist and mathematician (born 1922)",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kathleen_Booth",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Winfield Dunn",
+        "what": "American politician, 43rd Governor of Tennessee (born 1927)",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Winfield_Dunn",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Drake Hogestyn",
+        "what": "American actor (born 1953)",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Drake_Hogestyn",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Kris Kristofferson",
+        "what": "American singer, songwriter, and actor (born 1936)",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kris_Kristofferson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Ozzie Virgil Sr.",
+        "what": "Dominican baseball player and coach (born 1932)",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ozzie_Virgil_Sr.",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Gavin Creel",
+        "what": "American actor, singer and songwriter (born 1976)",
+        "on": "2026-09-30"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Gavin_Creel",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Patrick Murray (actor)",
+        "what": "Patrick Murray, British actor (born 1956)",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Patrick_Murray_(actor)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Alan McDonald (minister)",
+        "what": "Alan McDonald, Scottish Church Minister (born 1951)",
+        "on": "2026-09-29"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alan_McDonald_(minister)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Siti Hasmah Mohamad Ali",
+        "what": "Siti Hasmah, Malaysian physician and civil servant (born 1926)",
+        "on": "2026-09-28"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Siti_Hasmah_Mohamad_Ali",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Esther Rantzen",
+        "what": "English journalist and television presenter (born 1940)",
+        "on": "2026-09-30"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Esther_Rantzen",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "Billboard Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    }
+  ],
+  "box_office": [],
+  "top_list": [
+    {
+      "value": {
+        "label": "India",
+        "value": "1.46B"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "China",
+        "value": "1.41B"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "United States",
+        "value": "341.78M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Indonesia",
+        "value": "285.72M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Pakistan",
+        "value": "255.22M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Nigeria",
+        "value": "237.53M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Brazil",
+        "value": "212.81M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Bangladesh",
+        "value": "175.69M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Russian Federation",
+        "value": "143.51M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "label": "Ethiopia",
+        "value": "135.47M"
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "What were Marcel Duchamp's readymades?",
+        "a": "utilitarian objects elevated to the status of art"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "q": "Which Kirby game first introduced Copy Abilities?",
+        "a": "Kirby's Adventure"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "q": "Which of these Fortnite emotes does NOT involve a sport in some way?",
+        "a": "Freestylin'"
+      },
+      "source": {
+        "name": "Open Trivia DB",
+        "url": "https://opentdb.com",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "The largest country by land area is Russian Federation, at 16.38M km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "fact": "The smallest country by land area (World Bank data) is Monaco, at 2 km²."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    },
+    {
+      "value": {
+        "fact": "The most populous country is India, with about 1.46B people."
+      },
+      "source": {
+        "name": "World Bank",
+        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
+        "license": "CC BY 4.0"
+      },
+      "retrieved_at": "2026-10-04T13:01:49+00:00"
+    }
+  ],
+  "chart_history": []
+}
