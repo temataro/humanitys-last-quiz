@@ -1,10 +1,10 @@
 {
-  "rendered_at": "2026-10-11T13:46:31+00:00",
-  "week_id": "2026-W41",
-  "edition_no": 41,
-  "generated_at": "2026-10-11T13:45:33+00:00",
+  "rendered_at": "2026-10-18T11:57:07+00:00",
+  "week_id": "2026-W42",
+  "edition_no": 42,
+  "generated_at": "2026-10-18T11:56:20+00:00",
   "mode": "live",
-  "editions": 13,
+  "editions": 14,
   "counts": {
     "births": 10,
     "deaths": 10,
@@ -19,7 +19,7 @@
     "Wikipedia",
     "officialcharts.com",
     "billboard.com",
-    "boxofficepro.com",
+    "the-numbers.com",
     "screendaily.com",
     "britannica.com"
   ]

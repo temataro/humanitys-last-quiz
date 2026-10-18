@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W42",
+  "edition_no": 42,
+  "sunday": "2026-10-18",
+  "range_start": "2026-10-12",
+  "range_end": "2026-10-18",
+  "range_label": "12 – 18 October 2026",
+  "generated_at": "2026-10-18T11:56:20+00:00",
+  "standfirst": "Welcome to this week's almanac, where Taylor Swift continues her transatlantic dominance with 'Patient Zero' and 'The Life of a Showgirl', while local favourites and box office newcomers make their own mark. Whether you are tracking chart-topping feats or cinematic debuts, we have compiled all the pub quiz essential trivia to keep your team ahead of the pack.",
+  "top_list_title": "Ten largest islands in the world by land area",
+  "banker": "Taylor Swift is the single safest answer this week, having simultaneously held the #1 spot on both the US Billboard Hot 100 and Billboard 200, as well as the UK Official Singles Chart.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1999,
+        "who": "Andrew Capobianco",
+        "what": ". American diver",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Andrew_Capobianco",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Jongho",
+        "what": "South Korean singer and actor",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jongho",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Brett Cooper (commentator)",
+        "what": "Brett Cooper, American political commentator, actress, and social media personality",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brett_Cooper_(commentator)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Caleb McLaughlin",
+        "what": "American actor",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Caleb_McLaughlin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Cam Thomas",
+        "what": "American basketball player",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cam_Thomas",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "De'Von Achane",
+        "what": "American football player",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De'Von_Achane",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Rowan Blanchard",
+        "what": "American actress",
+        "on": "2026-10-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rowan_Blanchard",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2002,
+        "who": "Iris Apatow",
+        "what": "American actress",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Iris_Apatow",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2003,
+        "who": "Tate Sandell",
+        "what": "American college football player",
+        "on": "2026-10-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tate_Sandell",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2004,
+        "who": "Darci Lynne",
+        "what": "American ventriloquist",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Darci_Lynne",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2023,
+        "who": "Louise Glück",
+        "what": "American poet and essayist (born 1943)",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Louise_Gl%C3%BCck",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Jackmaster",
+        "what": "Scottish DJ and record producer (born 1986)",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jackmaster",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Ka (rapper)",
+        "what": "Ka, American rapper (born 1972)",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ka_(rapper)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Mayra Gómez Kemp",
+        "what": "Cuban-Spanish television host and actress (born 1948)",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mayra_G%C3%B3mez_Kemp",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Donal Murray (bishop)",
+        "what": "Donal Murray, Irish Catholic bishop (born 1940)",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Donal_Murray_(bishop)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Thomas J. Donohue",
+        "what": "American business executive (born 1938)",
+        "on": "2026-10-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thomas_J._Donohue",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Jackie Burch",
+        "what": "American casting director (born 1951)",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jackie_Burch",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "D'Angelo",
+        "what": "American musician (born 1974)",
+        "on": "2026-10-14"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/D'Angelo",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "RJ Mitte",
+        "what": "American actor and producer (born 1992)",
+        "on": "2026-10-12"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/RJ_Mitte",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Ken Friar",
+        "what": "English businessman and life president of Arsenal Football Club (born 1934)",
+        "on": "2026-10-13"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ken_Friar",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Patient Zero",
+        "artist": "Taylor Swift"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Ghosts (100 Days of Morning)",
+        "artist": "Jamie T"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/albums-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Patient Zero",
+        "artist": "Taylor Swift"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "The Life of a Showgirl",
+        "artist": "Taylor Swift"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Street Fighter",
+        "note": "Paramount's video game adaptation opened at #1 with a $13 million opening day."
+      },
+      "source": {
+        "name": "the-numbers.com",
+        "url": "https://www.the-numbers.com/box-office-chart/daily/2026/10/16",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Verity",
+        "note": "Sony's psychological thriller adaptation of Colleen Hoover's novel retained strong momentum atop the box office."
+      },
+      "source": {
+        "name": "screendaily.com",
+        "url": "https://www.screendaily.com/news/verity-tops-uk-ireland-box-office-as-digger-repeats-international-struggles/5221088.article",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Greenland",
+        "value": "2,166,086 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "New Guinea",
+        "value": "821,400 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Borneo",
+        "value": "755,000 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Madagascar",
+        "value": "591,896 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Baffin Island",
+        "value": "507,451 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Sumatra",
+        "value": "480,793 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Honshu",
+        "value": "227,898 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Victoria Island",
+        "value": "217,291 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Great Britain",
+        "value": "209,331 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "label": "Ellesmere Island",
+        "value": "196,236 sq km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/worlds-largest-islands",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "On October 14, 1066, which decisive battle was fought in Sussex, leading to the death of King Harold II and the Norman Conquest of England?",
+        "a": "The Battle of Hastings"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/event/Battle-of-Hastings",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "q": "On October 14, 1947, which American test pilot became the first person to officially break the sound barrier in level flight?",
+        "a": "Chuck Yeager"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/on-this-day/October-14",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "q": "On October 18, 1867, the United States officially took possession of which territory from Russia following a purchase negotiated by Secretary of State William Seward?",
+        "a": "Alaska"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/on-this-day/October-18",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "At 8,848.86 metres (29,031.7 ft) above sea level, Mount Everest is the highest mountain peak on Earth, located on the border between Nepal and China."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Mount-Everest",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Nile River in northeastern Africa is traditionally recognized as the longest river in the world, stretching approximately 6,650 kilometres (4,132 miles)."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Nile-River",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "fact": "Vatican City is the smallest independent state in the world by both land area (0.49 square kilometres) and population."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Vatican-City",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 2020,
+        "territory": "UK",
+        "title": "Head & Heart",
+        "artist": "Joel Corry ft. MNEK"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    },
+    {
+      "value": {
+        "year": 2015,
+        "territory": "UK",
+        "title": "Turn the Music Louder (Rumble)",
+        "artist": "KDA ft. Tinie Tempah & Katy B"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-10-18T11:56:20+00:00"
+    }
+  ]
+}
