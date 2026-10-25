@@ -1,26 +1,24 @@
 {
-  "rendered_at": "2026-10-18T11:57:07+00:00",
-  "week_id": "2026-W42",
-  "edition_no": 42,
-  "generated_at": "2026-10-18T11:56:20+00:00",
+  "rendered_at": "2026-10-25T12:20:55+00:00",
+  "week_id": "2026-W43",
+  "edition_no": 43,
+  "generated_at": "2026-10-25T12:19:45+00:00",
   "mode": "live",
-  "editions": 14,
+  "editions": 15,
   "counts": {
     "births": 10,
     "deaths": 10,
-    "charts": 4,
-    "box_office": 2,
+    "charts": 1,
+    "box_office": 0,
     "top_list": 10,
     "trivia": 3,
     "geography": 3,
-    "chart_history": 2
+    "chart_history": 0
   },
   "sources": [
     "Wikipedia",
-    "officialcharts.com",
-    "billboard.com",
-    "the-numbers.com",
-    "screendaily.com",
-    "britannica.com"
+    "Billboard Hot 100",
+    "World Bank",
+    "Open Trivia DB"
   ]
 }
