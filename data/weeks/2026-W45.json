@@ -1,0 +1,608 @@
+{
+  "week_id": "2026-W45",
+  "edition_no": 45,
+  "sunday": "2026-11-08",
+  "range_start": "2026-11-02",
+  "range_end": "2026-11-08",
+  "range_label": "2 – 8 November 2026",
+  "generated_at": "2026-11-08T14:03:24+00:00",
+  "standfirst": "Nostalgia and kaiju rule the autumnal landscape as My Chemical Romance resurrects 'The Black Parade' to top the album charts two decades after its initial march. Meanwhile, Japanese cinema makes box-office history in North America while Halloween streaming hangovers keep spookier catalog tracks haunting the top tier of the music countdowns.",
+  "top_list_title": "Ten longest rivers in the world",
+  "banker": "Ella Langley is the week's safest '#1 artist' answer, maintaining a relentless multi-month hold atop the US Billboard Hot 100 with 'Choosin' Texas'.",
+  "placeholder": false,
+  "births": [
+    {
+      "value": {
+        "year": 1998,
+        "who": "Jordan Love",
+        "what": "American football player",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jordan_Love",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 1999,
+        "who": "Park Woo-jin",
+        "what": "South Korean singer",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Park_Woo-jin",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Alphonso Davies",
+        "what": "Canadian soccer player",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alphonso_Davies",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2000,
+        "who": "Tyrese Maxey",
+        "what": "American basketball player",
+        "on": "2026-11-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tyrese_Maxey",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Moisés Caicedo",
+        "what": "Ecuadorian footballer",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Caicedo",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Hailey Baptiste",
+        "what": "American tennis player",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hailey_Baptiste",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2001,
+        "who": "Jake LaRavia",
+        "what": "American basketball player",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jake_LaRavia",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2005,
+        "who": "Fina Strazza",
+        "what": "American actress",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fina_Strazza",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2005,
+        "who": "Lara Raj",
+        "what": "American singer",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lara_Raj",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2006,
+        "who": "Darja Varfolomeev",
+        "what": "Russian-German rhythmic gymnast",
+        "on": "2026-11-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Darja_Varfolomeev",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2018,
+        "who": "Sondra Locke",
+        "what": "American actress and director (born 1944)",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sondra_Locke",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2023,
+        "who": "Humaira Himu",
+        "what": "Bangladeshi actress (born 1985)",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Humaira_Himu",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Janey Godley",
+        "what": "Scottish actor, writer and comedian (born 1961)",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Janey_Godley",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Alan Rachins",
+        "what": "American actor (born 1942)",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alan_Rachins",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Paul Stephenson (civil rights campaigner)",
+        "what": "Paul Stephenson, British civil rights activist (born 1937)",
+        "on": "2026-11-02"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Paul_Stephenson_(civil_rights_campaigner)",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Quincy Jones",
+        "what": "American producer (born 1933)",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Quincy_Jones",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Bernard Marcus",
+        "what": "American billionaire businessman and philanthropist (born 1929)",
+        "on": "2026-11-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bernard_Marcus",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2024,
+        "who": "Murray Sinclair",
+        "what": "Canadian lawyer and politician (born 1951)",
+        "on": "2026-11-04"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Murray_Sinclair",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Dick Cheney",
+        "what": "American businessman and politician, 46th Vice President of the United States (born 1941)",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Dick_Cheney",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 2025,
+        "who": "Kim Yong-nam",
+        "what": "North Korean politician (born 1928)",
+        "on": "2026-11-03"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kim_Yong-nam",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Singles",
+        "title": "Babydoll",
+        "artist": "Jamie Miller"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "territory": "UK",
+        "chart": "Official Albums",
+        "title": "Perfecth",
+        "artist": "Queens of the Stone Age"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/albums-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "The Black Parade",
+        "artist": "My Chemical Romance"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "Godzilla Minus Zero",
+        "note": "Debuted at #1 with a record-breaking $30M–$33M domestic opening weekend for a live-action foreign-language film."
+      },
+      "source": {
+        "name": "boxofficepro.com",
+        "url": "https://www.boxofficepro.com/weekend-preview-godzilla-minus-zero-to-stomp-to-the-top/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "region": "UK",
+        "title": "Wicker",
+        "note": "Topped the UK and Ireland box office taking £1.8M including preview screenings."
+      },
+      "source": {
+        "name": "filmdistributorsassociation.com",
+        "url": "https://filmdistributorsassociation.com/databank/uk-and-ireland-current-top-15/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Nile River",
+        "value": "6,650 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Amazon River",
+        "value": "6,400 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Yangtze River",
+        "value": "6,300 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Mississippi–Missouri River System",
+        "value": "6,275 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Yenisei–Angara River System",
+        "value": "5,539 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Yellow River (Huang He)",
+        "value": "5,464 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Ob–Irtysh River System",
+        "value": "5,410 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Paraná River System",
+        "value": "4,880 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Congo River",
+        "value": "4,700 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "label": "Amur River",
+        "value": "4,444 km"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/list-of-rivers-2062406",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which 1982 Michael Jackson pop track re-entered the UK Singles Chart Top 5 following Halloween celebrations?",
+        "a": "Thriller"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "q": "Which American rock band returned to #1 on the Billboard 200 chart in November 2026 with a 20th-anniversary reissue of their landmark 2006 album?",
+        "a": "My Chemical Romance (The Black Parade)"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "q": "Which Japanese kaiju sequel set a record for the largest North American opening weekend for a live-action foreign-language film in early November 2026?",
+        "a": "Godzilla Minus Zero"
+      },
+      "source": {
+        "name": "boxofficepro.com",
+        "url": "https://www.boxofficepro.com/weekend-preview-godzilla-minus-zero-to-stomp-to-the-top/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "The Nile River flows northward through 11 northeastern African nations before emptying into the Mediterranean Sea."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Nile-River",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Congo River is the deepest measured river in the world, reaching depths exceeding 220 metres (720 feet)."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Congo-River",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "fact": "The Yangtze River is the longest river in Asia and the third-longest on Earth, flowing entirely within China."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Yangtze-River",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ],
+  "chart_history": [
+    {
+      "value": {
+        "year": 1957,
+        "territory": "UK",
+        "title": "That'll Be the Day",
+        "artist": "The Crickets"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    },
+    {
+      "value": {
+        "year": 1997,
+        "territory": "UK",
+        "title": "Barbie Girl",
+        "artist": "Aqua"
+      },
+      "source": {
+        "name": "officialcharts.com",
+        "url": "https://www.officialcharts.com/charts/singles-chart/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-08T14:03:24+00:00"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "rendered_at": "2026-11-01T14:02:57+00:00",
-  "week_id": "2026-W44",
-  "edition_no": 44,
-  "generated_at": "2026-11-01T14:01:53+00:00",
+  "rendered_at": "2026-11-08T14:04:05+00:00",
+  "week_id": "2026-W45",
+  "edition_no": 45,
+  "generated_at": "2026-11-08T14:03:24+00:00",
   "mode": "live",
-  "editions": 16,
+  "editions": 17,
   "counts": {
     "births": 10,
     "deaths": 10,
@@ -19,8 +19,8 @@
     "Wikipedia",
     "officialcharts.com",
     "billboard.com",
-    "boxofficemojo.com",
-    "cinemauk.org.uk",
+    "boxofficepro.com",
+    "filmdistributorsassociation.com",
     "britannica.com"
   ]
 }
