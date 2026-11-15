@@ -1,10 +1,10 @@
 {
-  "rendered_at": "2026-11-08T14:04:05+00:00",
-  "week_id": "2026-W45",
-  "edition_no": 45,
-  "generated_at": "2026-11-08T14:03:24+00:00",
+  "rendered_at": "2026-11-15T14:31:03+00:00",
+  "week_id": "2026-W46",
+  "edition_no": 46,
+  "generated_at": "2026-11-15T14:30:09+00:00",
   "mode": "live",
-  "editions": 17,
+  "editions": 18,
   "counts": {
     "births": 10,
     "deaths": 10,
@@ -18,9 +18,11 @@
   "sources": [
     "Wikipedia",
     "officialcharts.com",
+    "en.wikipedia.org",
     "billboard.com",
-    "boxofficepro.com",
-    "filmdistributorsassociation.com",
-    "britannica.com"
+    "thedailystar.net",
+    "mediamole.co.uk",
+    "britannica.com",
+    "noise11.com"
   ]
 }
