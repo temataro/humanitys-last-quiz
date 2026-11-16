@@ -1,3 +1,13 @@
+{#
+# =============================================================================
+# edition.html.j2 — Render the weekly trivia briefing and regional map round.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+#}
 {% extends "base.html.j2" %}
 {% set nav_active = 'latest' if is_latest else '' %}
 {% block title %}Humanity's Last Quiz — {{ edition.range_label }}{% endblock %}
@@ -91,6 +101,19 @@
   .fact { padding: 8px 0; border-bottom: 1px dotted var(--rule); }
   .fact b { color: var(--spot); }
 
+  .regional-map { width: 100%; height: auto; display: block; background: var(--paper-2); margin: 12px 0;
+    border: 1px solid var(--rule); overflow: hidden; }
+  .regional-map path { stroke: var(--paper); stroke-width: .12; vector-effect: non-scaling-stroke; }
+  .regional-map .context { fill: var(--rule); }
+  .regional-map .selected { fill: var(--spot); }
+  .regional-map text { fill: var(--paper); font: bold 1.15px var(--sans); text-anchor: middle;
+    dominant-baseline: central; paint-order: stroke; stroke: var(--spot); stroke-width: .25px; }
+  .map-answer { padding: 8px 0; border-bottom: 1px dotted var(--rule); }
+  .map-answer summary { cursor: pointer; color: var(--spot); }
+  .map-answer p { margin: 6px 0; }
+  .photo-credits { margin-top: 12px; }
+  .photo-credits summary { cursor: pointer; }
+
   footer { border-top: 3px double var(--rule-strong); margin-top: 40px; padding-top: 16px;
     font-family: var(--sans); font-size: 11px; color: var(--muted); line-height: 1.7; }
   footer .src b { color: var(--ink); font-weight: 700; letter-spacing: .04em; }
@@ -124,32 +147,33 @@
   </div>
 
   <div class="standfirst">
-    <p class="lede"><span class="qm">The Quizmaster&rsquo;s Note</span>{{ edition.standfirst }}</p>
+    <p class="lede"><span class="qm">The Quizmaster&rsquo;s Note</span>{{ edition.standfirst | emphasize(edition) }}</p>
   </div>
 
   <div class="cols">
     <div class="col-main">
 
       <section>
-        <div class="label">On This Day &amp; Thereabouts</div>
-        <h2 class="hed">Births &amp; deaths worth a mark</h2>
+        <div class="label">People to Know</div>
+        <h2 class="hed">Birthdays &amp; recent farewells</h2>
+        {% if edition.people_window %}<p class="note">Sunday ±5 days &middot; {{ edition.people_window }}.<br>Deaths confirmed as of {{ edition.generated_at[:10] }}.</p>{% else %}<p class="note">Original archived birthday and death-anniversary selection.</p>{% endif %}
         {% if edition.births %}
-        <div class="subhead">Born</div>
+        <div class="subhead">Birthday roll call &middot; birth year shown</div>
         <ul class="eph">
           {% for f in edition.births %}
           <li><span class="yr">{{ f.value.year }}</span><span>
-            <span class="who">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.who }}</a>{% else %}{{ f.value.who }}{% endif %}</span>
-            {% if f.value.what %}&mdash; <span class="what">{{ f.value.what }}</span>{% endif %}</span></li>
+            <span class="who">{{ f.value.who | emphasize(edition) }}</span>
+            {% if f.value.what %}&mdash; <span class="what">{{ f.value.what | emphasize(edition, false) }}</span>{% endif %}<br><small>{{ f.value.on }} &middot; <a href="{{ f.source.url }}">Source</a></small></span></li>
           {% endfor %}
         </ul>
         {% endif %}
         {% if edition.deaths %}
-        <div class="subhead">Died</div>
+        <div class="subhead">{{ "Recent deaths" if edition.people_window else "Death anniversaries · original archive" }}</div>
         <ul class="eph">
           {% for f in edition.deaths %}
           <li><span class="yr">{{ f.value.year }}</span><span>
-            <span class="who">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.who }}</a>{% else %}{{ f.value.who }}{% endif %}</span>
-            {% if f.value.what %}&mdash; <span class="what">{{ f.value.what }}</span>{% endif %}</span></li>
+            <span class="who">{{ f.value.who | emphasize(edition) }}</span>
+            {% if f.value.what %}&mdash; <span class="what">{{ f.value.what | emphasize(edition, false) }}</span>{% endif %}<br><small>{{ f.value.on }} &middot; <a href="{{ f.source.url }}">Source</a></small></span></li>
           {% endfor %}
         </ul>
         {% endif %}
@@ -165,13 +189,13 @@
             <td class="pos">{{ f.value.territory }}</td>
             <td>
               <span class="ttl">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.title }}</a>{% else %}{{ f.value.title }}{% endif %}</span><br>
-              <span class="art">{{ f.value.artist }}</span>
+              <span class="art">{{ f.value.artist | emphasize(edition) }}</span>
             </td>
             <td class="terr">{{ f.value.chart }}</td>
           </tr>
           {% endfor %}
         </table>
-        {% if edition.banker %}<p class="note" style="margin-top:10px;">Banker: {{ edition.banker }}</p>{% endif %}
+        {% if edition.banker %}<p class="note" style="margin-top:10px;">Banker: {{ edition.banker | emphasize(edition) }}</p>{% endif %}
       </section>
       {% endif %}
 
@@ -185,7 +209,7 @@
             <td class="pos">{{ f.value.region }}</td>
             <td>
               <span class="ttl">{% if f.source.url %}<a href="{{ f.source.url }}">{{ f.value.title }}</a>{% else %}{{ f.value.title }}{% endif %}</span><br>
-              <span class="art">{{ f.value.note }}</span>
+              <span class="art">{{ f.value.note | emphasize(edition) }}</span>
             </td>
           </tr>
           {% endfor %}
@@ -214,7 +238,7 @@
         <div class="label">Starters for Ten</div>
         <h2 class="hed">A few to warm up on</h2>
         {% for f in edition.trivia %}
-        <div class="qa"><div class="q">{{ f.value.q }}</div><div class="a">{{ f.value.a }}</div></div>
+        <div class="qa"><div class="q">{{ f.value.q | emphasize(edition) }}</div><div class="a">{{ f.value.a | emphasize(edition) }}</div></div>
         {% endfor %}
       </section>
       {% endif %}
@@ -229,15 +253,21 @@
       </section>
       {% endif %}
 
-      {% if edition.chart_history %}
       <section>
-        <div class="label">On This Date, In the Charts</div>
-        {% for f in edition.chart_history %}
-        <div class="fact"><b>{{ f.value.year }}</b> {{ f.value.territory }} No.&nbsp;1:
-          <em>{{ f.value.title }}</em>{% if f.value.artist %} &mdash; {{ f.value.artist }}{% endif %}</div>
+        <div class="label">The Map Round</div>
+        <h2 class="hed">Find your way around {{ map_round.region }}</h2>
+        <p class="note">Name the five numbered countries. Bonus points for their capitals.</p>
+        {{ map_round.svg | safe }}
+        {% for answer in map_round.answers %}
+        <details class="map-answer">
+          <summary>Reveal country {{ answer.number }}</summary>
+          <p><strong>{{ answer.name }}</strong> &middot; Capital: <strong>{{ answer.capital }}</strong><br>
+            <a href="{{ answer.source_url }}">Country source</a></p>
+        </details>
         {% endfor %}
+        <p class="note" style="font-size:12px;">Boundaries: <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain).
+          Capitals: <a href="https://data.worldbank.org/">World Bank</a> (CC BY 4.0).</p>
       </section>
-      {% endif %}
 
     </aside>
   </div>
@@ -249,6 +279,14 @@
     <div class="src"><b>Sources:</b>
       {% for s in sources %}{% if not loop.first %} &middot; {% endif %}{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}{% if s.license %} ({{ s.license }}){% endif %}{% endfor %}
     </div>
+    {% if edition.portraits %}
+    <details class="photo-credits"><summary>Photograph credits &amp; licences</summary>
+      {% for name, photo in edition.portraits.items() %}
+      <div><a href="{{ photo.page_url }}">{{ name }}</a> &middot; {{ photo.credit }} &middot;
+        {% if photo.license_url %}<a href="{{ photo.license_url }}">{{ photo.license }}</a>{% else %}{{ photo.license }}{% endif %}</div>
+      {% endfor %}
+    </details>
+    {% endif %}
     {% if uses_tmdb %}<span class="tmdb">This product uses the TMDB API but is not endorsed or certified by TMDB.</span>{% endif %}
   </footer>
 

@@ -1,0 +1,50 @@
+{#
+# =============================================================================
+# calendar.html.j2 — Render dated cultural events and celebrations.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+#}
+{% extends "base.html.j2" %}
+{% set nav_active = 'calendar' %}
+{% block title %}Culture &amp; Calendar — {{ edition.week_id }} — Humanity's Last Quiz{% endblock %}
+{% block styles %}
+  .calendar-header { padding: 28px 0 20px; border-bottom: 3px double var(--rule-strong); }
+  .calendar-header h1 { font-size: clamp(30px, 6vw, 54px); margin: 4px 0; }
+  .calendar-header p { color: var(--muted); max-width: var(--measure); }
+  .calendar-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; }
+  .calendar-event { padding: 24px 0; border-bottom: 1px solid var(--rule); }
+  .calendar-event h2 { font-size: 24px; line-height: 1.2; margin: 8px 0; }
+  .calendar-event time { font: 12px var(--mono); color: var(--spot); }
+  .calendar-event .where { font: 12px var(--sans); color: var(--muted); }
+  .calendar-event a { font: 12px var(--sans); color: var(--spot); }
+  @media (max-width: 600px) { .calendar-grid { grid-template-columns: 1fr; } }
+{% endblock %}
+{% block body %}
+<main class="sheet">
+  <header class="calendar-header">
+    <a href="{{ 'index.html' if is_latest else edition.week_id ~ '.html' }}">&larr; Back to this edition</a>
+    <h1>Culture &amp; Calendar</h1>
+    <p>{{ edition.people_window or edition.range_label }} &middot; Edition {{ edition.week_id }}</p>
+    <p>Celebrations, observances and cultural events to have on your radar. Dates follow local calendars; multi-day events may continue beyond the date shown.</p>
+  </header>
+  {% if edition.events %}
+  <div class="calendar-grid">
+    {% for f in edition.events %}
+    <article class="calendar-event">
+      <time datetime="{{ f.value.on }}">{{ f.value.on }}</time>
+      <h2>{{ f.value.name }}</h2>
+      <div class="where">{{ f.value.where }}</div>
+      <p>{{ f.value.what | emphasize(edition) }}</p>
+      <a href="{{ f.source.url }}">Date &amp; event source</a>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>{{ "Cultural dates could not be verified for this edition." if edition.people_window else "No cultural calendar was recorded for this archived edition." }}</p>
+  {% endif %}
+</main>
+{% endblock %}
