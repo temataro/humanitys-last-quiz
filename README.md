@@ -10,11 +10,13 @@ A **weekly broadsheet almanac** that pre-loads a pub-quiz team with the facts th
 
 ## What's in an edition
 
-- **On this day** — births & deaths of notable figures across the week (from Wikipedia)
+- **People to know** — celebrity birthdays across eras and confirmed recent deaths within Sunday ±5 days (from Wikipedia)
 - **The charts** — UK & US #1 singles and albums, plus the safe "#1 artist" banker
 - **The picture house** — box office
 - **The list of the day** — a rotating Top-10 (largest countries, biggest economies, …)
-- **Starters for ten** — trivia, geography facts, and this-week-in-chart-history
+- **Starters for ten** — trivia and geography facts
+- **The map round** — five numbered countries in a rotating region, with revealable capitals
+- **Culture & Calendar** — a separate tab for sourced holidays, celebrations and cultural events within Sunday ±5 days
 
 Every fact carries its source; the footer credits are generated from what was actually used.
 
@@ -37,9 +39,15 @@ make serve     # preview at http://localhost:8000
 
 No API key is required. For grounded LLM coverage, set `GEMINI_API_KEY` (a billing-enabled Google project) in a local `.env` — see `.env.example` on the `no-llm-provenance` branch, or `CLAUDE.md`.
 
+## Development
+
+Run regression checks with `PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v`.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for sourcing, evidence checks, portrait attribution, and known limits.
+Portraits open a larger view when clicked. Proper names and titles are bold in summaries.
+
 ## Automation
 
-`.github/workflows/weekly.yml` rebuilds every Sunday (07:00 UTC) and redeploys `site/` to GitHub Pages on every push to `main`. Enable Pages under **Settings → Pages → Source: GitHub Actions**. For grounded editions in CI, add a `GEMINI_API_KEY` **Actions secret** (optional).
+`.github/workflows/weekly.yml` rebuilds every Sunday (07:00 UTC) and rebuilds/deploys `site/` after source changes on `main`. Enable Pages under **Settings → Pages → Source: GitHub Actions**. For grounded editions in CI, add a `GEMINI_API_KEY` **Actions secret** (optional).
 
 ## Branches
 

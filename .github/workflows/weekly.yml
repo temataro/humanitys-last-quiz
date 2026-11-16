@@ -1,11 +1,27 @@
+# =============================================================================
+# weekly.yml — Build and publish sourced weekly editions.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+
 name: Weekly edition
 
 # Builds the week just gone every Sunday, commits the new archive JSON, and
-# regenerates the static site. On any push to main it (re)deploys the committed
-# site/ to Pages. Also runnable on demand (with an optional Sunday).
+# regenerates the static site. Source pushes rebuild the latest edition too,
+# using the Actions-only Gemini secret. Bot pushes use GITHUB_TOKEN and do not
+# recursively trigger this workflow. Also runnable on demand (optional Sunday).
 on:
   push:
     branches: [main]
+    paths:
+      - 'src/**'
+      - 'templates/**'
+      - 'data/maps/**'
+      - 'requirements.txt'
+      - '.github/workflows/weekly.yml'
   schedule:
     # 07:00 UTC every Sunday — after the week's charts/box office have settled.
     - cron: "0 7 * * 0"
@@ -25,9 +41,6 @@ concurrency:
 
 jobs:
   build:
-    # Regenerate + commit only on the cron/manual runs. On a plain push we skip
-    # straight to deploy (rebuilding here would just republish the same commit).
-    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,6 +52,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Run regression checks
+        run: PYTHONPATH=src python -m unittest discover -s tests -v
+
       - name: Build the edition
         id: build
         env:
@@ -47,8 +63,11 @@ jobs:
           # build still succeeds via the free keyless sources (Billboard/World
           # Bank/Open Trivia DB); only a total source outage → placeholder.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PUBLISH_SUNDAY: ${{ github.event.inputs.sunday }}
         run: |
-          PYTHONPATH=src python -m hlq.cli build ${{ github.event.inputs.sunday && format('--sunday {0}', github.event.inputs.sunday) || '' }}
+          args=()
+          if [ -n "$PUBLISH_SUNDAY" ]; then args+=(--sunday "$PUBLISH_SUNDAY"); fi
+          PYTHONPATH=src python -m hlq.cli build "${args[@]}"
 
       - name: Render the site
         id: render
@@ -73,11 +92,11 @@ jobs:
           EOF
           git config user.name  "hlq-bot"
           git config user.email "tal@kamar.com"
-          git add data/weeks data/raw site
+          git add data/weeks data/raw data/media site
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: weekly edition $(date -u +%Y-%m-%d) [${OUTCOME}] (AI-generated via Gemini web-search aggregation; tal@kamar.com)"
+            git commit -m "chore: weekly edition $(date -u +%Y-%m-%d) [${OUTCOME}] (AI-assisted research and factual aggregation; tal@kamar.com)"
             git push
           fi
 

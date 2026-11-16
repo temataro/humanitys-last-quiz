@@ -1,5 +1,5 @@
 {
-  "rendered_at": "2026-11-15T14:31:03+00:00",
+  "rendered_at": "2026-11-16T10:50:15+00:00",
   "week_id": "2026-W46",
   "edition_no": 46,
   "generated_at": "2026-11-15T14:30:09+00:00",
@@ -13,7 +13,7 @@
     "top_list": 10,
     "trivia": 3,
     "geography": 3,
-    "chart_history": 2
+    "events": 0
   },
   "sources": [
     "Wikipedia",
