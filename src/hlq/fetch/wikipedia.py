@@ -1,99 +1,189 @@
-"""Wikipedia "On this day" — the deterministic backbone.
+# =============================================================================
+# wikipedia.py — Source and rank dated birthday and recent-death candidates.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
 
-Births and deaths are the highest-stakes, most hallucination-prone category (an
-exact year is either right or it costs a point), so they never touch the LLM.
-They come straight from Wikimedia's public On-this-day REST feed, one call per
-covered day, with the citing article URL kept on every fact.
+"""Source birthdays across eras and actual recent deaths around publication Sunday."""
 
-Endpoint (no API key; a descriptive User-Agent is required):
-    https://en.wikipedia.org/api/rest_v1/feed/onthisday/{births|deaths}/{MM}/{DD}
-"""
-
-from __future__ import annotations
-
-from datetime import date
+from datetime import date, timedelta
+from urllib.parse import unquote
 
 import requests
+from bs4 import BeautifulSoup
 
 from ..provenance import Fact, Source
-from ..week import WeekRange
+from ..utils import get_json
 
-API = "https://en.wikipedia.org/api/rest_v1/feed/onthisday"
-# Wikimedia asks for a real UA that identifies the app and a contact.
-USER_AGENT = "HumanitysLastQuiz/0.1 (https://github.com/temataro/humanitys-last-quiz; tal@kamar.com)"
+API = "https://en.wikipedia.org/w/api.php"
+FEED = "https://en.wikipedia.org/api/rest_v1/feed/onthisday"
 LICENSE = "CC BY-SA 4.0"
 
-# Per-day and per-section caps keep an edition to a readable, quiz-sized handful
-# rather than the dozens the feed returns for every date.
-PER_DAY = 4
-SECTION_CAP = 10
+
+def window(week):
+    return [week.sunday + timedelta(days=i) for i in range(-5, 6)]
 
 
-def _get(kind: str, day: date, timeout: float) -> list[dict]:
-    url = f"{API}/{kind}/{day.month:02d}/{day.day:02d}"
-    resp = requests.get(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"}, timeout=timeout)
-    resp.raise_for_status()
-    return resp.json().get(kind, [])
+def query(**params):
+    return get_json(
+        API, {"action": "query", "format": "json", "formatversion": 2, **params}
+    )
 
 
-def _page_url(entry: dict) -> str:
-    pages = entry.get("pages") or []
-    if not pages:
-        return ""
-    return (pages[0].get("content_urls", {}).get("desktop", {}).get("page")) or ""
-
-
-def _who(entry: dict) -> str:
-    pages = entry.get("pages") or []
-    if pages:
-        titles = pages[0].get("titles") or {}
-        return titles.get("normalized") or pages[0].get("normalizedtitle") or ""
-    return ""
-
-
-def _what(entry: dict, who: str) -> str:
-    """The description, with the leading name stripped so it isn't shown twice."""
-    text = (entry.get("text") or "").strip()
-    if who and text.lower().startswith(who.lower()):
-        text = text[len(who):].lstrip(" ,–—-")
-    return text
-
-
-def _collect(kind: str, week: WeekRange, retrieved_at: str, timeout: float) -> list[Fact]:
-    facts: list[Fact] = []
-    seen: set[str] = set()  # dedupe the same person recurring across the window
-    for day in week.dates():
+def birthdays(week, retrieved_at):
+    facts = {}
+    for day in window(week):
         try:
-            entries = _get(kind, day, timeout)
-        except requests.RequestException as exc:  # resilient: skip a bad day, keep going
-            print(f"  [wikipedia] {kind} {day:%m-%d} failed: {exc}")
+            entries = get_json(f"{FEED}/births/{day:%m/%d}").get("births", [])
+        except requests.RequestException as exc:
+            print(f"  [wikipedia] birthdays {day}: {exc}")
             continue
-        taken = 0
         for entry in entries:
-            if taken >= PER_DAY or len(facts) >= SECTION_CAP:
-                break
-            who = _who(entry)
-            year = entry.get("year")
-            if not who or year is None or who in seen:
+            pages = entry.get("pages") or []
+            if not pages or entry.get("year") is None:
                 continue
-            seen.add(who)
-            taken += 1
+            page = pages[0]
+            who = page.get("titles", {}).get("normalized", "")
+            url = page.get("content_urls", {}).get("desktop", {}).get("page", "")
+            if not who or not url:
+                continue
+            text = entry.get("text", "")
+            if text.casefold().startswith(who.casefold()):
+                text = text[len(who) :].lstrip(" ,–—-")
+            facts[who] = Fact(
+                {
+                    "year": entry["year"],
+                    "who": who,
+                    "what": text,
+                    "on": day.isoformat(),
+                },
+                Source("Wikipedia", url, LICENSE),
+                retrieved_at,
+            )
+    return list(facts.values())
+
+
+def parse_deaths(html, month, allowed, retrieved_at):
+    """Parse day lists in monthly pages or redirects to the current year page."""
+    soup = BeautifulSoup(html, "html.parser")
+    active_month = month.month
+    current = None
+    facts = []
+    # Headings can be wrapped in .mw-heading; walking document order also handles
+    # older unwrapped markup. Only direct list entries with a biography link count.
+    for node in soup.find_all(["h2", "h3", "h4", "li"]):
+        if node.name == "h2":
+            heading = node.get_text(" ", strip=True).split("[")[0].strip()
+            if heading in [date(2000, i, 1).strftime("%B") for i in range(1, 13)]:
+                active_month = next(
+                    i
+                    for i in range(1, 13)
+                    if date(2000, i, 1).strftime("%B") == heading
+                )
+            current = None
+        elif node.name in {"h3", "h4"}:
+            heading = node.get_text(" ", strip=True).split("[")[0].strip()
+            current = (
+                date(month.year, active_month, int(heading))
+                if heading.isdigit() and 1 <= int(heading) <= 31
+                else None
+            )
+        elif current in allowed and not node.find_parent("li"):
+            link = node.find("a")
+            if (
+                not link
+                or not link.get("href", "").startswith("/wiki/")
+                or "new" in link.get("class", [])
+            ):
+                continue
+            for ref in node.select("sup.reference"):
+                ref.decompose()
+            who = link.get("title") or unquote(link["href"].split("/wiki/")[1]).replace(
+                "_", " "
+            )
             facts.append(
                 Fact(
-                    value={"year": year, "who": who, "what": _what(entry, who), "on": day.isoformat()},
-                    source=Source("Wikipedia", _page_url(entry), LICENSE),
-                    retrieved_at=retrieved_at,
+                    {
+                        "year": current.year,
+                        "who": who,
+                        "what": node.get_text(" ", strip=True)
+                        .removeprefix(link.get_text())
+                        .lstrip(" ,"),
+                        "on": current.isoformat(),
+                    },
+                    Source(
+                        "Wikipedia recent deaths",
+                        f"https://en.wikipedia.org/wiki/Deaths_in_{month:%B_%Y}#{current.day}",
+                        LICENSE,
+                    ),
+                    retrieved_at,
                 )
             )
-        if len(facts) >= SECTION_CAP:
-            break
-    facts.sort(key=lambda f: f.value["year"])
     return facts
 
 
-def collect(week: WeekRange, retrieved_at: str, timeout: float = 15.0) -> dict[str, list[Fact]]:
-    """Return ``{"births": [...], "deaths": [...]}`` for the covered week."""
-    return {
-        "births": _collect("births", week, retrieved_at, timeout),
-        "deaths": _collect("deaths", week, retrieved_at, timeout),
-    }
+def deaths(week, retrieved_at):
+    # Never confuse a historical anniversary or an upcoming date with a death.
+    cutoff = min(date.fromisoformat(retrieved_at[:10]), date.today())
+    allowed = {day for day in window(week) if day <= cutoff}
+    facts = []
+    for month in sorted({day.replace(day=1) for day in allowed}):
+        try:
+            data = get_json(
+                API,
+                {
+                    "action": "parse",
+                    "page": f"Deaths_in_{month:%B_%Y}",
+                    "redirects": 1,
+                    "prop": "text",
+                    "format": "json",
+                    "formatversion": 2,
+                },
+            )
+            facts.extend(
+                parse_deaths(
+                    data.get("parse", {}).get("text", ""), month, allowed, retrieved_at
+                )
+            )
+        except requests.RequestException as exc:
+            print(f"  [wikipedia] recent deaths {month:%B %Y}: {exc}")
+    return list({f.value["who"]: f for f in facts}.values())
+
+
+def ranked(facts):
+    """Pageviews are a recognisability signal, never a date or identity source."""
+    scores = {}
+    names = [f.value["who"] for f in facts]
+    for start in range(0, len(names), 50):
+        try:
+            continuation = {}
+            while True:
+                result = query(
+                    prop="pageviews",
+                    titles="|".join(names[start : start + 50]),
+                    pvipdays=30,
+                    **continuation,
+                )
+                for page in result.get("query", {}).get("pages", []):
+                    if page.get("pageviews"):
+                        scores[page["title"]] = sum(
+                            n or 0 for n in page["pageviews"].values()
+                        )
+                continuation = result.get("continue")
+                if not continuation:
+                    break
+        except requests.RequestException as exc:
+            print(f"  [wikipedia] popularity unavailable: {exc}")
+    return sorted(facts, key=lambda f: scores.get(f.value["who"], 0), reverse=True)
+
+
+def collect(week, retrieved_at):
+    ordered = ranked(birthdays(week, retrieved_at))
+    # Present candidates from EVERY day before filling remaining slots by interest.
+    candidates = []
+    for day in window(week):
+        candidates.extend([f for f in ordered if f.value["on"] == day.isoformat()][:2])
+    return {"births": candidates, "deaths": ranked(deaths(week, retrieved_at))[:20]}
