@@ -1,15 +1,15 @@
 {
-  "rendered_at": "2026-11-16T10:50:15+00:00",
+  "rendered_at": "2026-11-16T10:55:25+00:00",
   "week_id": "2026-W46",
   "edition_no": 46,
-  "generated_at": "2026-11-15T14:30:09+00:00",
+  "generated_at": "2026-11-16T10:52:14+00:00",
   "mode": "live",
   "editions": 18,
   "counts": {
-    "births": 10,
+    "births": 13,
     "deaths": 10,
-    "charts": 4,
-    "box_office": 2,
+    "charts": 1,
+    "box_office": 0,
     "top_list": 10,
     "trivia": 3,
     "geography": 3,
@@ -17,12 +17,9 @@
   },
   "sources": [
     "Wikipedia",
-    "officialcharts.com",
-    "en.wikipedia.org",
-    "billboard.com",
-    "thedailystar.net",
-    "mediamole.co.uk",
-    "britannica.com",
-    "noise11.com"
+    "Wikipedia recent deaths",
+    "Billboard Hot 100",
+    "World Bank",
+    "Open Trivia DB"
   ]
 }
