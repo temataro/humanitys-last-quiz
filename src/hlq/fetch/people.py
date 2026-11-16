@@ -70,7 +70,7 @@ Candidates:
     for event in result.get("events", [])[:8]:
         if not (str(start) <= event.get("on", "") <= str(end)):
             continue
-        source = aggregate._source(event.get("source_url", ""), [])
+        source = aggregate._source(event.get("source_url", ""))
         if not source.url or not event.get("evidence") or not event.get("name"):
             continue
         if not verify_excerpt(source.url, event["evidence"]):

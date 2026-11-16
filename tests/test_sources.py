@@ -14,7 +14,7 @@ import unittest
 from datetime import date
 from unittest.mock import patch
 
-from hlq.fetch import aggregate, wikipedia, people, billboard
+from hlq.fetch import aggregate, wikipedia, billboard
 from hlq.geography import regional_round
 from hlq.model import Edition
 from hlq.provenance import Fact, Source
@@ -83,15 +83,15 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(query.call_args.kwargs["pvipcontinue"], "Older")
 
     def test_missing_citation_never_inherits_unrelated_grounding_url(self):
-        source = aggregate._source("", ["https://example.org/unrelated"])
+        source = aggregate._source("")
         self.assertEqual(source.url, "")
         self.assertEqual(
-            aggregate._to_facts({"trivia": [{"q": "Q", "a": "A"}]}, "now", []).trivia,
+            aggregate._to_facts({"trivia": [{"q": "Q", "a": "A"}]}, "now").trivia,
             [],
         )
 
     def test_unsafe_citation_is_rejected(self):
-        self.assertEqual(aggregate._source("javascript:alert(1)", []).url, "")
+        self.assertEqual(aggregate._source("javascript:alert(1)").url, "")
 
     def test_chart_outside_edition_is_rejected(self):
         from hlq.week import WeekRange
@@ -104,7 +104,7 @@ class SourceTests(unittest.TestCase):
         }
         self.assertEqual(
             aggregate._to_facts(
-                {"charts": [row]}, "now", [], WeekRange(date(2026, 11, 15))
+                {"charts": [row]}, "now", WeekRange(date(2026, 11, 15))
             ).charts,
             [],
         )

@@ -91,11 +91,11 @@ def _host(url: str) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
-def _source(url: str, grounding: list[str], name_hint: str = "") -> Source:
+def _source(url):
     url = (url or "").strip()
     if urlparse(url).scheme not in {"http", "https"} or not _host(url):
         url = ""
-    return Source(name=name_hint or _host(url) or GENERIC_SOURCE, url=url, license="")
+    return Source(name=_host(url) or GENERIC_SOURCE, url=url, license="")
 
 
 def _extract_json(text: str) -> dict:
@@ -114,11 +114,9 @@ def _extract_json(text: str) -> dict:
     raise ValueError("no JSON object found in model response")
 
 
-def _to_facts(
-    data: dict, retrieved_at: str, grounding: list[str], week=None
-) -> Aggregation:
+def _to_facts(data, retrieved_at, week=None):
     def src(item: dict) -> Source:
-        return _source(item.get("source_url", ""), grounding)
+        return _source(item.get("source_url", ""))
 
     agg = Aggregation(
         standfirst=data.get("standfirst", ""),
@@ -166,7 +164,7 @@ def _to_facts(
                 retrieved_at,
             )
         )
-    list_src = _source(data.get("top_list_source_url", ""), grounding)
+    list_src = _source(data.get("top_list_source_url", ""))
     for it in data.get("top_list", []):
         agg.top_list.append(
             Fact(
@@ -199,7 +197,7 @@ def _try_llm(
     prompt = _load_prompt(week)
     try:
         raw, grounding, model = provider.call(prompt, timeout)
-        agg = _to_facts(_extract_json(raw), retrieved_at, grounding, week)
+        agg = _to_facts(_extract_json(raw), retrieved_at, week)
         for section in ("charts", "box_office"):
             setattr(
                 agg,
