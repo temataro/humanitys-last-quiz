@@ -5,20 +5,29 @@
   "range_start": "2026-11-09",
   "range_end": "2026-11-15",
   "range_label": "9 – 15 November 2026",
-  "generated_at": "2026-11-16T10:52:14+00:00",
+  "generated_at": "2026-11-16T11:01:17+00:00",
   "standfirst": "A fresh selection of sourced facts for the next quiz night.",
   "top_list_title": "Ten most populous countries",
   "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-11-14).",
   "placeholder": false,
   "portraits": {
-    "Zoey Deutch": {
-      "url": "media/cae499b84115ec4c.jpg",
-      "large_url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Zoey_Deutch_at_the_Sundance_Film_Festival_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page_url": "https://commons.wikimedia.org/wiki/File:Zoey_Deutch_at_the_Sundance_Film_Festival_(cropped).jpg",
-      "credit": "Colleen Sturtevant",
-      "license": "CC BY 4.0",
-      "license_url": "https://creativecommons.org/licenses/by/4.0",
-      "title": "Zoey Deutch"
+    "Brittany Murphy": {
+      "url": "media/f875523d226b4554.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Brittany_Murphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Brittany_Murphy.jpg",
+      "credit": "Rob & Jules",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "title": "Brittany Murphy"
+    },
+    "Stanley Tucci": {
+      "url": "media/2f0d2bbeca5e8577.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/ConclaveBFILFF101024_%289_of_44%29_%2854062519935%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:ConclaveBFILFF101024_(9_of_44)_(54062519935)_(cropped).jpg",
+      "credit": "Raph_PH",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Stanley Tucci"
     },
     "Leonardo DiCaprio": {
       "url": "media/6a384708ed3b17de.jpg",
@@ -110,6 +119,15 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "title": "Owen Wilson"
     },
+    "Allison Janney": {
+      "url": "media/b3de64890169b46f.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/AllisonJanney-byPhilipRomano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:AllisonJanney-byPhilipRomano.jpg",
+      "credit": "PhilipRomano",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Allison Janney"
+    },
     "Jodie Foster": {
       "url": "media/ffbbb11a47a666ca.jpg",
       "large_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jodie_Foster_Taxi_Driver_Tribeca_Festival_2026-20_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -118,6 +136,15 @@
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "title": "Jodie Foster"
+    },
+    "Robert F. Kennedy": {
+      "url": "media/b6e4e63994488897.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Robert_F._Kennedy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy.jpg",
+      "credit": "Harry Warnecke",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Robert F. Kennedy"
     },
     "Joe Biden": {
       "url": "media/527beae450dcfc21.jpg",
@@ -155,6 +182,15 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "title": "Richard Posner"
     },
+    "Brian Tracy": {
+      "url": "media/91f401c9ed5a0b7f.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Brian_Tracy_%284005302419%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Brian_Tracy_(4005302419)_(cropped).jpg",
+      "credit": "Daniel Wikberg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Brian Tracy"
+    },
     "Richard Sterban": {
       "url": "media/07df2f8557d53911.jpg",
       "large_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Richard_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -172,6 +208,15 @@
       "license": "Public domain",
       "license_url": "",
       "title": "Miguel Ángel Félix Gallardo"
+    },
+    "Ella Langley": {
+      "url": "media/e2949c337e326f4f.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ella_Langley_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ella_Langley_2026_(cropped).jpg",
+      "credit": "Rick Munroe",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Ella Langley"
     }
   },
   "people_window": "10 November 2026 – 20 November 2026",
@@ -179,17 +224,31 @@
   "births": [
     {
       "value": {
-        "year": 1994,
-        "who": "Zoey Deutch",
-        "what": "American actress",
+        "year": 1977,
+        "who": "Brittany Murphy",
+        "what": "American actress and singer (died 2009)",
         "on": "2026-11-10"
       },
       "source": {
         "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Zoey_Deutch",
+        "url": "https://en.wikipedia.org/wiki/Brittany_Murphy",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "year": 1960,
+        "who": "Stanley Tucci",
+        "what": "American actor and director",
+        "on": "2026-11-11"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Stanley_Tucci",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -203,7 +262,7 @@
         "url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -217,7 +276,7 @@
         "url": "https://en.wikipedia.org/wiki/Ryan_Gosling",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -231,7 +290,7 @@
         "url": "https://en.wikipedia.org/wiki/Anne_Hathaway",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -245,7 +304,7 @@
         "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -259,7 +318,7 @@
         "url": "https://en.wikipedia.org/wiki/Charles_III",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -273,7 +332,7 @@
         "url": "https://en.wikipedia.org/wiki/Shailene_Woodley",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -287,7 +346,7 @@
         "url": "https://en.wikipedia.org/wiki/Burgess_Meredith",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -301,7 +360,7 @@
         "url": "https://en.wikipedia.org/wiki/Danny_DeVito",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -315,7 +374,7 @@
         "url": "https://en.wikipedia.org/wiki/Rachel_McAdams",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -329,7 +388,21 @@
         "url": "https://en.wikipedia.org/wiki/Owen_Wilson",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "year": 1959,
+        "who": "Allison Janney",
+        "what": "American actress",
+        "on": "2026-11-19"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Allison_Janney",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -343,7 +416,21 @@
         "url": "https://en.wikipedia.org/wiki/Jodie_Foster",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "year": 1925,
+        "who": "Robert F. Kennedy",
+        "what": "US Navy officer, lawyer, and politician, 64th United States Attorney General (died 1968)",
+        "on": "2026-11-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -357,7 +444,7 @@
         "url": "https://en.wikipedia.org/wiki/Joe_Biden",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     }
   ],
   "deaths": [
@@ -366,140 +453,191 @@
         "year": 2026,
         "who": "Stacy Keach",
         "what": "85, American actor ( Fat City , Titus , Mickey Spillane's Mike Hammer ), heart failure.",
-        "on": "2026-11-10"
+        "on": "2026-11-10",
+        "proper_nouns": [
+          "Stacy Keach",
+          "Fat City",
+          "Titus",
+          "Mickey Spillane's Mike Hammer"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
         "who": "Anthony Clark (actor)",
         "what": "62, American comedian and actor ( Yes, Dear , Boston Common , The Rock ), complications from pneumonia.",
-        "on": "2026-11-10"
+        "on": "2026-11-10",
+        "proper_nouns": [
+          "Anthony Clark",
+          "Yes, Dear",
+          "Boston Common",
+          "The Rock"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Danny Kelly (journalist)",
+        "what": "69, British journalist ( New Musical Express , Q ) and radio presenter ( talkSPORT ), throat cancer.",
+        "on": "2026-11-10",
+        "proper_nouns": [
+          "Danny Kelly",
+          "New Musical Express",
+          "Q"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
         "who": "Irma P. Hall",
         "what": "91, American actress ( The Ladykillers , Midnight in the Garden of Good and Evil , Soul Food ).",
-        "on": "2026-11-10"
+        "on": "2026-11-10",
+        "proper_nouns": [
+          "Irma P. Hall",
+          "The Ladykillers",
+          "Midnight in the Garden of Good and Evil",
+          "Soul Food"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
         "who": "Dai Henwood",
         "what": "48, New Zealand comedian, game show host ( Family Feud ), and television personality ( 7 Days , Taskmaster New Zealand ), bowel cancer.",
-        "on": "2026-11-10"
+        "on": "2026-11-10",
+        "proper_nouns": [
+          "Dai Henwood",
+          "Family Feud",
+          "Taskmaster New Zealand"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
         "who": "Richard Posner",
         "what": "87, American legal scholar and judge, judge (1981–2017) and chief judge (1993–2000) of the U.S. Court of Appeals for the Seventh Circuit .",
-        "on": "2026-11-10"
+        "on": "2026-11-10",
+        "proper_nouns": [
+          "Richard Posner",
+          "U.S. Court of Appeals for the Seventh Circuit"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
-        "who": "Dan Hicks (sportscaster)",
-        "what": "64, American sportscaster ( NBC Sports ).",
-        "on": "2026-11-11"
-      },
-      "source": {
-        "name": "Wikipedia recent deaths",
-        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#11",
-        "license": "CC BY-SA 4.0"
-      },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
-    },
-    {
-      "value": {
-        "year": 2026,
-        "who": "Tony Richards (musician)",
-        "what": "69, American drummer ( W.A.S.P ).",
-        "on": "2026-11-11"
-      },
-      "source": {
-        "name": "Wikipedia recent deaths",
-        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#11",
-        "license": "CC BY-SA 4.0"
-      },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
-    },
-    {
-      "value": {
-        "year": 2026,
-        "who": "Hwang Jang-lee",
-        "what": "81, South Korean taekwondo practitioner and actor ( Drunken Master , Snake in the Eagle's Shadow , Hitman in the Hand of Buddha ).",
-        "on": "2026-11-12"
+        "who": "Brian Tracy",
+        "what": "82, Canadian-American motivational speaker.",
+        "on": "2026-11-12",
+        "proper_nouns": [
+          "Brian Tracy"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#12",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Hwang Jang-lee",
+        "what": "81, South Korean taekwondo practitioner and actor ( Drunken Master , Snake in the Eagle's Shadow , Hitman in the Hand of Buddha ).",
+        "on": "2026-11-12",
+        "proper_nouns": [
+          "Hwang Jang-lee",
+          "Drunken Master",
+          "Snake in the Eagle's Shadow",
+          "Hitman in the Hand of Buddha"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#12",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
         "who": "Richard Sterban",
         "what": "83, American Hall of Fame singer ( The Oak Ridge Boys ), four-time Grammy winner, bronchitis and pneumonia.",
-        "on": "2026-11-14"
+        "on": "2026-11-14",
+        "proper_nouns": [
+          "Richard Sterban",
+          "Hall of Fame",
+          "The Oak Ridge Boys",
+          "Grammy"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#14",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
         "year": 2026,
         "who": "Miguel Ángel Félix Gallardo",
         "what": "80, Mexican drug lord ( Guadalajara Cartel ).",
-        "on": "2026-11-15"
+        "on": "2026-11-15",
+        "proper_nouns": [
+          "Miguel Ángel Félix Gallardo",
+          "Guadalajara Cartel"
+        ]
       },
       "source": {
         "name": "Wikipedia recent deaths",
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#15",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     }
   ],
   "charts": [
@@ -515,7 +653,7 @@
         "url": "https://www.billboard.com/charts/hot-100/",
         "license": ""
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     }
   ],
   "box_office": [],
@@ -530,7 +668,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -542,7 +680,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -554,7 +692,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -566,7 +704,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -578,7 +716,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -590,7 +728,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -602,7 +740,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -614,7 +752,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -626,7 +764,7 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -638,45 +776,45 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     }
   ],
   "trivia": [
     {
       "value": {
-        "q": "What is the largest animal currently on Earth?",
-        "a": "Blue Whale"
+        "q": "In the original \"Super Mario Bros.\", what is the acceleration of Mario if he was in free fall?",
+        "a": "91.28 m/s^2"
       },
       "source": {
         "name": "Open Trivia DB",
         "url": "https://opentdb.com",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
-        "q": "Which operating system was released first?",
-        "a": "Mac OS"
+        "q": "What band featured Sting, Stewart Copeland and Andy Summers?",
+        "a": "The Police"
       },
       "source": {
         "name": "Open Trivia DB",
         "url": "https://opentdb.com",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
-        "q": "What Cartoon Network show aired its first episode on November 4th, 2013?",
-        "a": "Steven Universe"
+        "q": "When did Norway get its constitution?",
+        "a": "1814"
       },
       "source": {
         "name": "Open Trivia DB",
         "url": "https://opentdb.com",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     }
   ],
   "geography": [
@@ -689,7 +827,7 @@
         "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -700,7 +838,7 @@
         "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     },
     {
       "value": {
@@ -711,9 +849,58 @@
         "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
         "license": "CC BY 4.0"
       },
-      "retrieved_at": "2026-11-16T10:52:14+00:00"
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
     }
   ],
   "chart_history": [],
-  "events": []
+  "events": [
+    {
+      "value": {
+        "name": "Veterans Day",
+        "on": "2026-11-11",
+        "where": "United States",
+        "what": "A U.S. federal holiday honoring military veterans who have served in the United States Armed Forces.",
+        "source_url": "https://department.va.gov/veterans-day/",
+        "evidence": "Veterans Day commemoration at Arlington National Cemetery on November 11, 2026."
+      },
+      "source": {
+        "name": "department.va.gov",
+        "url": "https://department.va.gov/veterans-day/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "name": "World Diabetes Day",
+        "on": "2026-11-14",
+        "where": "Global",
+        "what": "A global health awareness campaign organized by the WHO and International Diabetes Federation.",
+        "source_url": "https://www.who.int/campaigns/world-diabetes-day/2026",
+        "evidence": "14 November is World Diabetes Day."
+      },
+      "source": {
+        "name": "who.int",
+        "url": "https://www.who.int/campaigns/world-diabetes-day/2026",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    },
+    {
+      "value": {
+        "name": "World Prematurity Day",
+        "on": "2026-11-15",
+        "where": "Global",
+        "what": "A global health day recognized by the World Health Organization to raise awareness of preterm birth and newborn care.",
+        "source_url": "https://www.who.int/campaigns/world-prematurity-day/2026",
+        "evidence": "World Prematurity Day 2026. 15 November."
+      },
+      "source": {
+        "name": "who.int",
+        "url": "https://www.who.int/campaigns/world-prematurity-day/2026",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-16T11:01:17+00:00"
+    }
+  ]
 }

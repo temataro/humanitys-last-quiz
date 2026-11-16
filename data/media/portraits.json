@@ -178,5 +178,41 @@
     "license": "Public domain",
     "license_url": "",
     "title": "Miguel Ángel Félix Gallardo"
+  },
+  "Allison Janney": {
+    "url": "media/b3de64890169b46f.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/AllisonJanney-byPhilipRomano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:AllisonJanney-byPhilipRomano.jpg",
+    "credit": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Allison Janney"
+  },
+  "Robert F. Kennedy": {
+    "url": "media/b6e4e63994488897.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Robert_F._Kennedy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy.jpg",
+    "credit": "Harry Warnecke",
+    "license": "Public domain",
+    "license_url": "",
+    "title": "Robert F. Kennedy"
+  },
+  "Brian Tracy": {
+    "url": "media/91f401c9ed5a0b7f.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Brian_Tracy_%284005302419%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Brian_Tracy_(4005302419)_(cropped).jpg",
+    "credit": "Daniel Wikberg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "title": "Brian Tracy"
+  },
+  "Ella Langley": {
+    "url": "media/e2949c337e326f4f.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ella_Langley_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ella_Langley_2026_(cropped).jpg",
+    "credit": "Rick Munroe",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Ella Langley"
   }
 }
