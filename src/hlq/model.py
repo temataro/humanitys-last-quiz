@@ -1,3 +1,12 @@
+# =============================================================================
+# model.py — Serialise sourced editions and preserve archive compatibility.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+
 """The Edition data model — the source of truth for one week.
 
 An ``Edition`` serialises to ``data/weeks/<week_id>.json`` (the committed,
@@ -23,7 +32,8 @@ FACT_SECTIONS = (
     "top_list",
     "trivia",
     "geography",
-    "chart_history",
+    "chart_history",  # retained only to read historical archives
+    "events",
 )
 
 
@@ -31,16 +41,16 @@ FACT_SECTIONS = (
 class Edition:
     week_id: str
     edition_no: int
-    sunday: str          # ISO date, e.g. "2026-07-26"
+    sunday: str  # ISO date, e.g. "2026-07-26"
     range_start: str
     range_end: str
-    range_label: str     # "20 – 26 July 2026"
-    generated_at: str    # ISO-8601 UTC
+    range_label: str  # "20 – 26 July 2026"
+    generated_at: str  # ISO-8601 UTC
 
     # Free-text scalars (the LLM may rewrite these; sensible defaults otherwise).
-    standfirst: str = ""      # the Quizmaster's Note
+    standfirst: str = ""  # the Quizmaster's Note
     top_list_title: str = ""  # heading for the List of the Day
-    banker: str = ""          # the derived "#1 artist" one-liner
+    banker: str = ""  # the derived "#1 artist" one-liner
 
     # True when the web-search categories are unverified sample data (no API key
     # at build time). The template surfaces this so a placeholder edition is
@@ -56,6 +66,11 @@ class Edition:
     trivia: list[Fact] = field(default_factory=list)
     geography: list[Fact] = field(default_factory=list)
     chart_history: list[Fact] = field(default_factory=list)
+
+    events: list[Fact] = field(default_factory=list)
+    portraits: dict = field(default_factory=dict)
+    people_window: str = ""
+    proper_nouns: list = field(default_factory=list)
 
     def all_facts(self) -> list[Fact]:
         out: list[Fact] = []
@@ -80,6 +95,9 @@ class Edition:
             "top_list_title": self.top_list_title,
             "banker": self.banker,
             "placeholder": self.placeholder,
+            "portraits": self.portraits,
+            "people_window": self.people_window,
+            "proper_nouns": self.proper_nouns,
         }
         for name in FACT_SECTIONS:
             d[name] = [f.to_dict() for f in getattr(self, name)]
@@ -99,6 +117,9 @@ class Edition:
             "top_list_title": d.get("top_list_title", ""),
             "banker": d.get("banker", ""),
             "placeholder": d.get("placeholder", False),
+            "portraits": d.get("portraits", {}),
+            "people_window": d.get("people_window", ""),
+            "proper_nouns": d.get("proper_nouns", []),
         }
         for name in FACT_SECTIONS:
             kwargs[name] = [Fact.from_dict(x) for x in d.get(name, [])]

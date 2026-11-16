@@ -1,3 +1,12 @@
+# =============================================================================
+# billboard.py — Fetch and date-check the free Billboard chart mirror.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+
 """Charts — the current Billboard Hot 100 (free, no key).
 
 Data from the public ``mhollingshead/billboard-hot-100`` dataset (daily JSON
@@ -11,15 +20,19 @@ comparable dataset or scraping officialcharts.com.
 
 from __future__ import annotations
 
+from datetime import date, timedelta
+
 import requests
 
 from ..provenance import Fact, Source
 
-RECENT = "https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/recent.json"
+RECENT = (
+    "https://raw.githubusercontent.com/mhollingshead/billboard-hot-100/main/recent.json"
+)
 SOURCE = Source("Billboard Hot 100", "https://www.billboard.com/charts/hot-100/", "")
 
 
-def collect(retrieved_at: str, timeout: float = 20.0) -> dict:
+def collect(retrieved_at: str, timeout: float = 20.0, week=None) -> dict:
     """Return ``{"charts": [Fact], "banker": str}`` for the current Hot 100 #1."""
     resp = requests.get(
         RECENT,
@@ -28,6 +41,11 @@ def collect(retrieved_at: str, timeout: float = 20.0) -> dict:
     )
     resp.raise_for_status()
     data = resp.json()
+    chart_date = date.fromisoformat(data["date"])
+    if week and not week.start <= chart_date <= week.end + timedelta(days=6):
+        raise ValueError(
+            f"Available chart ({chart_date}) does not cover {week.week_id}"
+        )
     rows = data.get("data") or []
     if not rows:
         raise RuntimeError("billboard dataset returned no rows")
@@ -35,13 +53,21 @@ def collect(retrieved_at: str, timeout: float = 20.0) -> dict:
     top = next((r for r in rows if r.get("rank") == 1), rows[0])
     song, artist = top.get("song", ""), top.get("artist", "")
     chart = Fact(
-        value={"territory": "US", "chart": "Billboard Hot 100",
-               "title": song, "artist": artist},
+        value={
+            "territory": "US",
+            "chart": "Billboard Hot 100",
+            "title": song,
+            "artist": artist,
+        },
         source=SOURCE,
         retrieved_at=retrieved_at,
     )
     banker = (
-        f"the US #1 single is “{song}” by {artist} "
-        f"(Billboard Hot 100, chart dated {data.get('date', 'this week')})."
-    ) if song else ""
+        (
+            f"the US #1 single is “{song}” by {artist} "
+            f"(Billboard Hot 100, chart dated {data.get('date', 'this week')})."
+        )
+        if song
+        else ""
+    )
     return {"charts": [chart], "banker": banker}

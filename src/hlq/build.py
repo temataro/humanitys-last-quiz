@@ -1,3 +1,12 @@
+# =============================================================================
+# build.py — Assemble and persist a sourced weekly edition.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+
 """Build one week's edition: fetch every source, assemble, persist.
 
 Output is ``data/weeks/<week_id>.json`` (the committed, provenance-tracked
@@ -12,15 +21,12 @@ import json
 from datetime import date, datetime, timezone
 
 from . import paths
-from .fetch import aggregate, wikipedia
+from .fetch import aggregate, wikipedia, people, portraits
 from .model import Edition
 from .week import WeekRange
 
 DEFAULT_TOP_LIST_TITLE = "The list of the day"
-DEFAULT_STANDFIRST = (
-    "Everything below is drawn fresh from the public record — births and deaths "
-    "from Wikipedia's day-pages, the charts and box office from the week just gone."
-)
+DEFAULT_STANDFIRST = "A fresh selection of sourced facts for the next quiz night."
 
 
 def build_week(week: WeekRange) -> Edition:
@@ -31,11 +37,17 @@ def build_week(week: WeekRange) -> Edition:
     wiki = wikipedia.collect(week, retrieved_at)
     print(f"    {len(wiki['births'])} births, {len(wiki['deaths'])} deaths")
 
-    print("- Aggregating charts/trivia/lists/geography (LLM if configured, else free sources)…")
+    curated = people.collect(week, retrieved_at, wiki)
+
+    print(
+        "- Aggregating charts/trivia/lists/geography (LLM if configured, else free sources)…"
+    )
     agg = aggregate.aggregate(week, retrieved_at)
-    print(f"    {'PLACEHOLDER' if agg.placeholder else agg.model}: "
-          f"{len(agg.charts)} charts, {len(agg.top_list)} top-list, "
-          f"{len(agg.trivia)} trivia, {len(agg.geography)} geography")
+    print(
+        f"    {'PLACEHOLDER' if agg.placeholder else agg.model}: "
+        f"{len(agg.charts)} charts, {len(agg.top_list)} top-list, "
+        f"{len(agg.trivia)} trivia, {len(agg.geography)} geography"
+    )
 
     edition = Edition(
         week_id=week.week_id,
@@ -49,27 +61,49 @@ def build_week(week: WeekRange) -> Edition:
         top_list_title=agg.top_list_title or DEFAULT_TOP_LIST_TITLE,
         banker=agg.banker,
         placeholder=agg.placeholder,
-        births=wiki["births"],
-        deaths=wiki["deaths"],
+        births=curated["births"],
+        deaths=curated["deaths"],
         charts=agg.charts,
         box_office=agg.box_office,
         top_list=agg.top_list,
         trivia=agg.trivia,
         geography=agg.geography,
-        chart_history=agg.chart_history,
+        events=curated["events"],
+        proper_nouns=agg.proper_nouns + [p["name"] for p in agg.people],
+        people_window=f"{wikipedia.window(week)[0]:%-d %B %Y} – {wikipedia.window(week)[-1]:%-d %B %Y}",
     )
-    _persist(edition, agg)
+    identities = [
+        {"name": f.value["who"], "wikipedia_title": f.value["who"]}
+        for f in edition.births + edition.deaths
+    ]
+    identities.extend(agg.people)
+    edition.portraits = portraits.collect(identities)
+    _persist(edition, agg, curated["audit"])
     return edition
 
 
-def _persist(edition: Edition, agg: aggregate.Aggregation) -> None:
+def _persist(edition: Edition, agg: aggregate.Aggregation, people_audit=None) -> None:
     paths.WEEKS.mkdir(parents=True, exist_ok=True)
     paths.RAW.mkdir(parents=True, exist_ok=True)
 
     out = paths.WEEKS / f"{edition.week_id}.json"
-    out.write_text(json.dumps(edition.to_dict(), indent=2, ensure_ascii=False), encoding="utf-8")
+    out.write_text(
+        json.dumps(edition.to_dict(), indent=2, ensure_ascii=False), encoding="utf-8"
+    )
     print(f"- Wrote {out.relative_to(paths.ROOT)}")
 
+    audit = {
+        "aggregation": {"model": agg.model, "grounding": agg.grounding},
+        "people_calendar": people_audit or {},
+        "accepted": {
+            name: len(getattr(edition, name))
+            for name in ("births", "deaths", "charts", "events")
+        },
+        "portraits": len(edition.portraits),
+    }
+    (paths.RAW / f"{edition.week_id}.audit.json").write_text(
+        json.dumps(audit, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
     raw = paths.RAW / f"{edition.week_id}.md"
     raw.write_text(
         f"# {edition.week_id} raw aggregation\n\n"
@@ -81,5 +115,7 @@ def _persist(edition: Edition, agg: aggregate.Aggregation) -> None:
 
 
 def run(sunday: date | None) -> Edition:
-    week = WeekRange.for_sunday(sunday) if sunday else WeekRange.most_recent(date.today())
+    week = (
+        WeekRange.for_sunday(sunday) if sunday else WeekRange.most_recent(date.today())
+    )
     return build_week(week)

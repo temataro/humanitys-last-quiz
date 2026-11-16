@@ -40,10 +40,19 @@ these keys:
   "geography": [
     {"fact": "", "source_url": ""}
   ],
-  "chart_history": [
-    {"year": 0, "territory": "UK", "title": "", "artist": "", "source_url": "this-week-in-history #1s"}
+  "proper_nouns": ["people, places, film/album/song titles and other proper names used in summaries"],
+  "people": [
+    {"name": "exact name as used in the text", "wikipedia_title": "unambiguous English Wikipedia article title"}
   ]
 }
 
-Provide up to 10 `top_list` items, 3 `trivia`, 3 `geography`, and 2
-`chart_history` entries. Pick a fresh, interesting `top_list` theme each week.
+Provide up to 10 `top_list` items, 3 `trivia`, and 3 `geography` entries.
+Pick a fresh, interesting `top_list` theme each week.
+List ALL named people and music groups mentioned anywhere in the response in `people`,
+including standfirst, banker, chart collaborations, trivia questions and answers.
+Include individual collaborators as separate people. Do not guess article titles.
+For each chart row include `chart_date` (YYYY-MM-DD), `position` (must be 1),
+and `evidence` (a verbatim source excerpt of at least 5 words supporting title, artist and chart date).
+Use dated chart pages for this exact week; never substitute a current chart for a past week.
+For box office include `weekend_end` (YYYY-MM-DD) and `evidence` (a verbatim source excerpt of at least 5 words confirming the ranking/gross). Include the actual weekend dates in `note`. Distinguish estimates from finals.
+Do not make unsourced claims in the standfirst or banker; summarise accepted rows only.

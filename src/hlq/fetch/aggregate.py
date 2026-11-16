@@ -1,3 +1,12 @@
+# =============================================================================
+# aggregate.py — Research and validate weekly quiz facts.
+#
+# Part of Humanity's Last Quiz; see ARCHITECTURE.md for the data flow.
+#
+# Copyright (c) 2026 Temesgen Ataro <ataro.temesgen@gmail.com>
+# SPDX-License-Identifier: Apache-2.0
+# =============================================================================
+
 """Weekly aggregation — Gemini primary, free sources as fallback, then placeholder.
 
 The non-Wikipedia categories (charts, box office, Top-10, trivia, geography) are
@@ -27,6 +36,7 @@ from urllib.parse import urlparse
 
 from ..provenance import Fact, Source
 from ..week import WeekRange
+from ..utils import verify_excerpt
 from . import billboard, gemini, groq, opentdb, worldbank
 
 LLM_PROVIDERS = {"gemini": gemini, "groq": groq}
@@ -52,14 +62,20 @@ class Aggregation:
     top_list: list[Fact] = field(default_factory=list)
     trivia: list[Fact] = field(default_factory=list)
     geography: list[Fact] = field(default_factory=list)
-    chart_history: list[Fact] = field(default_factory=list)
+    people: list = field(default_factory=list)
+    grounding: dict = field(default_factory=dict)
+    proper_nouns: list = field(default_factory=list)
 
 
 # --------------------------------------------------------------------------- #
 # LLM path
 # --------------------------------------------------------------------------- #
 def _load_prompt(week: WeekRange) -> str:
-    tmpl = resources.files("hlq.prompts").joinpath("aggregate.md").read_text(encoding="utf-8")
+    tmpl = (
+        resources.files("hlq.prompts")
+        .joinpath("aggregate.md")
+        .read_text(encoding="utf-8")
+    )
     # Plain replace, not str.format — the prompt is full of literal JSON braces.
     return (
         tmpl.replace("{range_label}", week.label())
@@ -77,8 +93,8 @@ def _host(url: str) -> str:
 
 def _source(url: str, grounding: list[str], name_hint: str = "") -> Source:
     url = (url or "").strip()
-    if not url and grounding:
-        url = grounding[0]
+    if urlparse(url).scheme not in {"http", "https"} or not _host(url):
+        url = ""
     return Source(name=name_hint or _host(url) or GENERIC_SOURCE, url=url, license="")
 
 
@@ -98,7 +114,9 @@ def _extract_json(text: str) -> dict:
     raise ValueError("no JSON object found in model response")
 
 
-def _to_facts(data: dict, retrieved_at: str, grounding: list[str]) -> Aggregation:
+def _to_facts(
+    data: dict, retrieved_at: str, grounding: list[str], week=None
+) -> Aggregation:
     def src(item: dict) -> Source:
         return _source(item.get("source_url", ""), grounding)
 
@@ -108,41 +126,121 @@ def _to_facts(data: dict, retrieved_at: str, grounding: list[str]) -> Aggregatio
         top_list_title=data.get("top_list_title", ""),
     )
     for c in data.get("charts", []):
-        agg.charts.append(Fact(
-            {"territory": c.get("territory", ""), "chart": c.get("chart", ""),
-             "title": c.get("title", ""), "artist": c.get("artist", "")}, src(c), retrieved_at))
+        if week and not (
+            week.start.isoformat() <= c.get("chart_date", "") <= week.end.isoformat()
+        ):
+            continue
+        if week and (c.get("position") != 1 or not c.get("evidence")):
+            continue
+        agg.charts.append(
+            Fact(
+                {
+                    "territory": c.get("territory", ""),
+                    "chart": c.get("chart", ""),
+                    "title": c.get("title", ""),
+                    "artist": c.get("artist", ""),
+                    "chart_date": c.get("chart_date", ""),
+                    "evidence": c.get("evidence", ""),
+                },
+                src(c),
+                retrieved_at,
+            )
+        )
     for b in data.get("box_office", []):
-        agg.box_office.append(Fact(
-            {"region": b.get("region", ""), "title": b.get("title", ""), "note": b.get("note", "")},
-            src(b), retrieved_at))
+        if week and not (
+            week.start.isoformat() <= b.get("weekend_end", "") <= week.end.isoformat()
+        ):
+            continue
+        if week and not b.get("evidence"):
+            continue
+        agg.box_office.append(
+            Fact(
+                {
+                    "region": b.get("region", ""),
+                    "title": b.get("title", ""),
+                    "note": b.get("note", ""),
+                    "weekend_end": b.get("weekend_end", ""),
+                    "evidence": b.get("evidence", ""),
+                },
+                src(b),
+                retrieved_at,
+            )
+        )
     list_src = _source(data.get("top_list_source_url", ""), grounding)
     for it in data.get("top_list", []):
-        agg.top_list.append(Fact(
-            {"label": it.get("label", ""), "value": it.get("value", "")}, list_src, retrieved_at))
+        agg.top_list.append(
+            Fact(
+                {"label": it.get("label", ""), "value": it.get("value", "")},
+                list_src,
+                retrieved_at,
+            )
+        )
     for t in data.get("trivia", []):
-        agg.trivia.append(Fact({"q": t.get("q", ""), "a": t.get("a", "")}, src(t), retrieved_at))
+        agg.trivia.append(
+            Fact({"q": t.get("q", ""), "a": t.get("a", "")}, src(t), retrieved_at)
+        )
     for g in data.get("geography", []):
         agg.geography.append(Fact({"fact": g.get("fact", "")}, src(g), retrieved_at))
-    for h in data.get("chart_history", []):
-        agg.chart_history.append(Fact(
-            {"year": h.get("year", 0), "territory": h.get("territory", ""),
-             "title": h.get("title", ""), "artist": h.get("artist", "")}, src(h), retrieved_at))
+    agg.proper_nouns = [n for n in data.get("proper_nouns", []) if isinstance(n, str)]
+    agg.people = [
+        p for p in data.get("people", []) if p.get("name") and p.get("wikipedia_title")
+    ]
+    # Facts without a specific citation do not become publishable facts.
+    for section in ("charts", "box_office", "top_list", "trivia", "geography"):
+        setattr(agg, section, [f for f in getattr(agg, section) if f.source.url])
+    if not agg.charts:
+        agg.banker = ""
     return agg
 
 
-def _try_llm(name, provider, week: WeekRange, retrieved_at: str, timeout: float) -> Aggregation | None:
+def _try_llm(
+    name, provider, week: WeekRange, retrieved_at: str, timeout: float
+) -> Aggregation | None:
     prompt = _load_prompt(week)
     try:
         raw, grounding, model = provider.call(prompt, timeout)
-        agg = _to_facts(_extract_json(raw), retrieved_at, grounding)
+        agg = _to_facts(_extract_json(raw), retrieved_at, grounding, week)
+        for section in ("charts", "box_office"):
+            setattr(
+                agg,
+                section,
+                [
+                    f
+                    for f in getattr(agg, section)
+                    if verify_excerpt(f.source.url, f.value["evidence"])
+                ],
+            )
+        agg.grounding = (
+            grounding if isinstance(grounding, dict) else {"urls": grounding}
+        )
+        if not agg.grounding.get("urls"):
+            raise ValueError("Search returned no grounding evidence")
+        # Derive summaries from accepted rows; don't publish independent claims.
+        agg.standfirst = (
+            " ".join(
+                f"{f.value['artist']} leads the {f.value['territory']} {f.value['chart']} with {f.value['title']}."
+                for f in agg.charts
+            )
+            or "A fresh selection of sourced facts for the next quiz night."
+        )
+        agg.banker = (
+            (
+                f"{agg.charts[0].value['artist']} — number one on the "
+                f"{agg.charts[0].value['territory']} {agg.charts[0].value['chart']}."
+            )
+            if agg.charts
+            else ""
+        )
         agg.model = f"{name}:{model}"
         agg.raw_prompt = prompt
         agg.raw_response = raw
         print(f"  [aggregate] {name} ok ({model})")
         return agg
     except Exception as exc:
-        print(f"  [aggregate] {name} failed ({type(exc).__name__}: {str(exc)[:120]}); "
-              f"falling back to free sources")
+        print(
+            f"  [aggregate] {name} failed ({type(exc).__name__}: {str(exc)[:120]}); "
+            f"falling back to free sources"
+        )
         return None
 
 
@@ -159,17 +257,26 @@ def _free_sources(week: WeekRange, retrieved_at: str, timeout: float) -> Aggrega
             log.append(f"{name}: ok")
         except Exception as exc:  # one dead source must not sink the edition
             log.append(f"{name}: FAILED ({type(exc).__name__}: {str(exc)[:100]})")
-            print(f"  [aggregate] {name} failed: {type(exc).__name__}: {str(exc)[:100]}")
+            print(
+                f"  [aggregate] {name} failed: {type(exc).__name__}: {str(exc)[:100]}"
+            )
 
-    _try("opentdb", lambda: setattr(agg, "trivia", opentdb.collect(retrieved_at, timeout=timeout)))
+    _try(
+        "opentdb",
+        lambda: setattr(agg, "trivia", opentdb.collect(retrieved_at, timeout=timeout)),
+    )
 
     def _charts():
-        b = billboard.collect(retrieved_at, timeout=timeout)
+        b = billboard.collect(retrieved_at, week=week, timeout=timeout)
         agg.charts, agg.banker = b["charts"], b["banker"]
 
     def _worldbank():
         w = worldbank.collect(week, retrieved_at, timeout=timeout)
-        agg.top_list, agg.top_list_title, agg.geography = w["top_list"], w["top_list_title"], w["geography"]
+        agg.top_list, agg.top_list_title, agg.geography = (
+            w["top_list"],
+            w["top_list_title"],
+            w["geography"],
+        )
 
     _try("billboard", _charts)
     _try("worldbank", _worldbank)
@@ -178,13 +285,17 @@ def _free_sources(week: WeekRange, retrieved_at: str, timeout: float) -> Aggrega
 
 
 def _has_data(agg: Aggregation) -> bool:
-    return bool(agg.trivia or agg.charts or agg.top_list or agg.geography or agg.box_office)
+    return bool(
+        agg.trivia or agg.charts or agg.top_list or agg.geography or agg.box_office
+    )
 
 
 # --------------------------------------------------------------------------- #
 # Public entry point
 # --------------------------------------------------------------------------- #
-def aggregate(week: WeekRange, retrieved_at: str, timeout: float = 60.0) -> Aggregation:
+def aggregate(
+    week: WeekRange, retrieved_at: str, timeout: float = 120.0
+) -> Aggregation:
     name = os.environ.get("HLQ_AGGREGATOR", DEFAULT_PROVIDER).lower()
 
     if name not in FREE_ONLY:
@@ -220,7 +331,14 @@ def _placeholder(week: WeekRange, retrieved_at: str, raw: str = "") -> Aggregati
         banker="Placeholder: the safe #1-artist answer would be derived here.",
         top_list_title="Ten largest countries by land area",
         charts=[
-            f({"territory": "US", "chart": "Billboard Hot 100", "title": "Birds of a Feather", "artist": "Billie Eilish"}),
+            f(
+                {
+                    "territory": "US",
+                    "chart": "Billboard Hot 100",
+                    "title": "Birds of a Feather",
+                    "artist": "Billie Eilish",
+                }
+            ),
         ],
         top_list=[
             f({"label": "Russia", "value": "16.38M km²"}),
@@ -229,9 +347,18 @@ def _placeholder(week: WeekRange, retrieved_at: str, raw: str = "") -> Aggregati
         ],
         trivia=[
             f({"q": "Which element has the chemical symbol W?", "a": "Tungsten"}),
-            f({"q": "In which modern country lies the ancient city of Petra?", "a": "Jordan"}),
+            f(
+                {
+                    "q": "In which modern country lies the ancient city of Petra?",
+                    "a": "Jordan",
+                }
+            ),
         ],
         geography=[
-            f({"fact": "Vatican City is the smallest sovereign state, at just 0.49 km²."}),
+            f(
+                {
+                    "fact": "Vatican City is the smallest sovereign state, at just 0.49 km²."
+                }
+            ),
         ],
     )
