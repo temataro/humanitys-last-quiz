@@ -18,6 +18,7 @@ from the archive without re-fetching.
 from __future__ import annotations
 
 import json
+import os
 from datetime import date, datetime, timezone
 
 from . import paths
@@ -76,6 +77,11 @@ def build_week(week: WeekRange) -> Edition:
         {"name": f.value["who"], "wikipedia_title": f.value["who"]}
         for f in edition.births + edition.deaths
     ]
+    identities.extend(
+        {"name": f.value["artist"], "wikipedia_title": f.value["artist"]}
+        for f in edition.charts
+        if f.value.get("artist")
+    )
     identities.extend(agg.people)
     edition.portraits = portraits.collect(identities)
     _persist(edition, agg, curated["audit"])
@@ -85,12 +91,6 @@ def build_week(week: WeekRange) -> Edition:
 def _persist(edition: Edition, agg: aggregate.Aggregation, people_audit=None) -> None:
     paths.WEEKS.mkdir(parents=True, exist_ok=True)
     paths.RAW.mkdir(parents=True, exist_ok=True)
-
-    out = paths.WEEKS / f"{edition.week_id}.json"
-    out.write_text(
-        json.dumps(edition.to_dict(), indent=2, ensure_ascii=False), encoding="utf-8"
-    )
-    print(f"- Wrote {out.relative_to(paths.ROOT)}")
 
     audit = {
         "aggregation": {"model": agg.model, "grounding": agg.grounding},
@@ -112,6 +112,23 @@ def _persist(edition: Edition, agg: aggregate.Aggregation, people_audit=None) ->
         f"## Prompt\n\n{agg.raw_prompt}\n\n## Response\n\n{agg.raw_response}\n",
         encoding="utf-8",
     )
+
+    if os.environ.get("HLQ_REQUIRE_RESEARCH"):
+        assert (
+            edition.events
+        ), "No verified cultural dates; keeping the previous published edition."
+        assert (
+            edition.charts
+        ), "No verified charts; keeping the previous published edition."
+        assert (
+            not edition.placeholder
+        ), "Placeholder data cannot replace the published edition."
+
+    out = paths.WEEKS / f"{edition.week_id}.json"
+    out.write_text(
+        json.dumps(edition.to_dict(), indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    print(f"- Wrote {out.relative_to(paths.ROOT)}")
 
 
 def run(sunday: date | None) -> Edition:

@@ -195,6 +195,7 @@ def _try_llm(
     name, provider, week: WeekRange, retrieved_at: str, timeout: float
 ) -> Aggregation | None:
     prompt = _load_prompt(week)
+    raw, grounding, model = "", {}, "unknown"
     try:
         raw, grounding, model = provider.call(prompt, timeout)
         agg = _to_facts(_extract_json(raw), retrieved_at, week)
@@ -239,7 +240,15 @@ def _try_llm(
             f"  [aggregate] {name} failed ({type(exc).__name__}: {str(exc)[:120]}); "
             f"falling back to free sources"
         )
-        return None
+        return Aggregation(
+            model=f"failed:{name}:{model}",
+            raw_prompt=prompt,
+            raw_response=raw,
+            grounding={
+                "error": f"{type(exc).__name__}: {str(exc)[:200]}",
+                "evidence": grounding,
+            },
+        )
 
 
 # --------------------------------------------------------------------------- #
@@ -296,6 +305,7 @@ def aggregate(
 ) -> Aggregation:
     name = os.environ.get("HLQ_AGGREGATOR", DEFAULT_PROVIDER).lower()
 
+    attempt = None
     if name not in FREE_ONLY:
         provider = LLM_PROVIDERS.get(name)
         if provider is None:
@@ -303,11 +313,15 @@ def aggregate(
         elif not provider.has_key():
             print(f"  [aggregate] no key for '{name}' — using free sources")
         else:
-            agg = _try_llm(name, provider, week, retrieved_at, timeout)
-            if agg is not None and _has_data(agg):
-                return agg
+            attempt = _try_llm(name, provider, week, retrieved_at, timeout)
+            if _has_data(attempt):
+                return attempt
 
     agg = _free_sources(week, retrieved_at, timeout)
+    if attempt:
+        agg.grounding = {"rejected_llm": attempt.grounding}
+        agg.raw_prompt = attempt.raw_prompt
+        agg.raw_response = attempt.raw_response + "\n\n" + agg.raw_response
     if _has_data(agg):
         return agg
     print("  [aggregate] every free source failed — using placeholder")

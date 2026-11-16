@@ -28,42 +28,55 @@ def has_key() -> bool:
     return bool(os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
 
 
-def _evidence(response):
-    """Retain claim-level grounding and usage for the raw audit archive."""
-    metadata = []
+def _evidence(interaction):
+    """The current API exposes search calls and citations on interaction steps."""
+    data = interaction.model_dump(mode="json", exclude_none=True)
+    steps = data.get("steps", [])
     urls = []
-    for candidate in response.candidates or []:
-        grounding = getattr(candidate, "grounding_metadata", None)
-        if grounding:
-            metadata.append(grounding.model_dump(mode="json", exclude_none=True))
-            for chunk in grounding.grounding_chunks or []:
-                if chunk.web and chunk.web.uri:
-                    urls.append(chunk.web.uri)
-    usage = getattr(response, "usage_metadata", None)
+
+    def citations(value):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if (
+                    key in {"url", "uri"}
+                    and isinstance(item, str)
+                    and item.startswith("https://")
+                ):
+                    urls.append(item)
+                else:
+                    citations(item)
+        elif isinstance(value, list):
+            for item in value:
+                citations(item)
+
+    citations(steps)
     return {
-        "urls": urls,
-        "grounding": metadata,
-        "usage": usage.model_dump(mode="json", exclude_none=True) if usage else {},
+        "urls": list(dict.fromkeys(urls)),
+        "steps": steps,
+        "usage": data.get("usage", {}),
     }
 
 
 def call(prompt, timeout):
     from google import genai
-    from google.genai import types
 
     api_key = os.environ.get("GEMINI_API_KEY") or os.environ["GOOGLE_API_KEY"]
     model = os.environ.get("HLQ_GEMINI_MODEL", DEFAULT_MODEL)
     client = genai.Client(api_key=api_key)
     started = time.monotonic()
-    response = client.models.generate_content(
+    interaction = client.interactions.create(
         model=model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            tools=[types.Tool(google_search=types.GoogleSearch())],
-            temperature=0.1,
-            http_options=types.HttpOptions(timeout=int(timeout * 1000)),
+        input=prompt,
+        tools=[{"type": "google_search", "search_types": ["web_search"]}],
+        system_instruction=(
+            "Use Google Search to research current factual claims before answering. "
+            "Cite the pages you actually searched. Never invent URLs or evidence. "
+            "If search cannot verify a claim, omit it."
         ),
+        generation_config={"max_output_tokens": 12000},
+        store=False,
+        timeout=timeout,
     )
-    evidence = _evidence(response)
+    evidence = _evidence(interaction)
     evidence["elapsed_seconds"] = round(time.monotonic() - started, 2)
-    return response.text or "", evidence, model
+    return interaction.output_text or "", evidence, model

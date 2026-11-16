@@ -48,11 +48,6 @@ Candidates:
         try:
             raw, grounding, model = provider.call(prompt, 120)
             result = aggregate._extract_json(raw)
-            urls = (
-                grounding.get("urls", []) if isinstance(grounding, dict) else grounding
-            )
-            if not urls:
-                result.pop("events", None)
         except Exception as exc:
             print(
                 f"  [people] research unavailable: {type(exc).__name__}: {str(exc)[:120]}"

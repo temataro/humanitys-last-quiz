@@ -58,11 +58,11 @@ jobs:
       - name: Build the edition
         id: build
         env:
-          # Optional: add GEMINI_API_KEY (billing-enabled project) under Settings →
-          # Secrets and variables → Actions for grounded LLM coverage. Absent → the
-          # build still succeeds via the free keyless sources (Billboard/World
-          # Bank/Open Trivia DB); only a total source outage → placeholder.
+          # Grounded research uses the Actions-only key. The publication check
+          # retains the previous edition if fallback data lacks verified cultural
+          # dates or charts. Local keyless builds remain available.
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HLQ_REQUIRE_RESEARCH: "1"
           PUBLISH_SUNDAY: ${{ github.event.inputs.sunday }}
         run: |
           args=()

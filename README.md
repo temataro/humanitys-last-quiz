@@ -47,7 +47,7 @@ Portraits open a larger view when clicked. Proper names and titles are bold in s
 
 ## Automation
 
-`.github/workflows/weekly.yml` rebuilds every Sunday (07:00 UTC) and rebuilds/deploys `site/` after source changes on `main`. Enable Pages under **Settings → Pages → Source: GitHub Actions**. For grounded editions in CI, add a `GEMINI_API_KEY` **Actions secret** (optional).
+`.github/workflows/weekly.yml` rebuilds every Sunday (07:00 UTC) and rebuilds/deploys `site/` after source changes on `main`. Enable Pages under **Settings → Pages → Source: GitHub Actions**. For complete editions in CI, add a `GEMINI_API_KEY` **Actions secret**. CI retains the previous edition if verified cultural dates or charts are missing; local keyless builds remain available.
 
 ## Branches
 

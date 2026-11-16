@@ -46,12 +46,19 @@ def emphasize(text, edition, portraits=True):
     names = set(edition.portraits) | set(edition.proper_nouns)
     for fact in edition.births + edition.deaths:
         names.add(fact.value["who"])
+        names.update(fact.value.get("proper_nouns", []))
     for fact in edition.charts:
         names.update([fact.value.get("title", ""), fact.value.get("artist", "")])
     for fact in edition.box_office:
         names.add(fact.value.get("title", ""))
     for fact in edition.events:
         names.add(fact.value.get("name", ""))
+    # Match collaborators individually so one combined artist label cannot hide
+    # the portraits of its individual performers.
+    for fact in edition.charts:
+        artist = fact.value.get("artist", "")
+        if any(name != artist and name in artist for name in edition.portraits):
+            names.discard(artist)
     # Longest first avoids partial matches; boundaries avoid e.g. 'Us' in 'music'.
     names.discard("")
     if not names:

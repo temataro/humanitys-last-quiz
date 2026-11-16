@@ -11,10 +11,12 @@
 
 import json
 import unittest
+import tempfile
+from pathlib import Path
 from datetime import date
-from unittest.mock import patch
+from unittest.mock import patch, Mock
 
-from hlq.fetch import aggregate, wikipedia, billboard
+from hlq.fetch import aggregate, wikipedia, billboard, gemini
 from hlq.geography import regional_round
 from hlq.model import Edition
 from hlq.provenance import Fact, Source
@@ -160,6 +162,71 @@ class SourceTests(unittest.TestCase):
         self.assertIn("<strong>Us</strong>", html)
         self.assertNotIn("M<strong>us</strong>", html)
         self.assertNotIn("<script>", html)
+
+    @patch.dict("os.environ", {"HLQ_REQUIRE_RESEARCH": "1"})
+    def test_failed_calendar_verification_preserves_existing_edition(self):
+        from hlq import build
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            old = root / "2026-W46.json"
+            old.write_text("previous edition")
+            with (
+                patch.object(build.paths, "WEEKS", root),
+                patch.object(build.paths, "RAW", root),
+                patch.object(build.paths, "ROOT", root),
+            ):
+                with self.assertRaises(AssertionError):
+                    build._persist(edition(), aggregate.Aggregation())
+            self.assertEqual(old.read_text(), "previous edition")
+            self.assertTrue((root / "2026-W46.audit.json").exists())
+
+    def test_interactions_search_annotations_are_archived(self):
+        interaction = Mock()
+        interaction.model_dump.return_value = {
+            "steps": [
+                {
+                    "type": "google_search_call",
+                    "arguments": {"queries": ["current chart"]},
+                },
+                {
+                    "type": "model_output",
+                    "content": [
+                        {
+                            "type": "text",
+                            "annotations": [
+                                {
+                                    "type": "url_citation",
+                                    "url": "https://example.org/dated-chart",
+                                }
+                            ],
+                        }
+                    ],
+                },
+            ],
+            "usage": {"total_tokens": 123},
+        }
+        evidence = gemini._evidence(interaction)
+        self.assertEqual(evidence["urls"], ["https://example.org/dated-chart"])
+        self.assertEqual(evidence["usage"]["total_tokens"], 123)
+
+    def test_collaborating_artists_each_keep_their_portrait(self):
+        ed = edition()
+        ed.charts = [
+            Fact(
+                {"artist": "Artist One & Artist Two", "title": "Duet"}, Source("Chart")
+            )
+        ]
+        ed.portraits = {
+            name: {
+                "url": "media/photo.jpg",
+                "page_url": "https://example.org",
+                "credit": "Photo",
+            }
+            for name in ("Artist One", "Artist Two")
+        }
+        html = str(emphasize("Artist One & Artist Two", ed))
+        self.assertEqual(html.count('<button class="portrait"'), 2)
 
     def test_portrait_is_a_button_with_enlargement_metadata(self):
         ed = edition()

@@ -32,7 +32,8 @@ Natural Earth boundaries + World Bank capitals → render.py + templates/ → si
   Blocked or inaccessible pages may cause otherwise true items to be omitted.
   Evidence matching confirms text presence, not full semantic entailment; static
   trivia and rankings still rely on grounded research and editorial review.
-- `fetch/gemini.py` archives grounding metadata and token usage. Normal builds use
+- `fetch/gemini.py` uses the Interactions API and archives search steps, citation
+  annotations, timing and token usage. Normal builds use
   at most two LLM calls, without automatic paid retries. API/model pricing depends
   on the configured provider; no exact cost is assumed.
 - `fetch/portraits.py` batches identity lookups, downloads free Wikimedia images,
@@ -59,7 +60,9 @@ Photo attributions remain visible in each edition’s credits.
 
 The weekly workflow runs regression tests, builds with the Actions Gemini secret,
 regenerates the site, commits the archive/media, and deploys Pages. Source pushes
-also rebuild the latest edition. The Sunday 07:00 UTC run is a snapshot: deaths
+also rebuild the latest edition. CI requires verified cultural dates and a chart
+before replacing the edition; rejected research remains in the audit files.
+The Sunday 07:00 UTC run is a snapshot: deaths
 occurring later and final weekend figures may need a subsequent manual rebuild.
 
 Run `make setup`, `PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v`,

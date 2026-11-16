@@ -113,6 +113,12 @@ def parse_deaths(html, month, allowed, retrieved_at):
                         .removeprefix(link.get_text())
                         .lstrip(" ,"),
                         "on": current.isoformat(),
+                        "proper_nouns": [
+                            a.get_text(strip=True)
+                            for a in node.find_all("a")
+                            if a.get("href", "").startswith("/wiki/")
+                            and a.get_text(strip=True)[:1].isupper()
+                        ],
                     },
                     Source(
                         "Wikipedia recent deaths",
