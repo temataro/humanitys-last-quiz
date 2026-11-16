@@ -33,7 +33,9 @@ Natural Earth boundaries + World Bank capitals → render.py + templates/ → si
   Evidence matching confirms text presence, not full semantic entailment; static
   trivia and rankings still rely on grounded research and editorial review.
 - `fetch/gemini.py` uses the Interactions API and archives search steps, citation
-  annotations, timing and token usage. Normal builds use
+  annotations, timing and token usage. Structured JSON may omit inline annotations;
+  successful search-result steps still establish that research used Search.
+  Date-checked free charts fill chart gaps when source pages are inaccessible. Normal builds use
   at most two LLM calls, without automatic paid retries. API/model pricing depends
   on the configured provider; no exact cost is assumed.
 - `fetch/portraits.py` batches identity lookups, downloads free Wikimedia images,

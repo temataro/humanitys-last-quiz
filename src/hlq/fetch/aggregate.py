@@ -212,8 +212,25 @@ def _try_llm(
         agg.grounding = (
             grounding if isinstance(grounding, dict) else {"urls": grounding}
         )
-        if not agg.grounding.get("urls"):
+        searched = any(
+            step.get("type") == "google_search_result" and not step.get("is_error")
+            for step in agg.grounding.get("steps", [])
+        )
+        if not agg.grounding.get("urls") and not searched:
             raise ValueError("Search returned no grounding evidence")
+        if not any(
+            f.value.get("territory") == "US"
+            and f.value.get("chart") == "Billboard Hot 100"
+            for f in agg.charts
+        ):
+            try:
+                fallback = billboard.collect(retrieved_at, week=week, timeout=timeout)
+                agg.charts.extend(fallback["charts"])
+                agg.grounding["fallback_sections"] = ["charts"]
+            except Exception as exc:
+                print(
+                    f"  [aggregate] dated chart fallback unavailable: {type(exc).__name__}"
+                )
         # Derive summaries from accepted rows; don't publish independent claims.
         agg.standfirst = (
             " ".join(

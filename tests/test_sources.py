@@ -210,6 +210,47 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(evidence["urls"], ["https://example.org/dated-chart"])
         self.assertEqual(evidence["usage"]["total_tokens"], 123)
 
+    @patch("hlq.fetch.aggregate.billboard.collect")
+    def test_structured_research_accepts_successful_search_without_inline_annotations(
+        self, fallback
+    ):
+        from hlq.week import WeekRange
+
+        fallback.return_value = {
+            "charts": [
+                Fact(
+                    {
+                        "artist": "Artist",
+                        "territory": "US",
+                        "chart": "Hot 100",
+                        "title": "Song",
+                    },
+                    Source("Chart", "https://example.org/chart"),
+                )
+            ]
+        }
+        provider = Mock()
+        provider.call.return_value = (
+            '{"trivia": [{"q": "Q", "a": "A", "source_url": "https://example.org/fact"}]}',
+            {
+                "urls": [],
+                "steps": [
+                    {
+                        "type": "google_search_result",
+                        "is_error": False,
+                        "result": [{"search_suggestions": "search widget"}],
+                    }
+                ],
+            },
+            "model",
+        )
+        result = aggregate._try_llm(
+            "gemini", provider, WeekRange(date(2026, 11, 15)), "now", 20
+        )
+        self.assertEqual(len(result.trivia), 1)
+        self.assertEqual(len(result.charts), 1)
+        self.assertEqual(result.grounding["fallback_sections"], ["charts"])
+
     def test_collaborating_artists_each_keep_their_portrait(self):
         ed = edition()
         ed.charts = [

@@ -56,3 +56,6 @@ and `evidence` (a verbatim source excerpt of at least 5 words supporting title, 
 Use dated chart pages for this exact week; never substitute a current chart for a past week.
 For box office include `weekend_end` (YYYY-MM-DD) and `evidence` (a verbatim source excerpt of at least 5 words confirming the ranking/gross). Include the actual weekend dates in `note`. Distinguish estimates from finals.
 Do not make unsourced claims in the standfirst or banker; summarise accepted rows only.
+
+Limit research to twelve search queries. Do not repeatedly retry paywalled chart pages;
+omit an unavailable row rather than spend more searches guessing its contents.

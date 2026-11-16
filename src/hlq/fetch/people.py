@@ -29,7 +29,9 @@ Do not invent people, dates or deaths. Deaths are actual recent deaths, not anni
 Choose up to 16 birthdays, covering as many of the eleven days as possible, and up to
 10 deaths; omit obscure candidates. Return their exact who strings in births/deaths arrays.
 Also use web search to find up to 8 cultural events, holidays or celebrations occurring
-in the same date window in the publication year. Include a global mix. Verify movable
+in the same date window in the publication year. Include a global mix.
+Prioritise festivals, national/religious holidays, arts events and celebrations.
+Use health awareness days only as a small supplement (at most two). Verify movable
 holidays for that YEAR against organisers, national calendars or religious authorities.
 Use the date the celebration occurs, not article publication dates. Do not guess dates.
 Include ongoing festivals only with an actual occurrence date within the window.
