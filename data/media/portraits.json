@@ -214,5 +214,41 @@
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "title": "Ella Langley"
+  },
+  "Christian Horner": {
+    "url": "media/23d0ac791fbd2459.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Horner_at_F1_Live_in_London_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Horner_at_F1_Live_in_London_02.jpg",
+    "credit": "Ben Sutherland",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "title": "Christian Horner"
+  },
+  "Olivia Rodrigo": {
+    "url": "media/7bd444c27961cdc9.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Glasto2025-546_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg",
+    "credit": "Raph_PH",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "title": "Olivia Rodrigo"
+  },
+  "Johnny Depp": {
+    "url": "media/04b0365e86a0b6c9.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Johnny_Depp_2020.jpg",
+    "credit": "Harald Krichel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "Johnny Depp"
+  },
+  "Ti West": {
+    "url": "media/919833fb26d75326.jpg",
+    "large_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Ti_West_in_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "page_url": "https://commons.wikimedia.org/wiki/File:Ti_West_in_2024.jpg",
+    "credit": "Raph_PH",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "title": "Ti West"
   }
 }

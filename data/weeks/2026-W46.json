@@ -5,10 +5,10 @@
   "range_start": "2026-11-09",
   "range_end": "2026-11-15",
   "range_label": "9 – 15 November 2026",
-  "generated_at": "2026-11-16T11:01:17+00:00",
-  "standfirst": "A fresh selection of sourced facts for the next quiz night.",
-  "top_list_title": "Ten most populous countries",
-  "banker": "the US #1 single is “Choosin' Texas” by Ella Langley (Billboard Hot 100, chart dated 2026-11-14).",
+  "generated_at": "2026-11-16T11:07:22+00:00",
+  "standfirst": "Ella Langley leads the US Billboard Hot 100 with Choosin' Texas. Olivia Rodrigo leads the US Billboard 200 with you seem pretty sad for a girl so in love.",
+  "top_list_title": "Ten highest mountain peaks above sea level",
+  "banker": "Ella Langley — number one on the US Billboard Hot 100.",
   "placeholder": false,
   "portraits": {
     "Brittany Murphy": {
@@ -92,6 +92,15 @@
       "license_url": "",
       "title": "Burgess Meredith"
     },
+    "Christian Horner": {
+      "url": "media/23d0ac791fbd2459.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Horner_at_F1_Live_in_London_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Horner_at_F1_Live_in_London_02.jpg",
+      "credit": "Ben Sutherland",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Christian Horner"
+    },
     "Danny DeVito": {
       "url": "media/a2bf6baf816051e8.jpg",
       "large_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Danny_DeVito_cropped_and_edited_for_brightness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -118,15 +127,6 @@
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "title": "Owen Wilson"
-    },
-    "Allison Janney": {
-      "url": "media/b3de64890169b46f.jpg",
-      "large_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/AllisonJanney-byPhilipRomano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page_url": "https://commons.wikimedia.org/wiki/File:AllisonJanney-byPhilipRomano.jpg",
-      "credit": "PhilipRomano",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "title": "Allison Janney"
     },
     "Jodie Foster": {
       "url": "media/ffbbb11a47a666ca.jpg",
@@ -200,15 +200,6 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "title": "Richard Sterban"
     },
-    "Miguel Ángel Félix Gallardo": {
-      "url": "media/d99635da928775c2.png",
-      "large_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mugshot_miguel_%C3%A1ngel_f%C3%A9lix_gallardo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "page_url": "https://commons.wikimedia.org/wiki/File:Mugshot_miguel_%C3%A1ngel_f%C3%A9lix_gallardo.png",
-      "credit": "US Federal Government",
-      "license": "Public domain",
-      "license_url": "",
-      "title": "Miguel Ángel Félix Gallardo"
-    },
     "Ella Langley": {
       "url": "media/e2949c337e326f4f.jpg",
       "large_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ella_Langley_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -217,10 +208,71 @@
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "title": "Ella Langley"
+    },
+    "Olivia Rodrigo": {
+      "url": "media/7bd444c27961cdc9.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Glasto2025-546_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg",
+      "credit": "Raph_PH",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "title": "Olivia Rodrigo"
+    },
+    "Johnny Depp": {
+      "url": "media/04b0365e86a0b6c9.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Johnny_Depp_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Johnny_Depp_2020.jpg",
+      "credit": "Harald Krichel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "title": "Johnny Depp"
+    },
+    "Ti West": {
+      "url": "media/919833fb26d75326.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Ti_West_in_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ti_West_in_2024.jpg",
+      "credit": "Raph_PH",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Ti West"
     }
   },
   "people_window": "10 November 2026 – 20 November 2026",
-  "proper_nouns": [],
+  "proper_nouns": [
+    "Johnny Depp",
+    "Ti West",
+    "Ella Langley",
+    "Olivia Rodrigo",
+    "Ebenezer",
+    "Choosin' Texas",
+    "you seem pretty sad for a girl so in love",
+    "US",
+    "UK",
+    "United States",
+    "China",
+    "Nepal",
+    "Tibet Autonomous Region",
+    "Mount Everest",
+    "K2",
+    "Kangchenjunga",
+    "Lhotse",
+    "Makalu",
+    "Cho Oyu",
+    "Dhaulagiri I",
+    "Manaslu",
+    "Nanga Parbat",
+    "Annapurna I",
+    "Algeria",
+    "Lake Baikal",
+    "Siberia",
+    "Russia",
+    "Billboard Hot 100",
+    "Billboard 200",
+    "Johnny Depp",
+    "Ti West",
+    "Ella Langley",
+    "Olivia Rodrigo"
+  ],
   "births": [
     {
       "value": {
@@ -234,7 +286,7 @@
         "url": "https://en.wikipedia.org/wiki/Brittany_Murphy",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -248,7 +300,7 @@
         "url": "https://en.wikipedia.org/wiki/Stanley_Tucci",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -262,7 +314,7 @@
         "url": "https://en.wikipedia.org/wiki/Leonardo_DiCaprio",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -276,7 +328,7 @@
         "url": "https://en.wikipedia.org/wiki/Ryan_Gosling",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -290,7 +342,7 @@
         "url": "https://en.wikipedia.org/wiki/Anne_Hathaway",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -304,7 +356,7 @@
         "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -318,7 +370,7 @@
         "url": "https://en.wikipedia.org/wiki/Charles_III",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -332,7 +384,7 @@
         "url": "https://en.wikipedia.org/wiki/Shailene_Woodley",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -346,7 +398,21 @@
         "url": "https://en.wikipedia.org/wiki/Burgess_Meredith",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
+    },
+    {
+      "value": {
+        "year": 1973,
+        "who": "Christian Horner",
+        "what": "English race car driver and manager",
+        "on": "2026-11-16"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christian_Horner",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -360,7 +426,7 @@
         "url": "https://en.wikipedia.org/wiki/Danny_DeVito",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -374,7 +440,7 @@
         "url": "https://en.wikipedia.org/wiki/Rachel_McAdams",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -388,21 +454,7 @@
         "url": "https://en.wikipedia.org/wiki/Owen_Wilson",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
-    },
-    {
-      "value": {
-        "year": 1959,
-        "who": "Allison Janney",
-        "what": "American actress",
-        "on": "2026-11-19"
-      },
-      "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Allison_Janney",
-        "license": "CC BY-SA 4.0"
-      },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -416,7 +468,7 @@
         "url": "https://en.wikipedia.org/wiki/Jodie_Foster",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -430,7 +482,7 @@
         "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -444,7 +496,7 @@
         "url": "https://en.wikipedia.org/wiki/Joe_Biden",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ],
   "deaths": [
@@ -466,7 +518,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -486,7 +538,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -505,7 +557,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -525,7 +577,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -544,7 +596,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -562,7 +614,25 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#10",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Dan Hicks (sportscaster)",
+        "what": "64, American sportscaster ( NBC Sports ).",
+        "on": "2026-11-11",
+        "proper_nouns": [
+          "Dan Hicks",
+          "NBC Sports"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#11",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -579,7 +649,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#12",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -599,7 +669,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#12",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
@@ -619,25 +689,7 @@
         "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#14",
         "license": "CC BY-SA 4.0"
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
-    },
-    {
-      "value": {
-        "year": 2026,
-        "who": "Miguel Ángel Félix Gallardo",
-        "what": "80, Mexican drug lord ( Guadalajara Cartel ).",
-        "on": "2026-11-15",
-        "proper_nouns": [
-          "Miguel Ángel Félix Gallardo",
-          "Guadalajara Cartel"
-        ]
-      },
-      "source": {
-        "name": "Wikipedia recent deaths",
-        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#15",
-        "license": "CC BY-SA 4.0"
-      },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ],
   "charts": [
@@ -646,261 +698,311 @@
         "territory": "US",
         "chart": "Billboard Hot 100",
         "title": "Choosin' Texas",
-        "artist": "Ella Langley"
+        "artist": "Ella Langley",
+        "chart_date": "2026-11-14",
+        "evidence": "1. Choosin' Texas. Ella Langley."
       },
       "source": {
-        "name": "Billboard Hot 100",
-        "url": "https://www.billboard.com/charts/hot-100/",
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/2026-11-14/",
         "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "you seem pretty sad for a girl so in love",
+        "artist": "Olivia Rodrigo",
+        "chart_date": "2026-11-14",
+        "evidence": "1. you seem pretty sad for a girl so in love. Olivia Rodrigo."
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/2026-11-14/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ],
-  "box_office": [],
+  "box_office": [
+    {
+      "value": {
+        "region": "UK",
+        "title": "Ebenezer",
+        "note": "Estimated $5.4 million weekend gross (13–15 November 2026)",
+        "weekend_end": "2026-11-15",
+        "evidence": "Debuting #1 globally, Ebenezer opened #1 in the United Kingdom ($5.4 million)"
+      },
+      "source": {
+        "name": "skydance.com",
+        "url": "https://www.skydance.com/news/ebenezer-opens-to-no-1-worldwide-with-42-million/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
+    }
+  ],
   "top_list": [
     {
       "value": {
-        "label": "India",
-        "value": "1.46B"
+        "label": "Mount Everest",
+        "value": "8,848 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "China",
-        "value": "1.41B"
+        "label": "K2",
+        "value": "8,611 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "United States",
-        "value": "341.78M"
+        "label": "Kangchenjunga",
+        "value": "8,586 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Indonesia",
-        "value": "285.72M"
+        "label": "Lhotse",
+        "value": "8,516 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Pakistan",
-        "value": "255.22M"
+        "label": "Makalu",
+        "value": "8,485 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Nigeria",
-        "value": "237.53M"
+        "label": "Cho Oyu",
+        "value": "8,188 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Brazil",
-        "value": "212.81M"
+        "label": "Dhaulagiri I",
+        "value": "8,167 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Bangladesh",
-        "value": "175.69M"
+        "label": "Manaslu",
+        "value": "8,163 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Russian Federation",
-        "value": "143.51M"
+        "label": "Nanga Parbat",
+        "value": "8,126 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "label": "Ethiopia",
-        "value": "135.47M"
+        "label": "Annapurna I",
+        "value": "8,091 m"
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/story/the-10-highest-mountains-in-the-world",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ],
   "trivia": [
     {
       "value": {
-        "q": "In the original \"Super Mario Bros.\", what is the acceleration of Mario if he was in free fall?",
-        "a": "91.28 m/s^2"
+        "q": "Which gothic holiday film directed by Ti West topped the box office in November 2026, starring Johnny Depp as Ebenezer Scrooge?",
+        "a": "Ebenezer"
       },
       "source": {
-        "name": "Open Trivia DB",
-        "url": "https://opentdb.com",
-        "license": "CC BY-SA 4.0"
+        "name": "boxofficepro.com",
+        "url": "https://www.boxofficepro.com/weekend-box-office-ebenezer-delivers-top-spot-finish-for-johnny-depp/",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "q": "What band featured Sting, Stewart Copeland and Andy Summers?",
-        "a": "The Police"
+        "q": "Which country artist reached number one on the Billboard Hot 100 in November 2026 with the single Choosin' Texas?",
+        "a": "Ella Langley"
       },
       "source": {
-        "name": "Open Trivia DB",
-        "url": "https://opentdb.com",
-        "license": "CC BY-SA 4.0"
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/2026-11-14/",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "q": "When did Norway get its constitution?",
-        "a": "1814"
+        "q": "Which singer-songwriter topped the Billboard 200 chart in November 2026 with her album 'you seem pretty sad for a girl so in love'?",
+        "a": "Olivia Rodrigo"
       },
       "source": {
-        "name": "Open Trivia DB",
-        "url": "https://opentdb.com",
-        "license": "CC BY-SA 4.0"
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/billboard-200/2026-11-14/",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ],
   "geography": [
     {
       "value": {
-        "fact": "The largest country by land area is Russian Federation, at 16.38M km²."
+        "fact": "Mount Everest, situated on the border of Nepal and China, is Earth's highest mountain above sea level at 8,848 metres."
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Mount-Everest",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "fact": "The smallest country by land area (World Bank data) is Monaco, at 2 km²."
+        "fact": "Algeria is the largest country in Africa by land area, covering approximately 2.38 million square kilometres."
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/AG.LND.TOTL.K2",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Algeria",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "fact": "The most populous country is India, with about 1.46B people."
+        "fact": "Lake Baikal in southern Siberia, Russia, is the world's deepest lake and holds about one-fifth of the world's unfrozen surface fresh water."
       },
       "source": {
-        "name": "World Bank",
-        "url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL",
-        "license": "CC BY 4.0"
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Lake-Baikal",
+        "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ],
   "chart_history": [],
   "events": [
     {
       "value": {
-        "name": "Veterans Day",
-        "on": "2026-11-11",
-        "where": "United States",
-        "what": "A U.S. federal holiday honoring military veterans who have served in the United States Armed Forces.",
-        "source_url": "https://department.va.gov/veterans-day/",
-        "evidence": "Veterans Day commemoration at Arlington National Cemetery on November 11, 2026."
+        "name": "International Day for Tolerance",
+        "on": "2026-11-16",
+        "where": "Global",
+        "what": "UN observance established by UNESCO in 1995 to generate public awareness of the dangers of intolerance and promote mutual respect.",
+        "source_url": "https://catholicconnect.in/news/international-day-for-tolerance-2026-building-a-world-where-diversity-becomes-our-strength",
+        "evidence": "Every year on 16 November, the world observes the International Day for Tolerance"
       },
       "source": {
-        "name": "department.va.gov",
-        "url": "https://department.va.gov/veterans-day/",
+        "name": "catholicconnect.in",
+        "url": "https://catholicconnect.in/news/international-day-for-tolerance-2026-building-a-world-where-diversity-becomes-our-strength",
         "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "name": "World Diabetes Day",
-        "on": "2026-11-14",
-        "where": "Global",
-        "what": "A global health awareness campaign organized by the WHO and International Diabetes Federation.",
-        "source_url": "https://www.who.int/campaigns/world-diabetes-day/2026",
-        "evidence": "14 November is World Diabetes Day."
+        "name": "Republic of Latvia Proclamation Day",
+        "on": "2026-11-18",
+        "where": "Latvia",
+        "what": "National public holiday marking the 1918 anniversary of the proclamation of independence of the Republic of Latvia.",
+        "source_url": "https://www.latvia.travel/en/event/proclamation-day-republic-latvia",
+        "evidence": "celebrated annually on 18 November in Latvia"
       },
       "source": {
-        "name": "who.int",
-        "url": "https://www.who.int/campaigns/world-diabetes-day/2026",
+        "name": "latvia.travel",
+        "url": "https://www.latvia.travel/en/event/proclamation-day-republic-latvia",
         "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     },
     {
       "value": {
-        "name": "World Prematurity Day",
-        "on": "2026-11-15",
+        "name": "World Children's Day",
+        "on": "2026-11-20",
         "where": "Global",
-        "what": "A global health day recognized by the World Health Organization to raise awareness of preterm birth and newborn care.",
-        "source_url": "https://www.who.int/campaigns/world-prematurity-day/2026",
-        "evidence": "World Prematurity Day 2026. 15 November."
+        "what": "UNICEF-led global day of action commemorating the UN adoption of the Declaration and Convention on the Rights of the Child.",
+        "source_url": "https://www.unicef.org/world-childrens-day",
+        "evidence": "World Children's Day will take place on 20 November 2026."
       },
       "source": {
-        "name": "who.int",
-        "url": "https://www.who.int/campaigns/world-prematurity-day/2026",
+        "name": "unicef.org",
+        "url": "https://www.unicef.org/world-childrens-day",
         "license": ""
       },
-      "retrieved_at": "2026-11-16T11:01:17+00:00"
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
+    },
+    {
+      "value": {
+        "name": "Revolution Day",
+        "on": "2026-11-20",
+        "where": "Mexico",
+        "what": "Commemorates the beginning of the Mexican Revolution in 1910 led by Francisco I. Madero against dictator Porfirio Díaz.",
+        "source_url": "https://en.wikipedia.org/wiki/Revolution_Day_(Mexico)",
+        "evidence": "celebrated annually in Mexico on November 20"
+      },
+      "source": {
+        "name": "en.wikipedia.org",
+        "url": "https://en.wikipedia.org/wiki/Revolution_Day_(Mexico)",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-16T11:07:22+00:00"
     }
   ]
 }
