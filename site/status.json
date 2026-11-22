@@ -1,30 +1,28 @@
 {
-  "rendered_at": "2026-11-16T11:09:10+00:00",
-  "week_id": "2026-W46",
-  "edition_no": 46,
-  "generated_at": "2026-11-16T11:07:22+00:00",
+  "rendered_at": "2026-11-22T15:04:25+00:00",
+  "week_id": "2026-W47",
+  "edition_no": 47,
+  "generated_at": "2026-11-22T15:01:51+00:00",
   "mode": "live",
-  "editions": 18,
+  "editions": 19,
   "counts": {
-    "births": 16,
+    "births": 15,
     "deaths": 10,
     "charts": 2,
     "box_office": 1,
     "top_list": 10,
     "trivia": 3,
     "geography": 3,
-    "events": 4
+    "events": 7
   },
   "sources": [
     "Wikipedia",
     "Wikipedia recent deaths",
-    "billboard.com",
-    "skydance.com",
+    "ca.billboard.com",
+    "Billboard Hot 100",
+    "the-numbers.com",
     "britannica.com",
-    "boxofficepro.com",
-    "catholicconnect.in",
-    "latvia.travel",
-    "unicef.org",
-    "en.wikipedia.org"
+    "billboard.com",
+    "vertexaisearch.cloud.google.com"
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-11-16T11:09:10Z",
+  "last_run": "2026-11-22T15:04:25Z",
   "outcome": "success",
-  "trigger": "push",
-  "sha": "ad58085ec8ab6fa20a757d0a02f2f01351c76d51",
-  "run_url": "https://github.com/temataro/humanitys-last-quiz/actions/runs/43854886749"
+  "trigger": "schedule",
+  "sha": "23091c33b163f8090c6553011129f039b66bfb6f",
+  "run_url": "https://github.com/temataro/humanitys-last-quiz/actions/runs/45035989147"
 }

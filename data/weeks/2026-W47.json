@@ -1,0 +1,1030 @@
+{
+  "week_id": "2026-W47",
+  "edition_no": 47,
+  "sunday": "2026-11-22",
+  "range_start": "2026-11-16",
+  "range_end": "2026-11-22",
+  "range_label": "16 – 22 November 2026",
+  "generated_at": "2026-11-22T15:01:51+00:00",
+  "standfirst": "Olivia Rodrigo leads the US Billboard 200 with you seem pretty sad for a girl so in love. Ella Langley leads the US Billboard Hot 100 with Choosin' Texas.",
+  "top_list_title": "Ten largest lakes in the world by area",
+  "banker": "Olivia Rodrigo — number one on the US Billboard 200.",
+  "placeholder": false,
+  "portraits": {
+    "Danny DeVito": {
+      "url": "media/a2bf6baf816051e8.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Danny_DeVito_cropped_and_edited_for_brightness.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Danny_DeVito_cropped_and_edited_for_brightness.jpg",
+      "credit": "Gage Skidmore [CC BY-SA 3.0 ( https://creativecommons.org/licenses/by-sa/3.0 )], via Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "title": "Danny DeVito"
+    },
+    "Rachel McAdams": {
+      "url": "media/c4e672edb8cb691c.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Rachel_McAdams_-_Walk_of_Fame.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Rachel_McAdams_-_Walk_of_Fame.jpg",
+      "credit": "Kevin Paul",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "title": "Rachel McAdams"
+    },
+    "Owen Wilson": {
+      "url": "media/c72469eaab519c86.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/OwenWilson-byPhilipRomano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:OwenWilson-byPhilipRomano.jpg",
+      "credit": "PhilipRomano",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Owen Wilson"
+    },
+    "Jodie Foster": {
+      "url": "media/ffbbb11a47a666ca.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Jodie_Foster_Taxi_Driver_Tribeca_Festival_2026-20_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Jodie_Foster_Taxi_Driver_Tribeca_Festival_2026-20_(cropped).jpg",
+      "credit": "Bryan Berlin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Jodie Foster"
+    },
+    "Robert F. Kennedy": {
+      "url": "media/b6e4e63994488897.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Robert_F._Kennedy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy.jpg",
+      "credit": "Harry Warnecke",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Robert F. Kennedy"
+    },
+    "Joe Biden": {
+      "url": "media/527beae450dcfc21.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Joe_Biden_presidential_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg",
+      "credit": "Adam Schultz",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Joe Biden"
+    },
+    "Goldie Hawn": {
+      "url": "media/6db9ccf20b27ec8c.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Goldie_Hawn_in_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Goldie_Hawn_in_2021.jpg",
+      "credit": "Peabody Awards",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "title": "Goldie Hawn"
+    },
+    "Jamie Lee Curtis": {
+      "url": "media/a10f9e0c441951e9.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/2025_Jamie_Lee_Curtis_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:2025_Jamie_Lee_Curtis_(cropped).jpg",
+      "credit": "Gabriel Hutchinson",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Jamie Lee Curtis"
+    },
+    "Scarlett Johansson": {
+      "url": "media/0808d64ad8e5d681.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Scarlett_Johansson-8588.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg",
+      "credit": "Harald Krichel",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Scarlett Johansson"
+    },
+    "Miley Cyrus": {
+      "url": "media/f2d9c9da7a517b15.png",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Miley_Cyrus_Grammy_Awards_2024_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Miley_Cyrus_Grammy_Awards_2024_(cropped).png",
+      "credit": "TNT Brasil",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "title": "Miley Cyrus"
+    },
+    "Katherine Heigl": {
+      "url": "media/36c4e16d0874a097.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Katherine_Heigl_at_27_Dresses_Premiere_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Katherine_Heigl_at_27_Dresses_Premiere_13.jpg",
+      "credit": "Photo from www.lukeford.net",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "title": "Katherine Heigl"
+    },
+    "Christina Applegate": {
+      "url": "media/a114c56ad1915929.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Christina_Applegate_2014_Comic_Con_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Christina_Applegate_2014_Comic_Con_(cropped).jpg",
+      "credit": "Gage Skidmore",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Christina Applegate"
+    },
+    "Tina Turner": {
+      "url": "media/e0fb4fc931a191c2.png",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Tina_Turner_Breaks_All_the_Rules.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Tina_Turner_Breaks_All_the_Rules.png",
+      "credit": "HBO",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Tina Turner"
+    },
+    "Rita Ora": {
+      "url": "media/1d9b03d636191595.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Oliver_Mark_-_Rita_Ora%2C_Berlin_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Oliver_Mark_-_Rita_Ora,_Berlin_2018.jpg",
+      "credit": "Oliver Mark",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Rita Ora"
+    },
+    "Bruce Lee": {
+      "url": "media/002e9eebe5c460cf.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Bruce_Lee_as_Chen_Zhen_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Bruce_Lee_as_Chen_Zhen_(4x5_cropped).jpg",
+      "credit": "National General Pictures (original photo); uploaded by User:999real , cropped by User:Wabbuh",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Bruce Lee"
+    },
+    "Lance Broadway": {
+      "url": "media/7ad082d6d8d865a1.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lance_Broadway_on_RealTVfilms.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Lance_Broadway_on_RealTVfilms.jpg",
+      "credit": "RealTVfilms",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "title": "Lance Broadway"
+    },
+    "Bill Watts": {
+      "url": "media/af9bd4d6e8e04597.png",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Bill_Watts.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Bill_Watts.png",
+      "credit": "Unknown author Unknown author",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Bill Watts"
+    },
+    "Sharman Stone": {
+      "url": "media/21c7b7e9afaa39e4.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sharman_Stone_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Sharman_Stone_2017.jpg",
+      "credit": "Australian Embassy Jakarta",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Sharman Stone"
+    },
+    "Fiona (hippopotamus)": {
+      "url": "media/e08c0e3ef068cbc7.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Fiona_the_Hippopotamus_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Fiona_the_Hippopotamus_(detail).jpg",
+      "credit": "Botto",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Fiona (hippopotamus)"
+    },
+    "Tommy Mars": {
+      "url": "media/e7c9bc15645e550e.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Frank_Zappa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Frank_Zappa.jpg",
+      "credit": "Eddie Berman",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Tommy Mars"
+    },
+    "Corrado Augias": {
+      "url": "media/99dc5a01bdeb0c0c.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Corrado_Augias%2C_Pietrasanta_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Corrado_Augias,_Pietrasanta_2.jpg",
+      "credit": "Daniele Devoti",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "title": "Corrado Augias"
+    },
+    "Bobby Ray Inman": {
+      "url": "media/06421e42c5323710.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Admiral_Bobby_Ray_Inman%2C_official_CIA_photo%2C_1983.JPEG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Admiral_Bobby_Ray_Inman,_official_CIA_photo,_1983.JPEG",
+      "credit": "Unidentified photographer",
+      "license": "Public domain",
+      "license_url": "",
+      "title": "Bobby Ray Inman"
+    },
+    "Olivia Rodrigo": {
+      "url": "media/7bd444c27961cdc9.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Glasto2025-546_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg",
+      "credit": "Raph_PH",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "title": "Olivia Rodrigo"
+    },
+    "Ella Langley": {
+      "url": "media/e2949c337e326f4f.jpg",
+      "large_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Ella_Langley_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "page_url": "https://commons.wikimedia.org/wiki/File:Ella_Langley_2026_(cropped).jpg",
+      "credit": "Rick Munroe",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "title": "Ella Langley"
+    }
+  },
+  "people_window": "17 November 2026 – 27 November 2026",
+  "proper_nouns": [
+    "Amazon River",
+    "Aral Sea",
+    "Billboard 200",
+    "Billboard Hot 100",
+    "Caspian Sea",
+    "Choosin' Texas",
+    "Ella Langley",
+    "Great Bear Lake",
+    "Great Slave Lake",
+    "Lake Baikal",
+    "Lake Huron",
+    "Lake Michigan",
+    "Lake Nyasa",
+    "Lake Superior",
+    "Lake Tanganyika",
+    "Lake Victoria",
+    "Lake Vostok",
+    "Liechtenstein",
+    "Monaco",
+    "Olivia Rodrigo",
+    "San Marino",
+    "Suriname",
+    "The Hunger Games: Sunrise on the Reaping",
+    "UK",
+    "US",
+    "Vaduz",
+    "Vatican City",
+    "you seem pretty sad for a girl so in love",
+    "Ella Langley",
+    "Olivia Rodrigo"
+  ],
+  "births": [
+    {
+      "value": {
+        "year": 1944,
+        "who": "Danny DeVito",
+        "what": "American actor, director, and producer",
+        "on": "2026-11-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Danny_DeVito",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1978,
+        "who": "Rachel McAdams",
+        "what": "Canadian actress",
+        "on": "2026-11-17"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rachel_McAdams",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1968,
+        "who": "Owen Wilson",
+        "what": "American actor",
+        "on": "2026-11-18"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Owen_Wilson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1962,
+        "who": "Jodie Foster",
+        "what": "American actress, director, and producer",
+        "on": "2026-11-19"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jodie_Foster",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1925,
+        "who": "Robert F. Kennedy",
+        "what": "US Navy officer, lawyer, and politician, 64th United States Attorney General (died 1968)",
+        "on": "2026-11-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1942,
+        "who": "Joe Biden",
+        "what": "American politician, 46th President of the United States",
+        "on": "2026-11-20"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Joe_Biden",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1945,
+        "who": "Goldie Hawn",
+        "what": "American actress, singer, and producer",
+        "on": "2026-11-21"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Goldie_Hawn",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1958,
+        "who": "Jamie Lee Curtis",
+        "what": "American actress",
+        "on": "2026-11-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jamie_Lee_Curtis",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1984,
+        "who": "Scarlett Johansson",
+        "what": "American actress",
+        "on": "2026-11-22"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Scarlett_Johansson",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1992,
+        "who": "Miley Cyrus",
+        "what": "American singer-songwriter and actress",
+        "on": "2026-11-23"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Miley_Cyrus",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1978,
+        "who": "Katherine Heigl",
+        "what": "American actress and producer",
+        "on": "2026-11-24"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Katherine_Heigl",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1971,
+        "who": "Christina Applegate",
+        "what": "American actress",
+        "on": "2026-11-25"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christina_Applegate",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1939,
+        "who": "Tina Turner",
+        "what": "American-Swiss singer-songwriter, dancer, and actress (died 2023)",
+        "on": "2026-11-26"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tina_Turner",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1990,
+        "who": "Rita Ora",
+        "what": "Kosovan-English singer-songwriter and actress",
+        "on": "2026-11-26"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rita_Ora",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 1940,
+        "who": "Bruce Lee",
+        "what": "American-Chinese actor, martial artist, and screenwriter (died 1973)",
+        "on": "2026-11-27"
+      },
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bruce_Lee",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "deaths": [
+    {
+      "value": {
+        "year": 2026,
+        "who": "Lance Broadway",
+        "what": "43, American baseball player ( Chicago White Sox , New York Mets ) and actor ( Olympus Has Fallen ).",
+        "on": "2026-11-17",
+        "proper_nouns": [
+          "Lance Broadway",
+          "Chicago White Sox",
+          "New York Mets",
+          "Olympus Has Fallen"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#17",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Bill Watts",
+        "what": "87, American Hall of Fame professional wrestler ( NWA ) and wrestling promoter ( UWF , WCW ).",
+        "on": "2026-11-17",
+        "proper_nouns": [
+          "Bill Watts",
+          "Hall of Fame",
+          "NWA",
+          "UWF",
+          "WCW"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#17",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Peter Storey",
+        "what": "81, English footballer ( Arsenal , Fulham , national team ).",
+        "on": "2026-11-17",
+        "proper_nouns": [
+          "Peter Storey",
+          "Arsenal",
+          "Fulham"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#17",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Ralph Brand",
+        "what": "89, Scottish footballer ( Rangers , Manchester City , national team ).",
+        "on": "2026-11-17",
+        "proper_nouns": [
+          "Ralph Brand",
+          "Rangers",
+          "Manchester City"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#17",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Larry Poindexter",
+        "what": "66, American actor and singer ( S.W.A.T. , Days of Our Lives , The Hard Times of RJ Berger ), injuries sustained in a traffic collision.",
+        "on": "2026-11-18",
+        "proper_nouns": [
+          "Larry Poindexter",
+          "S.W.A.T.",
+          "Days of Our Lives",
+          "The Hard Times of RJ Berger"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#18",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Sharman Stone",
+        "what": "75, Australian politician, MP (1996–2016), euthanasia.",
+        "on": "2026-11-18",
+        "proper_nouns": [
+          "Sharman Stone",
+          "MP"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#18",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Fiona (hippopotamus)",
+        "what": "9, American Nile hippopotamus ( Cincinnati Zoo ), complications from an intestinal blockage.",
+        "on": "2026-11-19",
+        "proper_nouns": [
+          "Fiona",
+          "Nile hippopotamus",
+          "Cincinnati Zoo"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#19",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Tommy Mars",
+        "what": "75, American keyboardist ( Frank Zappa ).",
+        "on": "2026-11-19",
+        "proper_nouns": [
+          "Tommy Mars",
+          "Frank Zappa"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#19",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Corrado Augias",
+        "what": "91, Italian journalist ( La Repubblica , L'Espresso ), writer and politician, MEP (1994–1999).",
+        "on": "2026-11-19",
+        "proper_nouns": [
+          "Corrado Augias",
+          "La Repubblica",
+          "L'Espresso",
+          "MEP"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#19",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "year": 2026,
+        "who": "Bobby Ray Inman",
+        "what": "95, American navy admiral, NSA director (1977–1981), CIA deputy director (1981–1982).",
+        "on": "2026-11-19",
+        "proper_nouns": [
+          "Bobby Ray Inman",
+          "NSA director",
+          "CIA deputy director"
+        ]
+      },
+      "source": {
+        "name": "Wikipedia recent deaths",
+        "url": "https://en.wikipedia.org/wiki/Deaths_in_November_2026#19",
+        "license": "CC BY-SA 4.0"
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "charts": [
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard 200",
+        "title": "you seem pretty sad for a girl so in love",
+        "artist": "Olivia Rodrigo",
+        "chart_date": "2026-11-21",
+        "evidence": "you seem pretty sad for a girl so in love. Olivia Rodrigo. 1. 1. 22."
+      },
+      "source": {
+        "name": "ca.billboard.com",
+        "url": "https://ca.billboard.com/charts/billboard-200/2026-11-21",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "territory": "US",
+        "chart": "Billboard Hot 100",
+        "title": "Choosin' Texas",
+        "artist": "Ella Langley"
+      },
+      "source": {
+        "name": "Billboard Hot 100",
+        "url": "https://www.billboard.com/charts/hot-100/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "box_office": [
+    {
+      "value": {
+        "region": "US",
+        "title": "The Hunger Games: Sunrise on the Reaping",
+        "note": "Ranked #1 for the weekend of November 20–22, 2026, opening with an estimated $56,000,000 gross on Friday, November 20.",
+        "weekend_end": "2026-11-22",
+        "evidence": "The Hunger Games: Sunrise on the Reaping, $56,000,000, 4,018, $13,937, $56,000,000, 1."
+      },
+      "source": {
+        "name": "the-numbers.com",
+        "url": "https://www.the-numbers.com/box-office-chart/daily/2026/11/20",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "top_list": [
+    {
+      "value": {
+        "label": "Caspian Sea",
+        "value": "386,400 sq km (149,200 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Superior",
+        "value": "82,100 sq km (31,700 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Victoria",
+        "value": "69,484 sq km (26,828 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Huron",
+        "value": "59,570 sq km (23,000 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Michigan",
+        "value": "57,757 sq km (22,300 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Tanganyika",
+        "value": "32,900 sq km (12,700 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Baikal",
+        "value": "31,500 sq km (12,200 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Great Bear Lake",
+        "value": "31,328 sq km (12,096 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Lake Nyasa (Lake Malawi)",
+        "value": "29,604 sq km (11,430 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "label": "Great Slave Lake",
+        "value": "28,568 sq km (11,030 sq miles)"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "trivia": [
+    {
+      "value": {
+        "q": "Which subglacial body of water in Antarctica is the largest subglacial lake in the world, ranking 16th overall among global lakes by area?",
+        "a": "Lake Vostok"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "q": "Which body of water in Central Asia covered 68,000 square km as late as 1960 as the world's fourth largest lake before severe shrinkage due to river redirection?",
+        "a": "Aral Sea"
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/topic/worlds-largest-lakes-2041765",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "q": "Which song reached a record-extending 28th week at No. 1 on the Billboard Hot 100 in November 2026?",
+        "a": "Choosin' Texas"
+      },
+      "source": {
+        "name": "billboard.com",
+        "url": "https://www.billboard.com/charts/hot-100/2026-11-21/",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "geography": [
+    {
+      "value": {
+        "fact": "Suriname's narrow 226-mile coastal zone features sandbanks and mudbanks deposited by equatorial currents from near the mouth of the Amazon River."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Suriname",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "fact": "San Marino is the smallest independent state in Europe after Vatican City and Monaco."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/San-Marino",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "fact": "Liechtenstein is a landlocked European microstate whose capital city is Vaduz."
+      },
+      "source": {
+        "name": "britannica.com",
+        "url": "https://www.britannica.com/place/Liechtenstein",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ],
+  "chart_history": [],
+  "events": [
+    {
+      "value": {
+        "name": "Oman National Day",
+        "on": "2026-11-20",
+        "where": "Oman",
+        "what": "Commemorates the founding of the Al Busaidi dynasty in 1744 by Imam Ahmed bin Said Al Busaidi.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiQz7oABQvvtsMWMRG8zAFdo4umt-ZzMv_qPM-6704u4FAgdTQChsga5wI2kdsXZuraaMAmHyNUtiZQlpF6tZV5k24Dw8gpI-ct7cJ-HrlqXZp_c_8jpzYK1Gv79acAchY4IJExrI=",
+        "evidence": "Today, November 20 is the National Day of the Sultanate of Oman commemorating the founding of the Al Busaid dynasty"
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiQz7oABQvvtsMWMRG8zAFdo4umt-ZzMv_qPM-6704u4FAgdTQChsga5wI2kdsXZuraaMAmHyNUtiZQlpF6tZV5k24Dw8gpI-ct7cJ-HrlqXZp_c_8jpzYK1Gv79acAchY4IJExrI=",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "name": "World Children's Day",
+        "on": "2026-11-20",
+        "where": "International",
+        "what": "A global UN day of action commemorating the adoption of the Declaration of the Rights of the Child in 1959 and the Convention on the Rights of the Child in 1989.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEUJ4Ge_hmTVDRa55tKw3LySpH2fvEJwxgL695AYIRxjvzld-HQnPxeWaqV4fcmiQnuPswr14xxPFKiydlNdhkGJ4VlhrjZuLiqYnD4BxmGDlmhgHiVUEluBcyOGXd_hmM7sNtoy55JxtAs-ZgDjT5NuzoQnhejDMJFJBb-NeJYg==",
+        "evidence": "World Children's Day 2026 is Friday, November 20."
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEUJ4Ge_hmTVDRa55tKw3LySpH2fvEJwxgL695AYIRxjvzld-HQnPxeWaqV4fcmiQnuPswr14xxPFKiydlNdhkGJ4VlhrjZuLiqYnD4BxmGDlmhgHiVUEluBcyOGXd_hmM7sNtoy55JxtAs-ZgDjT5NuzoQnhejDMJFJBb-NeJYg==",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "name": "Lebanon Independence Day",
+        "on": "2026-11-22",
+        "where": "Lebanon",
+        "what": "Commemorates the release of political leaders Bechara Al-Khoury and Riad Al-Solh in 1943, ending the French Mandate over Lebanon.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP-QraPp_vQPI1nfICBwCUjcQSnZ8gBEGZVgUrBItOM5Mvx4Arb9_U6aHxfr1ICz7fOeW2PYiATYnrAoRfDV9fqYQ4FnsZt8Q_XyvgR4oZzamAi6f2-uwaeYWMdt6wFjaDBEqxSMT-XjMwuJcVAQpR1BTvJHmWv-7OdtIkiruygY707KtKDaidS6Dxh4bhPCse28A2gjsbYeUefKoGEa6Z",
+        "evidence": "Lebanon Independence Day is celebrated every year on November 22."
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP-QraPp_vQPI1nfICBwCUjcQSnZ8gBEGZVgUrBItOM5Mvx4Arb9_U6aHxfr1ICz7fOeW2PYiATYnrAoRfDV9fqYQ4FnsZt8Q_XyvgR4oZzamAi6f2-uwaeYWMdt6wFjaDBEqxSMT-XjMwuJcVAQpR1BTvJHmWv-7OdtIkiruygY707KtKDaidS6Dxh4bhPCse28A2gjsbYeUefKoGEa6Z",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "name": "International Day for the Elimination of Violence against Women",
+        "on": "2026-11-25",
+        "where": "International",
+        "what": "UN observance commemorating the 1960 assassination of the Mirabal sisters (Las Mariposas) in the Dominican Republic.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSeyM6YCRrzlH6gFbGbU5a-bjb5MUQ9_BNeNdBtjoSajrRgr_TorZY-OeYWFEp4eKI_IQjXZYMZMGizaLIju5dqRooDYCSjZ1H-AULksct8DPfTc7ZX26pM7KR4NuEIFncrNQwu9Zc95i1mUR8oIsTKZ0G9IoFIzz0qoBwCXSGMLv5c80=",
+        "evidence": "November 25 – the International Day for the Elimination of Violence against Women"
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSeyM6YCRrzlH6gFbGbU5a-bjb5MUQ9_BNeNdBtjoSajrRgr_TorZY-OeYWFEp4eKI_IQjXZYMZMGizaLIju5dqRooDYCSjZ1H-AULksct8DPfTc7ZX26pM7KR4NuEIFncrNQwu9Zc95i1mUR8oIsTKZ0G9IoFIzz0qoBwCXSGMLv5c80=",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "name": "Suriname Independence Day",
+        "on": "2026-11-25",
+        "where": "Suriname",
+        "what": "Marks the date Suriname gained full independence from Dutch colonial rule in 1975.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrTF3dIwRyAyQ141FyBTnK-9kJ5ZRL2vp-GvsrmQvEpTJMmVDh8pMQfis47Rl5rj_M2-ar5VqfKwgZo2VQR-0ukotn_RelxnGGXPwB37X9WGcCaiQ-Qd8FbilIuvz9jtwT4BPykiBEd5hpAISXUlXam3Gb9Y4=",
+        "evidence": "Wednesday, November 25. Independence Day Onafhankelijkheidsdag."
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrTF3dIwRyAyQ141FyBTnK-9kJ5ZRL2vp-GvsrmQvEpTJMmVDh8pMQfis47Rl5rj_M2-ar5VqfKwgZo2VQR-0ukotn_RelxnGGXPwB37X9WGcCaiQ-Qd8FbilIuvz9jtwT4BPykiBEd5hpAISXUlXam3Gb9Y4=",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "name": "Thanksgiving Day",
+        "on": "2026-11-26",
+        "where": "United States",
+        "what": "A US federal national holiday established by Abraham Lincoln in 1863 and fixed to the fourth Thursday of November in 1941.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjaihlTUXhxYjEd_lL42yuXHsB7hl3XvqLkoDGKEWGIkuxG70yLBf4aaZ1EeJoLVZmghOBZC8_xOoOzFk8ioRB075jBFBngZHuOVanCQ7IUNHx0XlT7qRo6lqGSMevuMWBpIvVZpBV9icqM5yGyPA=",
+        "evidence": "2026 date, November 26 (2026-11-26)."
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjaihlTUXhxYjEd_lL42yuXHsB7hl3XvqLkoDGKEWGIkuxG70yLBf4aaZ1EeJoLVZmghOBZC8_xOoOzFk8ioRB075jBFBngZHuOVanCQ7IUNHx0XlT7qRo6lqGSMevuMWBpIvVZpBV9icqM5yGyPA=",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    },
+    {
+      "value": {
+        "name": "Black Friday",
+        "on": "2026-11-27",
+        "where": "United States",
+        "what": "The traditional start of the holiday shopping season in the United States, celebrated annually on the day after Thanksgiving.",
+        "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGemLmZQ8TeAUdREoV2Ohzakh-zXu_g1wOB5Y5Vp3opHMJyPpow2PnMIKEg7RnD9nsJWz5cbHOhFazrOODxoF3jwLkFhy8h9bVT9qjGdBW2ZVps1KMJ9XSSQUwoU-J3HD6sFstPTsJsUcWUEuSndAZ2A6Qi",
+        "evidence": "Black Friday falls on Friday, November 27, 2026."
+      },
+      "source": {
+        "name": "vertexaisearch.cloud.google.com",
+        "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGemLmZQ8TeAUdREoV2Ohzakh-zXu_g1wOB5Y5Vp3opHMJyPpow2PnMIKEg7RnD9nsJWz5cbHOhFazrOODxoF3jwLkFhy8h9bVT9qjGdBW2ZVps1KMJ9XSSQUwoU-J3HD6sFstPTsJsUcWUEuSndAZ2A6Qi",
+        "license": ""
+      },
+      "retrieved_at": "2026-11-22T15:01:51+00:00"
+    }
+  ]
+}
