@@ -6,7 +6,7 @@
 
 A **weekly broadsheet almanac** that pre-loads a pub-quiz team with the facts their quiz reliably asks about. A fresh edition is generated every Sunday covering the week just gone, with a browsable archive of past weeks — rendered as a static site and published to GitHub Pages.
 
-**Live:** https://temataro.github.io/humanitys-last-quiz/
+**Live:** [https://temataro.github.io/humanitys-last-quiz/](https://humanityslastquiz.com/)
 
 ## What's in an edition
 
